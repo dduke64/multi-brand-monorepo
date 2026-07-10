@@ -1,0 +1,229 @@
+{
+  "apps/mobile/app.json": {
+    "filename": "app.json",
+    "path": "apps/mobile/app.json",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "9a52d3": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528719,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "77b07363",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:38:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "9a52d3",
+        "hash": "47009686",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "9a52d3",
+        "hash": "5ed07af5",
+        "encoded": "%22expo%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "9a52d3",
+        "hash": "f7d05ba0",
+        "encoded": "%22name%22:%20%22DIB%20Mobile%22,",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "9a52d3",
+        "hash": "00d62b53",
+        "encoded": "%22slug%22:%20%22dib-mobile%22,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "9a52d3",
+        "hash": "f126428f",
+        "encoded": "%22version%22:%20%221.0.0%22,",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "9a52d3",
+        "hash": "e01f755c",
+        "encoded": "%22orientation%22:%20%22portrait%22,",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "9a52d3",
+        "hash": "b6b54047",
+        "encoded": "%22icon%22:%20%22./assets/icon.png%22,",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "9a52d3",
+        "hash": "d8c9cf93",
+        "encoded": "%22userInterfaceStyle%22:%20%22light%22,",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "9a52d3",
+        "hash": "02da941a",
+        "encoded": "%22splash%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "9a52d3",
+        "hash": "cd722b4d",
+        "encoded": "%22image%22:%20%22./assets/splash-icon.png%22,",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "9a52d3",
+        "hash": "b7de0d87",
+        "encoded": "%22resizeMode%22:%20%22contain%22,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "9a52d3",
+        "hash": "807e0285",
+        "encoded": "%22backgroundColor%22:%20%22#ffffff%22",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "9a52d3",
+        "hash": "2af362fb",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "9a52d3",
+        "hash": "095ce62a",
+        "encoded": "%22assetBundlePatterns%22:%20%5B",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "9a52d3",
+        "hash": "f81181d7",
+        "encoded": "%22**/*%22",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "9a52d3",
+        "hash": "af9eeae9",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "9a52d3",
+        "hash": "8d3eb5c9",
+        "encoded": "%22ios%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "9a52d3",
+        "hash": "32bab849",
+        "encoded": "%22supportsTablet%22:%20true,",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "9a52d3",
+        "hash": "970f3026",
+        "encoded": "%22bundleIdentifier%22:%20%22com.dib.mobile%22",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "9a52d3",
+        "hash": "0b42153b",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "9a52d3",
+        "hash": "a41f3575",
+        "encoded": "%22android%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "9a52d3",
+        "hash": "4d6e13b8",
+        "encoded": "%22adaptiveIcon%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "9a52d3",
+        "hash": "0eb709c0",
+        "encoded": "%22foregroundImage%22:%20%22./assets/android-icon-foreground.png%22,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "9a52d3",
+        "hash": "fc215be2",
+        "encoded": "%22backgroundColor%22:%20%22#ffffff%22,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "9a52d3",
+        "hash": "86d601a9",
+        "encoded": "%22monochromeImage%22:%20%22./assets/android-icon-monochrome.png%22",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "9a52d3",
+        "hash": "642c1a07",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "9a52d3",
+        "hash": "636f26bc",
+        "encoded": "%22package%22:%20%22com.dib.mobile%22",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "9a52d3",
+        "hash": "3b955d05",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "9a52d3",
+        "hash": "21fe85ac",
+        "encoded": "%22web%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "9a52d3",
+        "hash": "0732cb4f",
+        "encoded": "%22favicon%22:%20%22./assets/favicon.png%22",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "9a52d3",
+        "hash": "cfdac52c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "9a52d3",
+        "hash": "43353d17",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "9a52d3",
+        "hash": "699fd80f",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

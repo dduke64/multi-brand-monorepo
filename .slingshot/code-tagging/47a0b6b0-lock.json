@@ -1,0 +1,49 @@
+{
+  "apps/mobile/.env.example": {
+    "filename": ".env.example",
+    "path": "apps/mobile/.env.example",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "d634dd": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528854,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "1fef1111",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:40:54 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "d634dd",
+        "hash": "8d9d4650",
+        "encoded": "#%20Brand%20Configuration",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "d634dd",
+        "hash": "0dc68062",
+        "encoded": "#%20Set%20this%20to%20switch%20between%20different%20brand%20themes",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "d634dd",
+        "hash": "0afc634c",
+        "encoded": "#%20Options:%20brandA,%20brandB",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

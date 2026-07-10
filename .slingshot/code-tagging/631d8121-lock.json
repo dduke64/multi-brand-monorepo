@@ -1,0 +1,439 @@
+{
+  "packages/design-system/src/config/README.md": {
+    "filename": "README.md",
+    "path": "packages/design-system/src/config/README.md",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "411402": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783529918,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "44e0c164",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:58:38 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "411402",
+        "hash": "8edee4d4",
+        "encoded": "#%20Component%20Configuration%20System",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "411402",
+        "hash": "ea395aa1",
+        "encoded": "This%20directory%20contains%20the%20component%20opt-in/opt-out%20configuration%20system%20that%20allows%20each%20brand%20to%20selectively%20enable%20or%20disable%20components.",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "411402",
+        "hash": "bb863859",
+        "encoded": "##%20Overview",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "411402",
+        "hash": "4d22d058",
+        "encoded": "The%20configuration%20system%20provides:",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "411402",
+        "hash": "7f64bf88",
+        "encoded": "-%20**Brand-specific%20component%20control**:%20Each%20brand%20can%20opt%20into%20or%20out%20of%20individual%20components",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "411402",
+        "hash": "19660c99",
+        "encoded": "-%20**Automatic%20theming**:%20All%20enabled%20components%20automatically%20use%20the%20brand's%20theme",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "411402",
+        "hash": "79346175",
+        "encoded": "-%20**Runtime%20validation**:%20Components%20check%20if%20they're%20enabled%20before%20rendering",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "411402",
+        "hash": "423ad858",
+        "encoded": "##%20Files",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "411402",
+        "hash": "bae341c6",
+        "encoded": "###%20%60config.json%60",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "411402",
+        "hash": "665b7afd",
+        "encoded": "Defines%20which%20components%20are%20available%20for%20each%20brand:",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "411402",
+        "hash": "4f7b0a62",
+        "encoded": "%60%60%60json",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "411402",
+        "hash": "1871cca4",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "411402",
+        "hash": "f5c530e5",
+        "encoded": "%22components%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "411402",
+        "hash": "0365bccd",
+        "encoded": "%22Card%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "411402",
+        "hash": "58f86177",
+        "encoded": "%22description%22:%20%22Container%20component%20with%20elevation%22,",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "411402",
+        "hash": "30f81660",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "411402",
+        "hash": "a90bf8ab",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "411402",
+        "hash": "4761037d",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "411402",
+        "hash": "71870443",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "411402",
+        "hash": "840004ae",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "411402",
+        "hash": "e256b81a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "411402",
+        "hash": "a7947416",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "411402",
+        "hash": "7b91c9e6",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "411402",
+        "hash": "14494ad0",
+        "encoded": "###%20%60ComponentRegistry.tsx%60",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "411402",
+        "hash": "0ced5992",
+        "encoded": "Provides%20utility%20functions%20to%20check%20component%20availability:",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "411402",
+        "hash": "d5af4e0d",
+        "encoded": "-%20%60getEnabledComponents(brandId)%60:%20Returns%20array%20of%20enabled%20component%20names%20for%20a%20brand",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "411402",
+        "hash": "fb44479a",
+        "encoded": "-%20%60isComponentEnabled(componentName,%20brandId)%60:%20Checks%20if%20a%20specific%20component%20is%20enabled",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "411402",
+        "hash": "ad02bbbe",
+        "encoded": "-%20%60getComponent(componentName,%20brandId)%60:%20Returns%20component%20if%20enabled,%20null%20otherwise",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "411402",
+        "hash": "10b3fbb0",
+        "encoded": "##%20Usage",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "411402",
+        "hash": "684f1e58",
+        "encoded": "###%20In%20Screen%20Components",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "411402",
+        "hash": "442ba907",
+        "encoded": "%60%60%60typescript",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "411402",
+        "hash": "714c5d0f",
+        "encoded": "import%20%7B%20isComponentEnabled%20%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "411402",
+        "hash": "1e95ab00",
+        "encoded": "const%20MyScreen%20=%20(%7B%20brandId%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "411402",
+        "hash": "806be84c",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "411402",
+        "hash": "27d7bafd",
+        "encoded": "%3C%3E",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "411402",
+        "hash": "1e52e412",
+        "encoded": "%7BisComponentEnabled('Card',%20brandId)%20&&%20(",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "411402",
+        "hash": "ddd6e1e7",
+        "encoded": "%3CCard%3E",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "411402",
+        "hash": "ca441433",
+        "encoded": "%3CText%3EThis%20card%20only%20renders%20if%20enabled%20for%20the%20brand%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "411402",
+        "hash": "c0097d06",
+        "encoded": "%3C/Card%3E",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "411402",
+        "hash": "fffe51d2",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "411402",
+        "hash": "b8e3a821",
+        "encoded": "%3C/%3E",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "411402",
+        "hash": "fcbe4ad9",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "411402",
+        "hash": "60ce3341",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "411402",
+        "hash": "40e23bdf",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "411402",
+        "hash": "6b1a5204",
+        "encoded": "###%20Enabling/Disabling%20Components",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "411402",
+        "hash": "f8a91599",
+        "encoded": "To%20disable%20a%20component%20for%20a%20specific%20brand,%20edit%20%60config.json%60:",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "411402",
+        "hash": "e2ac31ce",
+        "encoded": "%60%60%60json",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "411402",
+        "hash": "448f10fb",
+        "encoded": "%22Card%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "411402",
+        "hash": "89fa6451",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "411402",
+        "hash": "87941c6d",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "411402",
+        "hash": "3821805f",
+        "encoded": "%22brandB%22:%20false%20%20//%20Card%20disabled%20for%20brandB",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "411402",
+        "hash": "f706ff69",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "411402",
+        "hash": "bf862585",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "411402",
+        "hash": "6053681b",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "411402",
+        "hash": "8176a889",
+        "encoded": "##%20Adding%20New%20Components",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "411402",
+        "hash": "e956ff74",
+        "encoded": "1.%20Create%20the%20component%20in%20%60/packages/design-system/src/atoms/%60",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "411402",
+        "hash": "5678e654",
+        "encoded": "2.%20Export%20it%20from%20%60/packages/design-system/src/index.ts%60",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "411402",
+        "hash": "0cd31f74",
+        "encoded": "3.%20Add%20it%20to%20%60config.json%60%20with%20brand%20opt-in%20settings",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "411402",
+        "hash": "4ce8c248",
+        "encoded": "4.%20Add%20it%20to%20the%20%60componentRegistry%60%20object%20in%20%60ComponentRegistry.tsx%60",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "411402",
+        "hash": "787d8853",
+        "encoded": "##%20Adding%20New%20Brands",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "411402",
+        "hash": "3d1b6cb5",
+        "encoded": "1.%20Create%20theme%20file%20in%20%60/packages/design-system/src/themes/%7BbrandName%7D/theme.ts%60",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "411402",
+        "hash": "4b70ae27",
+        "encoded": "2.%20Add%20brand%20opt-in%20settings%20for%20all%20components%20in%20%60config.json%60",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "411402",
+        "hash": "df09f6b8",
+        "encoded": "3.%20Update%20TypeScript%20types%20if%20needed",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "411402",
+        "hash": "7c396bd5",
+        "encoded": "##%20Benefits",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "411402",
+        "hash": "ee0445b6",
+        "encoded": "-%20**Flexibility**:%20Brands%20can%20customize%20their%20component%20library",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "411402",
+        "hash": "acd96eb7",
+        "encoded": "-%20**Consistency**:%20All%20components%20use%20brand%20theming%20automatically",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "411402",
+        "hash": "808b062d",
+        "encoded": "-%20**Maintainability**:%20Single%20source%20of%20truth%20for%20component%20availability",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "411402",
+        "hash": "1a558f64",
+        "encoded": "-%20**Type%20Safety**:%20TypeScript%20ensures%20component%20names%20are%20valid",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

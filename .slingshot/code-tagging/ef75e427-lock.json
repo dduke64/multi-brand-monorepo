@@ -1,0 +1,571 @@
+{
+  "packages/design-system/src/config/brandProductConfig.ts": {
+    "filename": "brandProductConfig.ts",
+    "path": "packages/design-system/src/config/brandProductConfig.ts",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "c78e03": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531744,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "a8991331",
+          "files": "120ca03f"
+        },
+        "hash": "68ef6d79",
+        "messageId": "system_6a22b5d0-7af2-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:29:04 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "c78e03",
+        "hash": "ca605540",
+        "encoded": "import%20%7B%20Product%20%7D%20from%20'../molecules/ProductTile';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "c78e03",
+        "hash": "796fe3e7",
+        "encoded": "export%20interface%20BrandProductConfig%20%7B",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "c78e03",
+        "hash": "f62864f4",
+        "encoded": "%5BbrandId:%20string%5D:%20Product%5B%5D;",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "c78e03",
+        "hash": "22b977f0",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "c78e03",
+        "hash": "692dab65",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "c78e03",
+        "hash": "decfe9b1",
+        "encoded": "*%20Brand-specific%20product%20catalogs",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "c78e03",
+        "hash": "8e81e4b6",
+        "encoded": "*%20Each%20brand%20can%20define%20its%20own%20product%20inventory%20to%20showcase%20monorepo%20flexibility",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "c78e03",
+        "hash": "7c8b9e0c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "c78e03",
+        "hash": "5582b5f7",
+        "encoded": "export%20const%20brandProductConfig:%20BrandProductConfig%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "c78e03",
+        "hash": "b7b2238f",
+        "encoded": "brandA:%20%5B",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "c78e03",
+        "hash": "ff0974b5",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "c78e03",
+        "hash": "1d0bf5f9",
+        "encoded": "id:%20'a1',",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "c78e03",
+        "hash": "888e8718",
+        "encoded": "name:%20'Premium%20Wireless%20Headphones',",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "c78e03",
+        "hash": "7c756e13",
+        "encoded": "price:%20'$299.99',",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "c78e03",
+        "hash": "1382e22e",
+        "encoded": "badge:%20'New',",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "c78e03",
+        "hash": "220c9b6d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "c78e03",
+        "hash": "c9d2c854",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "c78e03",
+        "hash": "b5cb31ae",
+        "encoded": "id:%20'a2',",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "c78e03",
+        "hash": "68ab5e00",
+        "encoded": "name:%20'Smart%20Watch%20Series%205',",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "c78e03",
+        "hash": "1884dd31",
+        "encoded": "price:%20'$399.99',",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "c78e03",
+        "hash": "c8754fcc",
+        "encoded": "badge:%20'Sale',",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "c78e03",
+        "hash": "ae69351d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "c78e03",
+        "hash": "ea63eb27",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "c78e03",
+        "hash": "e331964e",
+        "encoded": "id:%20'a3',",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "c78e03",
+        "hash": "70f27815",
+        "encoded": "name:%20'Portable%20Bluetooth%20Speaker',",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "c78e03",
+        "hash": "374c9c42",
+        "encoded": "price:%20'$149.99',",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "c78e03",
+        "hash": "da01a3bd",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "c78e03",
+        "hash": "727aa47f",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "c78e03",
+        "hash": "cf04f7e2",
+        "encoded": "id:%20'a4',",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "c78e03",
+        "hash": "2ba0c878",
+        "encoded": "name:%20'USB-C%20Fast%20Charger',",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "c78e03",
+        "hash": "3bbba06e",
+        "encoded": "price:%20'$49.99',",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "c78e03",
+        "hash": "1e44f82a",
+        "encoded": "badge:%20'Hot',",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "c78e03",
+        "hash": "108b8db2",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "c78e03",
+        "hash": "f4921f8b",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "c78e03",
+        "hash": "964753ef",
+        "encoded": "id:%20'a5',",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "c78e03",
+        "hash": "43268248",
+        "encoded": "name:%20'Laptop%20Stand%20Adjustable',",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "c78e03",
+        "hash": "c03ab642",
+        "encoded": "price:%20'$79.99',",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "c78e03",
+        "hash": "fe8033d3",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "c78e03",
+        "hash": "17a56fa2",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "c78e03",
+        "hash": "4fe44bf0",
+        "encoded": "id:%20'a6',",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "c78e03",
+        "hash": "de3ccabc",
+        "encoded": "name:%20'Wireless%20Mouse%20Ergonomic',",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "c78e03",
+        "hash": "4ea3ea57",
+        "encoded": "price:%20'$59.99',",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "c78e03",
+        "hash": "50cb0ad8",
+        "encoded": "badge:%20'New',",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "c78e03",
+        "hash": "0f7a0d79",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "c78e03",
+        "hash": "69d98308",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "c78e03",
+        "hash": "09dddebe",
+        "encoded": "brandB:%20%5B",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "c78e03",
+        "hash": "1f8adaf8",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "c78e03",
+        "hash": "e2d55a34",
+        "encoded": "id:%20'b1',",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "c78e03",
+        "hash": "657e91db",
+        "encoded": "name:%20'Professional%20Camera%20Lens',",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "c78e03",
+        "hash": "cc370dda",
+        "encoded": "price:%20'$599.99',",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "c78e03",
+        "hash": "214b8703",
+        "encoded": "badge:%20'New',",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "c78e03",
+        "hash": "0cbb9f72",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "c78e03",
+        "hash": "6b13c1a7",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "c78e03",
+        "hash": "14de0570",
+        "encoded": "id:%20'b2',",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "c78e03",
+        "hash": "6b8016ac",
+        "encoded": "name:%20'Mechanical%20Keyboard%20RGB',",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "c78e03",
+        "hash": "9298c4fe",
+        "encoded": "price:%20'$179.99',",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "c78e03",
+        "hash": "f31f7ed2",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "c78e03",
+        "hash": "29bb9b3e",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "c78e03",
+        "hash": "80a5a85e",
+        "encoded": "id:%20'b3',",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "c78e03",
+        "hash": "f382c7da",
+        "encoded": "name:%20'Gaming%20Monitor%2027%22',",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "c78e03",
+        "hash": "b464966a",
+        "encoded": "price:%20'$449.99',",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "c78e03",
+        "hash": "109cecc2",
+        "encoded": "badge:%20'Hot',",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "c78e03",
+        "hash": "3668736d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "c78e03",
+        "hash": "6fb6bf15",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "c78e03",
+        "hash": "0a64ec9d",
+        "encoded": "id:%20'b4',",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "c78e03",
+        "hash": "5cdcad61",
+        "encoded": "name:%20'Noise%20Cancelling%20Earbuds',",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "c78e03",
+        "hash": "7aa2d22b",
+        "encoded": "price:%20'$199.99',",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "c78e03",
+        "hash": "e1b61fd6",
+        "encoded": "badge:%20'Sale',",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "c78e03",
+        "hash": "d5aefc15",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "c78e03",
+        "hash": "65e32d52",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "c78e03",
+        "hash": "a6ff9bbc",
+        "encoded": "id:%20'b5',",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "c78e03",
+        "hash": "0400849e",
+        "encoded": "name:%20'Portable%20SSD%201TB',",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "c78e03",
+        "hash": "4d58268b",
+        "encoded": "price:%20'$129.99',",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "c78e03",
+        "hash": "3002cc9e",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "c78e03",
+        "hash": "836ab946",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "c78e03",
+        "hash": "3b39bdee",
+        "encoded": "id:%20'b6',",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "c78e03",
+        "hash": "542574d6",
+        "encoded": "name:%20'Webcam%204K%20Ultra%20HD',",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "c78e03",
+        "hash": "183ec2d8",
+        "encoded": "price:%20'$249.99',",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "c78e03",
+        "hash": "57260b11",
+        "encoded": "badge:%20'New',",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "c78e03",
+        "hash": "b33ec0a5",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "c78e03",
+        "hash": "5330d7a2",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "c78e03",
+        "hash": "74fcb7ab",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "c78e03",
+        "hash": "a5bc466c",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "c78e03",
+        "hash": "cc289dce",
+        "encoded": "*%20Get%20product%20catalog%20for%20a%20specific%20brand",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "c78e03",
+        "hash": "808be79e",
+        "encoded": "*%20@param%20brandId%20-%20The%20brand%20identifier",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "c78e03",
+        "hash": "e083159b",
+        "encoded": "*%20@returns%20Array%20of%20products%20for%20the%20brand",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "c78e03",
+        "hash": "0bf47674",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "c78e03",
+        "hash": "4ce65d94",
+        "encoded": "export%20const%20getProductsForBrand%20=%20(brandId:%20string):%20Product%5B%5D%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "c78e03",
+        "hash": "09a9d7c1",
+        "encoded": "return%20brandProductConfig%5BbrandId%5D%20%7C%7C%20brandProductConfig.brandA;",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "c78e03",
+        "hash": "4e10f646",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

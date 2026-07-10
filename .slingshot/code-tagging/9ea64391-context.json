@@ -1,0 +1,67 @@
+{
+  "filename": "TopMenuBar.tsx",
+  "path": "packages/design-system/src/molecules/TopMenuBar.tsx",
+  "version": "1.1",
+  "files": {
+    "50af12c4": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "App.tsx",
+          "relativeFilePath": "apps/mobile/src/App.tsx",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            18
+          ]
+        }
+      ]
+    },
+    "13e07e09": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "ComponentRegistry.tsx",
+          "relativeFilePath": "packages/design-system/src/config/ComponentRegistry.tsx",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            65
+          ]
+        }
+      ]
+    },
+    "9c7f7132": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "TopMenuBar.tsx",
+          "relativeFilePath": "packages/design-system/src/molecules/TopMenuBar.tsx",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            88
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "a122e99f": {
+      "value": "okay this is looking good. Can you change the home page to look like an ecommerce site, with a couple of dummy product tiles, a search bar, and a top menu bar. the components don't need to go anywhere though. Please set it up so that BrandA and BrandB have different top menu options to showcase the flexibility of the mono-repo. Use good design principles that maximize code reuse and generic components that are then customized by each brand"
+    },
+    "07a1181c": {
+      "value": "im getting this error"
+    },
+    "9d1948ac": {
+      "value": "please add some top padding or margin to the app, its getting cut off."
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

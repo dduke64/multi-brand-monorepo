@@ -1,0 +1,343 @@
+{
+  "packages/design-system/src/atoms/Card.tsx": {
+    "filename": "Card.tsx",
+    "path": "packages/design-system/src/atoms/Card.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "00abbe": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783529574,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "5e11d95d",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:52:54 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "00abbe",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "00abbe",
+        "hash": "6e368623",
+        "encoded": "import%20%7B%20View,%20StyleSheet,%20ViewStyle%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "00abbe",
+        "hash": "1a9b5565",
+        "encoded": "import%20%7B%20useTheme%20%7D%20from%20'../theme/ThemeProvider';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "00abbe",
+        "hash": "223b080b",
+        "encoded": "interface%20CardProps%20%7B",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "00abbe",
+        "hash": "b6f9b4c0",
+        "encoded": "children:%20React.ReactNode;",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "00abbe",
+        "hash": "853503cc",
+        "encoded": "style?:%20ViewStyle;",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "00abbe",
+        "hash": "241be4be",
+        "encoded": "elevation?:%20'low'%20%7C%20'medium'%20%7C%20'high';",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "00abbe",
+        "hash": "1c082ee4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "00abbe",
+        "hash": "04bfe216",
+        "encoded": "export%20const%20Card:%20React.FC%3CCardProps%3E%20=%20(%7B%20children,%20style,%20elevation%20=%20'medium'%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "00abbe",
+        "hash": "babbb9e2",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "00abbe",
+        "hash": "c94e9f43",
+        "encoded": "const%20elevationStyles%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "00abbe",
+        "hash": "756c8453",
+        "encoded": "low:%20%7B",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "00abbe",
+        "hash": "7caeefdb",
+        "encoded": "shadowColor:%20'#000',",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "00abbe",
+        "hash": "4e52c070",
+        "encoded": "shadowOffset:%20%7B%20width:%200,%20height:%201%20%7D,",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "00abbe",
+        "hash": "feabf4c6",
+        "encoded": "shadowOpacity:%200.1,",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "00abbe",
+        "hash": "b4c93898",
+        "encoded": "shadowRadius:%202,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "00abbe",
+        "hash": "fea7537b",
+        "encoded": "elevation:%202,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "00abbe",
+        "hash": "7ce81970",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "00abbe",
+        "hash": "e828c5c1",
+        "encoded": "medium:%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "00abbe",
+        "hash": "9cbbdb8c",
+        "encoded": "shadowColor:%20'#000',",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "00abbe",
+        "hash": "2e01af75",
+        "encoded": "shadowOffset:%20%7B%20width:%200,%20height:%202%20%7D,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "00abbe",
+        "hash": "b7c85630",
+        "encoded": "shadowOpacity:%200.15,",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "00abbe",
+        "hash": "01fa1ff7",
+        "encoded": "shadowRadius:%204,",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "00abbe",
+        "hash": "42327f7d",
+        "encoded": "elevation:%204,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "00abbe",
+        "hash": "3b955d05",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "00abbe",
+        "hash": "2f8a5a82",
+        "encoded": "high:%20%7B",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "00abbe",
+        "hash": "2ab88005",
+        "encoded": "shadowColor:%20'#000',",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "00abbe",
+        "hash": "5a5b5d9b",
+        "encoded": "shadowOffset:%20%7B%20width:%200,%20height:%204%20%7D,",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "00abbe",
+        "hash": "78bacfbb",
+        "encoded": "shadowOpacity:%200.2,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "00abbe",
+        "hash": "e84d1e48",
+        "encoded": "shadowRadius:%208,",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "00abbe",
+        "hash": "0b1390b0",
+        "encoded": "elevation:%208,",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "00abbe",
+        "hash": "108b8db2",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "00abbe",
+        "hash": "ba0e82eb",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "00abbe",
+        "hash": "0837bdd1",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "00abbe",
+        "hash": "520c9a0e",
+        "encoded": "%3CView",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "00abbe",
+        "hash": "887c3af7",
+        "encoded": "style=%7B%5B",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "00abbe",
+        "hash": "72ba78e0",
+        "encoded": "styles.card,",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "00abbe",
+        "hash": "e54c7ff8",
+        "encoded": "%7B%20backgroundColor:%20theme.colors.background%20%7D,",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "00abbe",
+        "hash": "a21991c7",
+        "encoded": "elevationStyles%5Belevation%5D,",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "00abbe",
+        "hash": "7c4dfd3c",
+        "encoded": "style,",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "00abbe",
+        "hash": "438a994b",
+        "encoded": "%5D%7D",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "00abbe",
+        "hash": "659677b1",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "00abbe",
+        "hash": "98bf8461",
+        "encoded": "%7Bchildren%7D",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "00abbe",
+        "hash": "7dd09014",
+        "encoded": "%3C/View%3E",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "00abbe",
+        "hash": "71454dc4",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "00abbe",
+        "hash": "f23606bb",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "00abbe",
+        "hash": "4905222d",
+        "encoded": "const%20styles%20=%20StyleSheet.create(%7B",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "00abbe",
+        "hash": "1312ec1b",
+        "encoded": "card:%20%7B",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "00abbe",
+        "hash": "5e042adc",
+        "encoded": "borderRadius:%2012,",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "00abbe",
+        "hash": "6e1172ab",
+        "encoded": "padding:%2016,",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "00abbe",
+        "hash": "1c27ad0f",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "00abbe",
+        "hash": "4f8dfc51",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

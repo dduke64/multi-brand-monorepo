@@ -1,0 +1,115 @@
+{
+  "packages/design-system/package.json": {
+    "filename": "package.json",
+    "path": "packages/design-system/package.json",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "25ecf7": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528719,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "999f1f4b",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:38:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "25ecf7",
+        "hash": "47009686",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "25ecf7",
+        "hash": "ffb21e7a",
+        "encoded": "%22name%22:%20%22@dib/design-system%22,",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "25ecf7",
+        "hash": "bde4980f",
+        "encoded": "%22version%22:%20%221.0.0%22,",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "25ecf7",
+        "hash": "7afeed54",
+        "encoded": "%22main%22:%20%22src/index.ts%22,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "25ecf7",
+        "hash": "8e259162",
+        "encoded": "%22private%22:%20true,",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "25ecf7",
+        "hash": "42c9d855",
+        "encoded": "%22dependencies%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "25ecf7",
+        "hash": "e1158a40",
+        "encoded": "%22react%22:%20%2219.2.3%22,",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "25ecf7",
+        "hash": "e4aa4d38",
+        "encoded": "%22react-native%22:%20%220.86.0%22",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "25ecf7",
+        "hash": "f3056d58",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "25ecf7",
+        "hash": "1f36ec97",
+        "encoded": "%22devDependencies%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "25ecf7",
+        "hash": "e5d59fe7",
+        "encoded": "%22@types/react%22:%20%22~19.2.2%22,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "25ecf7",
+        "hash": "966deede",
+        "encoded": "%22typescript%22:%20%22~6.0.3%22",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "25ecf7",
+        "hash": "6a3f2143",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "25ecf7",
+        "hash": "e683dcf7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

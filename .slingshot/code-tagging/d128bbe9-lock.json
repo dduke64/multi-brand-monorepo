@@ -1,0 +1,163 @@
+{
+  "apps/mobile/src/App.tsx": {
+    "filename": "App.tsx",
+    "path": "apps/mobile/src/App.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "d7c256": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528719,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "26c82dc2",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:38:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      },
+      "1d3702": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783529910,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "63edd7a2",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:58:30 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "1d3702",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "1": {
+        "chunkId": "1d3702",
+        "hash": "6b752c92",
+        "encoded": "import%20%7B%20StatusBar%20%7D%20from%20'expo-status-bar';",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "2": {
+        "chunkId": "1d3702",
+        "hash": "c74f46c9",
+        "encoded": "import%20%7B%20ThemeProvider%20%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "3": {
+        "chunkId": "1d3702",
+        "hash": "00f6fec0",
+        "encoded": "import%20%7B%20Navigation%20%7D%20from%20'./navigation/Navigation';",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "5": {
+        "chunkId": "1d3702",
+        "hash": "d8301078",
+        "encoded": "export%20default%20function%20App()%20%7B",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "6": {
+        "chunkId": "1d3702",
+        "hash": "f2993c4f",
+        "encoded": "//%20Brand%20selection%20logic%20would%20go%20here",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "7": {
+        "chunkId": "1d3702",
+        "hash": "42e522b1",
+        "encoded": "//%20For%20MVP,%20we'll%20use%20a%20default%20brand",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "10": {
+        "chunkId": "1d3702",
+        "hash": "a952c61b",
+        "encoded": "return%20(",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "11": {
+        "chunkId": "1d3702",
+        "hash": "7df19a44",
+        "encoded": "%3CThemeProvider%20brandId=%7BbrandId%7D%3E",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "12": {
+        "chunkId": "1d3702",
+        "hash": "cf67046a",
+        "encoded": "%3CNavigation%20brandId=%7BbrandId%7D%20/%3E",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "13": {
+        "chunkId": "1d3702",
+        "hash": "2adbde31",
+        "encoded": "%3CStatusBar%20style=%22auto%22%20/%3E",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "14": {
+        "chunkId": "1d3702",
+        "hash": "8d5485e3",
+        "encoded": "%3C/ThemeProvider%3E",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "15": {
+        "chunkId": "1d3702",
+        "hash": "228115a3",
+        "encoded": ");",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      },
+      "16": {
+        "chunkId": "1d3702",
+        "hash": "0a373349",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "d7c256"
+        ]
+      }
+    },
+    "_prevLineCount": 18
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "packages/design-system/src/atoms/Button.tsx": {
+    "filename": "Button.tsx",
+    "path": "packages/design-system/src/atoms/Button.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "5962d5": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528719,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "dde309f1",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:38:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "5962d5",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "5962d5",
+        "hash": "ce0c02ac",
+        "encoded": "import%20%7B%20TouchableOpacity,%20Text,%20StyleSheet,%20TouchableOpacityProps%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "5962d5",
+        "hash": "1a9b5565",
+        "encoded": "import%20%7B%20useTheme%20%7D%20from%20'../theme/ThemeProvider';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "5962d5",
+        "hash": "a2de8605",
+        "encoded": "export%20interface%20ButtonProps%20extends%20Omit%3CTouchableOpacityProps,%20'children'%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "5962d5",
+        "hash": "29b9684d",
+        "encoded": "title:%20string;",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "5962d5",
+        "hash": "08a08027",
+        "encoded": "variant?:%20'primary'%20%7C%20'secondary';",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "5962d5",
+        "hash": "102658a5",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "5962d5",
+        "hash": "6b83bd1f",
+        "encoded": "export%20const%20Button:%20React.FC%3CButtonProps%3E%20=%20(%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "5962d5",
+        "hash": "213763ff",
+        "encoded": "title,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "5962d5",
+        "hash": "88305de3",
+        "encoded": "variant%20=%20'primary',",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "5962d5",
+        "hash": "204d7707",
+        "encoded": "style,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "5962d5",
+        "hash": "e053eb18",
+        "encoded": "...props",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "5962d5",
+        "hash": "94f25a2b",
+        "encoded": "%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "5962d5",
+        "hash": "445a80b0",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "5962d5",
+        "hash": "6dac6285",
+        "encoded": "const%20buttonStyles%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "5962d5",
+        "hash": "54c25ba2",
+        "encoded": "primary:%20%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "5962d5",
+        "hash": "38f78fa0",
+        "encoded": "backgroundColor:%20theme.colors.primary,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "5962d5",
+        "hash": "7ce81970",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "5962d5",
+        "hash": "9e54b579",
+        "encoded": "secondary:%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "5962d5",
+        "hash": "266f4334",
+        "encoded": "backgroundColor:%20theme.colors.secondary,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "5962d5",
+        "hash": "ae69351d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "5962d5",
+        "hash": "9eb29d7f",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "5962d5",
+        "hash": "fa94594d",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "5962d5",
+        "hash": "59a97928",
+        "encoded": "%3CTouchableOpacity",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "5962d5",
+        "hash": "b6deec7e",
+        "encoded": "style=%7B%5B",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "5962d5",
+        "hash": "4d233a24",
+        "encoded": "styles.button,",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "5962d5",
+        "hash": "93b0de48",
+        "encoded": "buttonStyles%5Bvariant%5D,",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "5962d5",
+        "hash": "fcf7edd4",
+        "encoded": "style,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "5962d5",
+        "hash": "509aef62",
+        "encoded": "%5D%7D",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "5962d5",
+        "hash": "ccbecfa5",
+        "encoded": "%7B...props%7D",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "5962d5",
+        "hash": "e4938632",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "5962d5",
+        "hash": "66c9c664",
+        "encoded": "%3CText%20style=%7B%5Bstyles.text,%20%7B%20color:%20theme.colors.buttonText%20%7D%5D%7D%3E",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "5962d5",
+        "hash": "b87fe1c2",
+        "encoded": "%7Btitle%7D",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "5962d5",
+        "hash": "0595145f",
+        "encoded": "%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "5962d5",
+        "hash": "e5299420",
+        "encoded": "%3C/TouchableOpacity%3E",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "5962d5",
+        "hash": "55587631",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "5962d5",
+        "hash": "c14374bb",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "5962d5",
+        "hash": "06e0d0a8",
+        "encoded": "const%20styles%20=%20StyleSheet.create(%7B",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "5962d5",
+        "hash": "4d7b52ad",
+        "encoded": "button:%20%7B",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "5962d5",
+        "hash": "ab6b014b",
+        "encoded": "paddingVertical:%2012,",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "5962d5",
+        "hash": "1db0f4c2",
+        "encoded": "paddingHorizontal:%2024,",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "5962d5",
+        "hash": "ccc499c4",
+        "encoded": "borderRadius:%208,",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "5962d5",
+        "hash": "25ad38e3",
+        "encoded": "alignItems:%20'center',",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "5962d5",
+        "hash": "e68471c6",
+        "encoded": "justifyContent:%20'center',",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "5962d5",
+        "hash": "3171cd21",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "5962d5",
+        "hash": "d38af633",
+        "encoded": "text:%20%7B",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "5962d5",
+        "hash": "7a678bec",
+        "encoded": "fontSize:%2016,",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "5962d5",
+        "hash": "393f2331",
+        "encoded": "fontWeight:%20'600',",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "5962d5",
+        "hash": "0cbb9f72",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "5962d5",
+        "hash": "314da981",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

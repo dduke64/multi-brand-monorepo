@@ -1,0 +1,373 @@
+{
+  "packages/design-system/src/config/ComponentRegistry.tsx": {
+    "filename": "ComponentRegistry.tsx",
+    "path": "packages/design-system/src/config/ComponentRegistry.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "cad853": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783529595,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "9441a00a",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:53:15 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "cad853",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "cad853",
+        "hash": "4dde7c5b",
+        "encoded": "import%20%7B%20Box%20%7D%20from%20'../atoms/Box';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "cad853",
+        "hash": "bd0a14fc",
+        "encoded": "import%20%7B%20Text%20%7D%20from%20'../atoms/Text';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "cad853",
+        "hash": "fe8b4937",
+        "encoded": "import%20%7B%20Button%20%7D%20from%20'../atoms/Button';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "cad853",
+        "hash": "3153c3f4",
+        "encoded": "import%20%7B%20Card%20%7D%20from%20'../atoms/Card';",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "cad853",
+        "hash": "885905ee",
+        "encoded": "import%20%7B%20Input%20%7D%20from%20'../atoms/Input';",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "cad853",
+        "hash": "3fb5c79e",
+        "encoded": "import%20%7B%20Switch%20%7D%20from%20'../atoms/Switch';",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "cad853",
+        "hash": "b5e9f64c",
+        "encoded": "import%20%7B%20Badge%20%7D%20from%20'../atoms/Badge';",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "cad853",
+        "hash": "a94d207f",
+        "encoded": "import%20%7B%20Avatar%20%7D%20from%20'../atoms/Avatar';",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "cad853",
+        "hash": "3b2b987a",
+        "encoded": "import%20%7B%20Divider%20%7D%20from%20'../atoms/Divider';",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "cad853",
+        "hash": "420e555b",
+        "encoded": "import%20componentConfig%20from%20'./config.json';",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "cad853",
+        "hash": "9691a1bc",
+        "encoded": "export%20type%20ComponentName%20=%20keyof%20typeof%20componentConfig.components;",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "cad853",
+        "hash": "70c0a7fd",
+        "encoded": "export%20interface%20BrandComponentConfig%20%7B",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "cad853",
+        "hash": "4a38970b",
+        "encoded": "enabledComponents:%20ComponentName%5B%5D;",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "cad853",
+        "hash": "0a373349",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "cad853",
+        "hash": "9a54798e",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "cad853",
+        "hash": "69334bfe",
+        "encoded": "*%20Get%20enabled%20components%20for%20a%20specific%20brand",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "cad853",
+        "hash": "5b817c8d",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "cad853",
+        "hash": "74ebb2f3",
+        "encoded": "export%20const%20getEnabledComponents%20=%20(brandId:%20string):%20ComponentName%5B%5D%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "cad853",
+        "hash": "7e587103",
+        "encoded": "const%20enabled:%20ComponentName%5B%5D%20=%20%5B%5D;",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "cad853",
+        "hash": "53f0af8e",
+        "encoded": "Object.entries(componentConfig.components).forEach((%5BcomponentName,%20config%5D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "cad853",
+        "hash": "04077bd5",
+        "encoded": "if%20(config.brandOptIn%5BbrandId%20as%20keyof%20typeof%20config.brandOptIn%5D)%20%7B",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "cad853",
+        "hash": "0383e81f",
+        "encoded": "enabled.push(componentName%20as%20ComponentName);",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "cad853",
+        "hash": "a7947416",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "cad853",
+        "hash": "56683f82",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "cad853",
+        "hash": "c278e85c",
+        "encoded": "return%20enabled;",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "cad853",
+        "hash": "8080b9e9",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "cad853",
+        "hash": "a2d434cb",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "cad853",
+        "hash": "d9c302c6",
+        "encoded": "*%20Check%20if%20a%20component%20is%20enabled%20for%20a%20specific%20brand",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "cad853",
+        "hash": "75d5d983",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "cad853",
+        "hash": "218b122c",
+        "encoded": "export%20const%20isComponentEnabled%20=%20(componentName:%20ComponentName,%20brandId:%20string):%20boolean%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "cad853",
+        "hash": "8e08b236",
+        "encoded": "const%20config%20=%20componentConfig.components%5BcomponentName%5D;",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "cad853",
+        "hash": "4eeb5121",
+        "encoded": "return%20config?.brandOptIn%5BbrandId%20as%20keyof%20typeof%20config.brandOptIn%5D%20??%20false;",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "cad853",
+        "hash": "eec21017",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "cad853",
+        "hash": "7ef7f6ed",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "cad853",
+        "hash": "81ea292b",
+        "encoded": "*%20Component%20registry%20mapping%20component%20names%20to%20their%20implementations",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "cad853",
+        "hash": "7b590782",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "cad853",
+        "hash": "b70c80f6",
+        "encoded": "export%20const%20componentRegistry%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "cad853",
+        "hash": "6613a7ff",
+        "encoded": "Box,",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "cad853",
+        "hash": "6cbfab48",
+        "encoded": "Text,",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "cad853",
+        "hash": "a68c902d",
+        "encoded": "Button,",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "cad853",
+        "hash": "75e08780",
+        "encoded": "Card,",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "cad853",
+        "hash": "c5dd85fb",
+        "encoded": "Input,",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "cad853",
+        "hash": "94dd1c33",
+        "encoded": "Switch,",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "cad853",
+        "hash": "4eb169bf",
+        "encoded": "Badge,",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "cad853",
+        "hash": "9d7d5957",
+        "encoded": "Avatar,",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "cad853",
+        "hash": "6442a863",
+        "encoded": "Divider,",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "cad853",
+        "hash": "60ce3341",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "cad853",
+        "hash": "6f323754",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "cad853",
+        "hash": "f60cf1a7",
+        "encoded": "*%20Get%20a%20component%20from%20the%20registry%20if%20it's%20enabled%20for%20the%20brand",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "cad853",
+        "hash": "ad9f0305",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "cad853",
+        "hash": "81b7edc1",
+        "encoded": "export%20const%20getComponent%20=%20(componentName:%20ComponentName,%20brandId:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "cad853",
+        "hash": "587e2da1",
+        "encoded": "if%20(!isComponentEnabled(componentName,%20brandId))%20%7B",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "cad853",
+        "hash": "66aa2577",
+        "encoded": "return%20null;",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "cad853",
+        "hash": "646a8e84",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "cad853",
+        "hash": "3b6c38db",
+        "encoded": "return%20componentRegistry%5BcomponentName%5D;",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "cad853",
+        "hash": "6db93c89",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

@@ -1,0 +1,2382 @@
+{
+  "apps/mobile/src/screens/HomeScreen.tsx": {
+    "filename": "HomeScreen.tsx",
+    "path": "apps/mobile/src/screens/HomeScreen.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "2202bf": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528719,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "67ef9305",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:38:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      },
+      "370b68": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "5f9cdacc",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "b8422a": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "8a11a875",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "b0b616": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "7f920f13",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "40740f": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "f2f3b9f9",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "b84d5a": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "3f70941d",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "bb0da0": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "535088c6",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "c958ce": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "a037101f",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "c288c5": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "f17b2f59",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "8ed34c": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531785,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a8991331",
+          "files": "120ca03f"
+        },
+        "hash": "3d5823f0",
+        "messageId": "system_6a22b5d0-7af2-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:29:45 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "32a8be": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531814,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a8991331",
+          "files": "120ca03f"
+        },
+        "hash": "82d648f5",
+        "messageId": "system_6a22b5d0-7af2-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:30:14 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "8ed34c",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "8ed34c",
+        "hash": "c500d75d",
+        "encoded": "import%20%7B%20StyleSheet,%20ScrollView,%20View%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "8ed34c",
+        "hash": "1d21f131",
+        "encoded": "import%20%7B",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "8ed34c",
+        "hash": "b8f48ae5",
+        "encoded": "Box,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "8ed34c",
+        "hash": "8b5c3f9a",
+        "encoded": "Text,",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "8ed34c",
+        "hash": "a5f3ab5e",
+        "encoded": "SearchBar,",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "8ed34c",
+        "hash": "908bdcac",
+        "encoded": "TopMenuBar,",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "8ed34c",
+        "hash": "ff102d6e",
+        "encoded": "ProductTile,",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "8ed34c",
+        "hash": "13141423",
+        "encoded": "getMenuItemsForBrand,",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "8ed34c",
+        "hash": "84b41d32",
+        "encoded": "getProductsForBrand,",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "8ed34c",
+        "hash": "9b489f18",
+        "encoded": "useTheme,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "8ed34c",
+        "hash": "47db8466",
+        "encoded": "Product,",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "8ed34c",
+        "hash": "1eaf2cf6",
+        "encoded": "MenuItem,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "8ed34c",
+        "hash": "36234c82",
+        "encoded": "%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "c288c5",
+        "hash": "c5c9f972",
+        "encoded": "import%20%7B%20StyleSheet,%20ScrollView,%20View%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "c288c5",
+        "hash": "5af2bdb4",
+        "encoded": "import%20%7B",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "c288c5",
+        "hash": "613ef7fb",
+        "encoded": "Box,",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "c288c5",
+        "hash": "2393937c",
+        "encoded": "Text,",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "c288c5",
+        "hash": "9677552e",
+        "encoded": "SearchBar,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "c288c5",
+        "hash": "e9e8078e",
+        "encoded": "TopMenuBar,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "c288c5",
+        "hash": "6eab959d",
+        "encoded": "ProductTile,",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "c288c5",
+        "hash": "2c75dae9",
+        "encoded": "getMenuItemsForBrand,",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "c288c5",
+        "hash": "a38e388a",
+        "encoded": "useTheme,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "c288c5",
+        "hash": "4ac26ff3",
+        "encoded": "Product,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "c288c5",
+        "hash": "535ab467",
+        "encoded": "%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "c288c5",
+        "hash": "5fdf802a",
+        "encoded": "//%20Dummy%20product%20data%20for%20demonstration",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "c288c5",
+        "hash": "8751a1ed",
+        "encoded": "const%20DUMMY_PRODUCTS:%20Product%5B%5D%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "c288c5",
+        "hash": "d2826654",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "c288c5",
+        "hash": "21a7d802",
+        "encoded": "id:%20'1',",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "c288c5",
+        "hash": "7e6d94c2",
+        "encoded": "name:%20'Premium%20Wireless%20Headphones',",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "c288c5",
+        "hash": "6941e074",
+        "encoded": "price:%20'$299.99',",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "c288c5",
+        "hash": "e7503c11",
+        "encoded": "badge:%20'New',",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "c288c5",
+        "hash": "7b74a9c4",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "c288c5",
+        "hash": "da274ab8",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "c288c5",
+        "hash": "c918844c",
+        "encoded": "id:%20'2',",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "c288c5",
+        "hash": "ebb39f94",
+        "encoded": "name:%20'Smart%20Watch%20Series%205',",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "c288c5",
+        "hash": "9c3797e1",
+        "encoded": "price:%20'$399.99',",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "c288c5",
+        "hash": "0040cfac",
+        "encoded": "badge:%20'Sale',",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "c288c5",
+        "hash": "fe8033d3",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "c288c5",
+        "hash": "17a56fa2",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "c288c5",
+        "hash": "e6746513",
+        "encoded": "id:%20'3',",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "c288c5",
+        "hash": "aa5cbea9",
+        "encoded": "name:%20'Portable%20Bluetooth%20Speaker',",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "c288c5",
+        "hash": "bb3db0d5",
+        "encoded": "price:%20'$149.99',",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "c288c5",
+        "hash": "82c8ca80",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "c288c5",
+        "hash": "592e621a",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "c288c5",
+        "hash": "32117d42",
+        "encoded": "id:%20'4',",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "c288c5",
+        "hash": "18943937",
+        "encoded": "name:%20'USB-C%20Fast%20Charger',",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "c288c5",
+        "hash": "4be5d9b3",
+        "encoded": "price:%20'$49.99',",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "c288c5",
+        "hash": "8971e133",
+        "encoded": "badge:%20'Hot',",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "c288c5",
+        "hash": "41dd60dc",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "c288c5",
+        "hash": "d55df3f1",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "c288c5",
+        "hash": "4ff0e50c",
+        "encoded": "id:%20'5',",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "c288c5",
+        "hash": "b5c472b2",
+        "encoded": "name:%20'Laptop%20Stand%20Adjustable',",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "c288c5",
+        "hash": "79ec77eb",
+        "encoded": "price:%20'$79.99',",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "c288c5",
+        "hash": "1c27ad0f",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "c288c5",
+        "hash": "e7c8cba0",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "c288c5",
+        "hash": "1d6c83ed",
+        "encoded": "id:%20'6',",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "32a8be",
+        "hash": "d3a2284a",
+        "encoded": "%3CText%20variant=%22heading%22%20style=%7B%5Bstyles.sectionTitle,%20%7B%20color:%20theme.colors.text%20%7D%5D%7D%3E",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "32a8be",
+        "hash": "7ef9934a",
+        "encoded": "Featured%20Products",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "32a8be",
+        "hash": "9b6ecc84",
+        "encoded": "%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "32a8be",
+        "hash": "9834f3aa",
+        "encoded": "%3CView%20style=%7Bstyles.productGrid%7D%3E",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "32a8be",
+        "hash": "0f51e588",
+        "encoded": "%7Bproducts.map((product)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "32a8be",
+        "hash": "90e1e4e0",
+        "encoded": "%3CProductTile",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "32a8be",
+        "hash": "bac471f4",
+        "encoded": "key=%7Bproduct.id%7D",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "32a8be",
+        "hash": "9168167c",
+        "encoded": "product=%7B%7B",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "32a8be",
+        "hash": "04f8177a",
+        "encoded": "...product,",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "32a8be",
+        "hash": "8c64ba31",
+        "encoded": "onPress:%20()%20=%3E%20handleProductPress(product),",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "32a8be",
+        "hash": "247bdc35",
+        "encoded": "%7D%7D",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "32a8be",
+        "hash": "f2185b99",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "32a8be",
+        "hash": "20b4bdbc",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "32a8be",
+        "hash": "02ed5b23",
+        "encoded": "%3C/View%3E",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "c288c5",
+        "hash": "f929891e",
+        "encoded": "price:%20'$59.99',",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "c288c5",
+        "hash": "8d7e6aee",
+        "encoded": "badge:%20'New',",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "c288c5",
+        "hash": "d427286f",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "c288c5",
+        "hash": "590dfa9f",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "c288c5",
+        "hash": "f507b994",
+        "encoded": "interface%20HomeScreenProps%20%7B",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "c288c5",
+        "hash": "3c666880",
+        "encoded": "brandId?:%20string;",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "c288c5",
+        "hash": "8aac2494",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "c288c5",
+        "hash": "e7dcf599",
+        "encoded": "export%20const%20HomeScreen:%20React.FC%3CHomeScreenProps%3E%20=%20(%7B%20brandId%20=%20'brandA'%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "c288c5",
+        "hash": "18e485f4",
+        "encoded": "const%20%7B%20theme%20%7D%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "c288c5",
+        "hash": "24cac3b9",
+        "encoded": "const%20%5BactiveMenuItem,%20setActiveMenuItem%5D%20=%20React.useState('home');",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "c288c5",
+        "hash": "3ade87ba",
+        "encoded": "const%20%5BsearchQuery,%20setSearchQuery%5D%20=%20React.useState('');",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "c288c5",
+        "hash": "2071ed1b",
+        "encoded": "//%20Get%20brand-specific%20menu%20items",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "c288c5",
+        "hash": "09e5d432",
+        "encoded": "const%20menuItems%20=%20React.useMemo(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "c288c5",
+        "hash": "32233b0b",
+        "encoded": "const%20items%20=%20getMenuItemsForBrand(brandId);",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "c288c5",
+        "hash": "1a2a42d4",
+        "encoded": "return%20items.map((item)%20=%3E%20(%7B",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "c288c5",
+        "hash": "119be76a",
+        "encoded": "...item,",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "c288c5",
+        "hash": "3387995e",
+        "encoded": "onPress:%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "c288c5",
+        "hash": "83c10a4e",
+        "encoded": "setActiveMenuItem(item.id);",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "c288c5",
+        "hash": "9f66f641",
+        "encoded": "console.log(%60Menu%20item%20pressed:%20$%7Bitem.label%7D%60);",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "c288c5",
+        "hash": "ee8434e0",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "c288c5",
+        "hash": "71571fba",
+        "encoded": "%7D));",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "c288c5",
+        "hash": "f939b7e3",
+        "encoded": "%7D,%20%5BbrandId%5D);",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "c288c5",
+        "hash": "816329d3",
+        "encoded": "const%20handleSearch%20=%20(query:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "c288c5",
+        "hash": "65a0cd26",
+        "encoded": "console.log('Search%20query:',%20query);",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "c288c5",
+        "hash": "891eea05",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "c288c5",
+        "hash": "cc912aec",
+        "encoded": "const%20handleProductPress%20=%20(product:%20Product)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "c288c5",
+        "hash": "ce357324",
+        "encoded": "console.log('Product%20pressed:',%20product.name);",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "c288c5",
+        "hash": "567d1a41",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "c288c5",
+        "hash": "4c753b0c",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "c288c5",
+        "hash": "9bb7601a",
+        "encoded": "%3CBox%20style=%7B%5Bstyles.container,%20%7B%20backgroundColor:%20theme.colors.background%20%7D%5D%7D%3E",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "c288c5",
+        "hash": "b7086de6",
+        "encoded": "%7B/*%20Top%20Menu%20Bar%20-%20Brand-specific%20*/%7D",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "c288c5",
+        "hash": "43ffb1ca",
+        "encoded": "%3CTopMenuBar%20items=%7BmenuItems%7D%20activeItemId=%7BactiveMenuItem%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "c288c5",
+        "hash": "772c3ac9",
+        "encoded": "%7B/*%20Search%20Bar%20*/%7D",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "c288c5",
+        "hash": "f1c93355",
+        "encoded": "%3CSearchBar",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "c288c5",
+        "hash": "a47ac442",
+        "encoded": "placeholder=%22Search%20products...%22",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "c288c5",
+        "hash": "44f7cd31",
+        "encoded": "onSearch=%7BhandleSearch%7D",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "c288c5",
+        "hash": "931784b1",
+        "encoded": "onChangeText=%7BsetSearchQuery%7D",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "c288c5",
+        "hash": "506b6e6d",
+        "encoded": "value=%7BsearchQuery%7D",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "c288c5",
+        "hash": "53936550",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "c288c5",
+        "hash": "4c7717a0",
+        "encoded": "%7B/*%20Product%20Grid%20*/%7D",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "c288c5",
+        "hash": "7eeb7a66",
+        "encoded": "%3CScrollView",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "c288c5",
+        "hash": "55df0ec5",
+        "encoded": "style=%7Bstyles.scrollView%7D",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "c288c5",
+        "hash": "4f4e3176",
+        "encoded": "contentContainerStyle=%7Bstyles.scrollContent%7D",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "c288c5",
+        "hash": "68bce048",
+        "encoded": "showsVerticalScrollIndicator=%7Bfalse%7D",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "c288c5",
+        "hash": "98e4f202",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "c288c5",
+        "hash": "0ea1b379",
+        "encoded": "%3CText%20variant=%22heading%22%20style=%7B%5Bstyles.sectionTitle,%20%7B%20color:%20theme.colors.text%20%7D%5D%7D%3E",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "c288c5",
+        "hash": "e1cb3026",
+        "encoded": "Featured%20Products",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "c288c5",
+        "hash": "ce9a6ef4",
+        "encoded": "%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "c288c5",
+        "hash": "f900515d",
+        "encoded": "%3CView%20style=%7Bstyles.productGrid%7D%3E",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "c288c5",
+        "hash": "38e77563",
+        "encoded": "%7BDUMMY_PRODUCTS.map((product)%20=%3E%20(",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "c288c5",
+        "hash": "d2ca24ef",
+        "encoded": "%3CProductTile",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "c288c5",
+        "hash": "9ea12d64",
+        "encoded": "key=%7Bproduct.id%7D",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "c288c5",
+        "hash": "871898e6",
+        "encoded": "product=%7B%7B",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "c288c5",
+        "hash": "55be1c88",
+        "encoded": "...product,",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "c288c5",
+        "hash": "b661d7e0",
+        "encoded": "onPress:%20()%20=%3E%20handleProductPress(product),",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "c288c5",
+        "hash": "00b2c698",
+        "encoded": "%7D%7D",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "c288c5",
+        "hash": "c034aa61",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "c288c5",
+        "hash": "dd45434a",
+        "encoded": "))%7D",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "c288c5",
+        "hash": "e5fb0d7b",
+        "encoded": "%3C/View%3E",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "c288c5",
+        "hash": "ce748171",
+        "encoded": "%3C/ScrollView%3E",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "c288c5",
+        "hash": "bd276265",
+        "encoded": "%3C/Box%3E",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "c288c5",
+        "hash": "030ad099",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "c288c5",
+        "hash": "8ca94f89",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "c288c5",
+        "hash": "a78f35f9",
+        "encoded": "const%20styles%20=%20StyleSheet.create(%7B",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "c288c5",
+        "hash": "3f75d455",
+        "encoded": "container:%20%7B",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "c288c5",
+        "hash": "bb8880df",
+        "encoded": "flex:%201,",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "c288c5",
+        "hash": "d16cb666",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "c288c5",
+        "hash": "0402a854",
+        "encoded": "scrollView:%20%7B",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "c288c5",
+        "hash": "97888618",
+        "encoded": "flex:%201,",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "c288c5",
+        "hash": "967b6589",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "c288c5",
+        "hash": "74184941",
+        "encoded": "scrollContent:%20%7B",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "c288c5",
+        "hash": "5db5fd3e",
+        "encoded": "paddingHorizontal:%2016,",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "c288c5",
+        "hash": "e309c682",
+        "encoded": "paddingBottom:%2024,",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "c288c5",
+        "hash": "6057e178",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "c288c5",
+        "hash": "7302db88",
+        "encoded": "sectionTitle:%20%7B",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "c288c5",
+        "hash": "dfe6a188",
+        "encoded": "marginTop:%2016,",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "c288c5",
+        "hash": "eae05d81",
+        "encoded": "marginBottom:%2012,",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "c288c5",
+        "hash": "214b62a5",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "c288c5",
+        "hash": "8220ee08",
+        "encoded": "productGrid:%20%7B",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "c288c5",
+        "hash": "e69e9da6",
+        "encoded": "flexDirection:%20'row',",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "c288c5",
+        "hash": "f74b76f5",
+        "encoded": "flexWrap:%20'wrap',",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "c288c5",
+        "hash": "d5c96b81",
+        "encoded": "justifyContent:%20'space-between',",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "c288c5",
+        "hash": "20f7ecdb",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "c288c5",
+        "hash": "0b5a7b18",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "c958ce",
+        "hash": "2cd24873",
+        "encoded": "import%20%7B%20StyleSheet,%20ScrollView,%20View%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "c958ce",
+        "hash": "051113fa",
+        "encoded": "import%20%7B",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "c958ce",
+        "hash": "6b43ca7c",
+        "encoded": "Box,",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "c958ce",
+        "hash": "3cfeaf8b",
+        "encoded": "Text,",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "c958ce",
+        "hash": "d494929c",
+        "encoded": "SearchBar,",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "c958ce",
+        "hash": "fe883b89",
+        "encoded": "TopMenuBar,",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "c958ce",
+        "hash": "39f7c830",
+        "encoded": "ProductTile,",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "c958ce",
+        "hash": "ed5dad1f",
+        "encoded": "getMenuItemsForBrand,",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "c958ce",
+        "hash": "bb27c2ee",
+        "encoded": "useTheme,",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "c958ce",
+        "hash": "68621390",
+        "encoded": "Product,",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "c958ce",
+        "hash": "85fafe6b",
+        "encoded": "%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "b84d5a",
+        "hash": "7dbbc4ea",
+        "encoded": "import%20%7B%20StyleSheet,%20ScrollView,%20View%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "b84d5a",
+        "hash": "1897d323",
+        "encoded": "import%20%7B",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "b84d5a",
+        "hash": "2dd572d0",
+        "encoded": "Box,",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "b84d5a",
+        "hash": "1ff6d947",
+        "encoded": "Text,",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "b84d5a",
+        "hash": "bce9c685",
+        "encoded": "SearchBar,",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "b84d5a",
+        "hash": "4ce6e293",
+        "encoded": "TopMenuBar,",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "b84d5a",
+        "hash": "dfd2f360",
+        "encoded": "ProductTile,",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "b84d5a",
+        "hash": "c19d2179",
+        "encoded": "getMenuItemsForBrand,",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "b84d5a",
+        "hash": "23b76c70",
+        "encoded": "useTheme,",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "b84d5a",
+        "hash": "8c308729",
+        "encoded": "Product,",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "b84d5a",
+        "hash": "c5b48cba",
+        "encoded": "%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "b84d5a",
+        "hash": "e8d9c0cb",
+        "encoded": "//%20Dummy%20product%20data%20for%20demonstration",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "b84d5a",
+        "hash": "44a7b063",
+        "encoded": "const%20DUMMY_PRODUCTS:%20Product%5B%5D%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "b84d5a",
+        "hash": "2b4cfa6d",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "b84d5a",
+        "hash": "23d61c22",
+        "encoded": "id:%20'1',",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "b84d5a",
+        "hash": "d4ec50de",
+        "encoded": "name:%20'Premium%20Wireless%20Headphones',",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "b84d5a",
+        "hash": "af9f8c1d",
+        "encoded": "price:%20'$299.99',",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "b84d5a",
+        "hash": "ffb7f896",
+        "encoded": "badge:%20'New',",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "b84d5a",
+        "hash": "b92b5a32",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "b84d5a",
+        "hash": "326de5a1",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "b84d5a",
+        "hash": "4bc20115",
+        "encoded": "id:%20'2',",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "b84d5a",
+        "hash": "214e3a6d",
+        "encoded": "name:%20'Smart%20Watch%20Series%205',",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "b84d5a",
+        "hash": "2332dcd9",
+        "encoded": "price:%20'$399.99',",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "b84d5a",
+        "hash": "334b34e0",
+        "encoded": "badge:%20'Sale',",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "b84d5a",
+        "hash": "12090ea9",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "b84d5a",
+        "hash": "818be0f7",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "b84d5a",
+        "hash": "44923dff",
+        "encoded": "id:%20'3',",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "b84d5a",
+        "hash": "045b61e9",
+        "encoded": "name:%20'Portable%20Bluetooth%20Speaker',",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "b84d5a",
+        "hash": "599b7cc3",
+        "encoded": "price:%20'$149.99',",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "b84d5a",
+        "hash": "b0ff776e",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "b84d5a",
+        "hash": "4da9279a",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "b84d5a",
+        "hash": "404a5139",
+        "encoded": "id:%20'4',",
+        "prevChunkIds": []
+      },
+      "209": {
+        "chunkId": "b84d5a",
+        "hash": "42c5181e",
+        "encoded": "name:%20'USB-C%20Fast%20Charger',",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "b84d5a",
+        "hash": "9ba1a10f",
+        "encoded": "price:%20'$49.99',",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "b84d5a",
+        "hash": "dfa620f1",
+        "encoded": "badge:%20'Hot',",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "b84d5a",
+        "hash": "739e0aa5",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "b84d5a",
+        "hash": "b24bf9d1",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "b84d5a",
+        "hash": "af690f04",
+        "encoded": "id:%20'5',",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "b84d5a",
+        "hash": "8b94488b",
+        "encoded": "name:%20'Laptop%20Stand%20Adjustable',",
+        "prevChunkIds": []
+      },
+      "216": {
+        "chunkId": "b84d5a",
+        "hash": "2ae896a1",
+        "encoded": "price:%20'$79.99',",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "b84d5a",
+        "hash": "5ec75f13",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "b84d5a",
+        "hash": "611a36e2",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "b84d5a",
+        "hash": "b19a8bc0",
+        "encoded": "id:%20'6',",
+        "prevChunkIds": []
+      },
+      "220": {
+        "chunkId": "b84d5a",
+        "hash": "2d25bb10",
+        "encoded": "name:%20'Wireless%20Mouse%20Ergonomic',",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "b84d5a",
+        "hash": "ca331932",
+        "encoded": "price:%20'$59.99',",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "b84d5a",
+        "hash": "1c2118c7",
+        "encoded": "badge:%20'New',",
+        "prevChunkIds": []
+      },
+      "223": {
+        "chunkId": "b84d5a",
+        "hash": "2df3cf74",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "224": {
+        "chunkId": "b84d5a",
+        "hash": "a7ef3f22",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "b84d5a",
+        "hash": "537a4e17",
+        "encoded": "interface%20HomeScreenProps%20%7B",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "b84d5a",
+        "hash": "bda6453a",
+        "encoded": "brandId?:%20string;",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "b84d5a",
+        "hash": "6993302a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "bb0da0",
+        "hash": "45b2e109",
+        "encoded": "export%20const%20HomeScreen:%20React.FC%3CHomeScreenProps%3E%20=%20(%7B%20brandId%20=%20'brandA'%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "231": {
+        "chunkId": "bb0da0",
+        "hash": "aed23652",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "bb0da0",
+        "hash": "72587d6e",
+        "encoded": "const%20%5BactiveMenuItem,%20setActiveMenuItem%5D%20=%20useState('home');",
+        "prevChunkIds": []
+      },
+      "233": {
+        "chunkId": "bb0da0",
+        "hash": "3651b373",
+        "encoded": "const%20%5BsearchQuery,%20setSearchQuery%5D%20=%20useState('');",
+        "prevChunkIds": []
+      },
+      "235": {
+        "chunkId": "bb0da0",
+        "hash": "3d614f40",
+        "encoded": "//%20Get%20brand-specific%20menu%20items",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "bb0da0",
+        "hash": "0d051b48",
+        "encoded": "const%20menuItems%20=%20useMemo(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "237": {
+        "chunkId": "bb0da0",
+        "hash": "946e5a0c",
+        "encoded": "const%20items%20=%20getMenuItemsForBrand(brandId);",
+        "prevChunkIds": []
+      },
+      "238": {
+        "chunkId": "bb0da0",
+        "hash": "64eb3ab2",
+        "encoded": "return%20items.map((item)%20=%3E%20(%7B",
+        "prevChunkIds": []
+      },
+      "239": {
+        "chunkId": "bb0da0",
+        "hash": "3797e02b",
+        "encoded": "...item,",
+        "prevChunkIds": []
+      },
+      "240": {
+        "chunkId": "bb0da0",
+        "hash": "7b91cdd9",
+        "encoded": "onPress:%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "241": {
+        "chunkId": "bb0da0",
+        "hash": "43d2ca4f",
+        "encoded": "setActiveMenuItem(item.id);",
+        "prevChunkIds": []
+      },
+      "242": {
+        "chunkId": "bb0da0",
+        "hash": "f75dcbcc",
+        "encoded": "console.log(%60Menu%20item%20pressed:%20$%7Bitem.label%7D%60);",
+        "prevChunkIds": []
+      },
+      "243": {
+        "chunkId": "bb0da0",
+        "hash": "f8a37d33",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "244": {
+        "chunkId": "bb0da0",
+        "hash": "2eadec4b",
+        "encoded": "%7D));",
+        "prevChunkIds": []
+      },
+      "245": {
+        "chunkId": "bb0da0",
+        "hash": "52f8b2a7",
+        "encoded": "%7D,%20%5BbrandId%5D);",
+        "prevChunkIds": []
+      },
+      "246": {
+        "chunkId": "b84d5a",
+        "hash": "6486af15",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "247": {
+        "chunkId": "b84d5a",
+        "hash": "51cc9af2",
+        "encoded": "const%20%5BactiveMenuItem,%20setActiveMenuItem%5D%20=%20React.useState('home');",
+        "prevChunkIds": []
+      },
+      "248": {
+        "chunkId": "b84d5a",
+        "hash": "18f0ad63",
+        "encoded": "const%20%5BsearchQuery,%20setSearchQuery%5D%20=%20React.useState('');",
+        "prevChunkIds": []
+      },
+      "250": {
+        "chunkId": "b84d5a",
+        "hash": "9d0db3f5",
+        "encoded": "//%20Get%20brand-specific%20menu%20items",
+        "prevChunkIds": []
+      },
+      "251": {
+        "chunkId": "b84d5a",
+        "hash": "ab980f7a",
+        "encoded": "const%20menuItems%20=%20React.useMemo(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "252": {
+        "chunkId": "b84d5a",
+        "hash": "d11aa1e9",
+        "encoded": "const%20items%20=%20getMenuItemsForBrand(brandId);",
+        "prevChunkIds": []
+      },
+      "253": {
+        "chunkId": "b84d5a",
+        "hash": "5a307f8e",
+        "encoded": "return%20items.map((item)%20=%3E%20(%7B",
+        "prevChunkIds": []
+      },
+      "254": {
+        "chunkId": "b84d5a",
+        "hash": "7540198e",
+        "encoded": "...item,",
+        "prevChunkIds": []
+      },
+      "255": {
+        "chunkId": "b84d5a",
+        "hash": "731c1996",
+        "encoded": "onPress:%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "256": {
+        "chunkId": "b84d5a",
+        "hash": "32defa29",
+        "encoded": "setActiveMenuItem(item.id);",
+        "prevChunkIds": []
+      },
+      "257": {
+        "chunkId": "b84d5a",
+        "hash": "a42a23d8",
+        "encoded": "console.log(%60Menu%20item%20pressed:%20$%7Bitem.label%7D%60);",
+        "prevChunkIds": []
+      },
+      "258": {
+        "chunkId": "b84d5a",
+        "hash": "d5260b9d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "259": {
+        "chunkId": "b84d5a",
+        "hash": "e4ed5359",
+        "encoded": "%7D));",
+        "prevChunkIds": []
+      },
+      "260": {
+        "chunkId": "b84d5a",
+        "hash": "e42477ce",
+        "encoded": "%7D,%20%5BbrandId%5D);",
+        "prevChunkIds": []
+      },
+      "261": {
+        "chunkId": "40740f",
+        "hash": "6125e5bb",
+        "encoded": "import%20%7B%20StyleSheet,%20ScrollView,%20View%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "262": {
+        "chunkId": "b8422a",
+        "hash": "e90a15b1",
+        "encoded": "import%20%7B%20StyleSheet,%20ScrollView,%20View%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "263": {
+        "chunkId": "b8422a",
+        "hash": "8007ba19",
+        "encoded": "import%20%7B",
+        "prevChunkIds": []
+      },
+      "264": {
+        "chunkId": "b8422a",
+        "hash": "5097b6f5",
+        "encoded": "Box,",
+        "prevChunkIds": []
+      },
+      "265": {
+        "chunkId": "b8422a",
+        "hash": "af730bbe",
+        "encoded": "Text,",
+        "prevChunkIds": []
+      },
+      "266": {
+        "chunkId": "b8422a",
+        "hash": "08a95346",
+        "encoded": "SearchBar,",
+        "prevChunkIds": []
+      },
+      "267": {
+        "chunkId": "b8422a",
+        "hash": "368f0ea6",
+        "encoded": "TopMenuBar,",
+        "prevChunkIds": []
+      },
+      "268": {
+        "chunkId": "b8422a",
+        "hash": "fa34f0d5",
+        "encoded": "ProductTile,",
+        "prevChunkIds": []
+      },
+      "269": {
+        "chunkId": "b8422a",
+        "hash": "3b10b544",
+        "encoded": "getMenuItemsForBrand,",
+        "prevChunkIds": []
+      },
+      "270": {
+        "chunkId": "b8422a",
+        "hash": "8b37217d",
+        "encoded": "useTheme,",
+        "prevChunkIds": []
+      },
+      "271": {
+        "chunkId": "b8422a",
+        "hash": "595140a3",
+        "encoded": "Product,",
+        "prevChunkIds": []
+      },
+      "272": {
+        "chunkId": "b8422a",
+        "hash": "4003ae3a",
+        "encoded": "MenuItem,",
+        "prevChunkIds": []
+      },
+      "273": {
+        "chunkId": "b8422a",
+        "hash": "6bdd3fdb",
+        "encoded": "%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "275": {
+        "chunkId": "b8422a",
+        "hash": "e2583da3",
+        "encoded": "//%20Dummy%20product%20data%20for%20demonstration",
+        "prevChunkIds": []
+      },
+      "276": {
+        "chunkId": "b8422a",
+        "hash": "9a48c9ee",
+        "encoded": "const%20DUMMY_PRODUCTS:%20Product%5B%5D%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "277": {
+        "chunkId": "b8422a",
+        "hash": "b6568d6d",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "278": {
+        "chunkId": "b8422a",
+        "hash": "6bbdb21a",
+        "encoded": "id:%20'1',",
+        "prevChunkIds": []
+      },
+      "279": {
+        "chunkId": "b8422a",
+        "hash": "b5e2c844",
+        "encoded": "name:%20'Premium%20Wireless%20Headphones',",
+        "prevChunkIds": []
+      },
+      "280": {
+        "chunkId": "b8422a",
+        "hash": "91afe040",
+        "encoded": "price:%20'$299.99',",
+        "prevChunkIds": []
+      },
+      "281": {
+        "chunkId": "b8422a",
+        "hash": "3278281c",
+        "encoded": "badge:%20'New',",
+        "prevChunkIds": []
+      },
+      "282": {
+        "chunkId": "b8422a",
+        "hash": "23c480db",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "283": {
+        "chunkId": "b8422a",
+        "hash": "56d8e4f0",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "284": {
+        "chunkId": "b8422a",
+        "hash": "27bbb49b",
+        "encoded": "id:%20'2',",
+        "prevChunkIds": []
+      },
+      "285": {
+        "chunkId": "b8422a",
+        "hash": "bcf7c491",
+        "encoded": "name:%20'Smart%20Watch%20Series%205',",
+        "prevChunkIds": []
+      },
+      "286": {
+        "chunkId": "b8422a",
+        "hash": "6089b940",
+        "encoded": "price:%20'$399.99',",
+        "prevChunkIds": []
+      },
+      "287": {
+        "chunkId": "b8422a",
+        "hash": "4f35743f",
+        "encoded": "badge:%20'Sale',",
+        "prevChunkIds": []
+      },
+      "288": {
+        "chunkId": "b8422a",
+        "hash": "5444055c",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "289": {
+        "chunkId": "b8422a",
+        "hash": "2f9b7401",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "290": {
+        "chunkId": "b8422a",
+        "hash": "32402bc0",
+        "encoded": "id:%20'3',",
+        "prevChunkIds": []
+      },
+      "291": {
+        "chunkId": "b8422a",
+        "hash": "82cc0451",
+        "encoded": "name:%20'Portable%20Bluetooth%20Speaker',",
+        "prevChunkIds": []
+      },
+      "292": {
+        "chunkId": "b8422a",
+        "hash": "d2a56e01",
+        "encoded": "price:%20'$149.99',",
+        "prevChunkIds": []
+      },
+      "293": {
+        "chunkId": "b8422a",
+        "hash": "0229bd7c",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "294": {
+        "chunkId": "b8422a",
+        "hash": "3b51cf44",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "295": {
+        "chunkId": "b8422a",
+        "hash": "5b62cb2a",
+        "encoded": "id:%20'4',",
+        "prevChunkIds": []
+      },
+      "296": {
+        "chunkId": "b8422a",
+        "hash": "a04e91f8",
+        "encoded": "name:%20'USB-C%20Fast%20Charger',",
+        "prevChunkIds": []
+      },
+      "297": {
+        "chunkId": "b8422a",
+        "hash": "a88bcf5b",
+        "encoded": "price:%20'$49.99',",
+        "prevChunkIds": []
+      },
+      "298": {
+        "chunkId": "b8422a",
+        "hash": "0963d462",
+        "encoded": "badge:%20'Hot',",
+        "prevChunkIds": []
+      },
+      "299": {
+        "chunkId": "b8422a",
+        "hash": "5f16db43",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "300": {
+        "chunkId": "b8422a",
+        "hash": "4f407b6b",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "301": {
+        "chunkId": "b8422a",
+        "hash": "c813850b",
+        "encoded": "id:%20'5',",
+        "prevChunkIds": []
+      },
+      "302": {
+        "chunkId": "b8422a",
+        "hash": "c56534af",
+        "encoded": "name:%20'Laptop%20Stand%20Adjustable',",
+        "prevChunkIds": []
+      },
+      "303": {
+        "chunkId": "b8422a",
+        "hash": "d30595ab",
+        "encoded": "price:%20'$79.99',",
+        "prevChunkIds": []
+      },
+      "304": {
+        "chunkId": "b8422a",
+        "hash": "39a5a38a",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "305": {
+        "chunkId": "b8422a",
+        "hash": "26940b2d",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "306": {
+        "chunkId": "b8422a",
+        "hash": "ba1213ef",
+        "encoded": "id:%20'6',",
+        "prevChunkIds": []
+      },
+      "307": {
+        "chunkId": "b8422a",
+        "hash": "a5a52c1e",
+        "encoded": "name:%20'Wireless%20Mouse%20Ergonomic',",
+        "prevChunkIds": []
+      },
+      "308": {
+        "chunkId": "b8422a",
+        "hash": "7025d300",
+        "encoded": "price:%20'$59.99',",
+        "prevChunkIds": []
+      },
+      "309": {
+        "chunkId": "b8422a",
+        "hash": "f2425244",
+        "encoded": "badge:%20'New',",
+        "prevChunkIds": []
+      },
+      "310": {
+        "chunkId": "b8422a",
+        "hash": "81075009",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "311": {
+        "chunkId": "b8422a",
+        "hash": "39799fff",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "313": {
+        "chunkId": "b8422a",
+        "hash": "b68923e1",
+        "encoded": "interface%20HomeScreenProps%20%7B",
+        "prevChunkIds": []
+      },
+      "314": {
+        "chunkId": "b8422a",
+        "hash": "0c135cd7",
+        "encoded": "brandId?:%20string;",
+        "prevChunkIds": []
+      },
+      "315": {
+        "chunkId": "b8422a",
+        "hash": "3811d658",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "316": {
+        "chunkId": "b0b616",
+        "hash": "6db9b6a3",
+        "encoded": "export%20const%20HomeScreen%20=%20(%7B%20brandId%20=%20'brandA'%20%7D:%20HomeScreenProps)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "317": {
+        "chunkId": "b0b616",
+        "hash": "e5213d69",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "318": {
+        "chunkId": "b0b616",
+        "hash": "7674cdda",
+        "encoded": "const%20%5BactiveMenuItem,%20setActiveMenuItem%5D%20=%20React.useState%3Cstring%3E('home');",
+        "prevChunkIds": []
+      },
+      "319": {
+        "chunkId": "b0b616",
+        "hash": "55363439",
+        "encoded": "const%20%5BsearchQuery,%20setSearchQuery%5D%20=%20React.useState%3Cstring%3E('');",
+        "prevChunkIds": []
+      },
+      "321": {
+        "chunkId": "b0b616",
+        "hash": "3a068ebf",
+        "encoded": "//%20Get%20brand-specific%20menu%20items",
+        "prevChunkIds": []
+      },
+      "322": {
+        "chunkId": "b0b616",
+        "hash": "c919a5a9",
+        "encoded": "const%20menuItems%20=%20React.useMemo(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "323": {
+        "chunkId": "b8422a",
+        "hash": "af77f510",
+        "encoded": "const%20getMenuItems%20=%20(brandId:%20string):%20MenuItem%5B%5D%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "324": {
+        "chunkId": "b8422a",
+        "hash": "27dc5367",
+        "encoded": "const%20items%20=%20getMenuItemsForBrand(brandId);",
+        "prevChunkIds": []
+      },
+      "325": {
+        "chunkId": "b8422a",
+        "hash": "029b0738",
+        "encoded": "return%20items.map((item)%20=%3E%20(%7B",
+        "prevChunkIds": []
+      },
+      "326": {
+        "chunkId": "b8422a",
+        "hash": "bf750d77",
+        "encoded": "...item,",
+        "prevChunkIds": []
+      },
+      "327": {
+        "chunkId": "b8422a",
+        "hash": "3835cd77",
+        "encoded": "onPress:%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "328": {
+        "chunkId": "b8422a",
+        "hash": "b9ac5f31",
+        "encoded": "console.log(%60Menu%20item%20pressed:%20$%7Bitem.label%7D%60);",
+        "prevChunkIds": []
+      },
+      "329": {
+        "chunkId": "b8422a",
+        "hash": "901a0c99",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "330": {
+        "chunkId": "b8422a",
+        "hash": "a7f81d52",
+        "encoded": "%7D));",
+        "prevChunkIds": []
+      },
+      "331": {
+        "chunkId": "b8422a",
+        "hash": "4cb52072",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "333": {
+        "chunkId": "b8422a",
+        "hash": "39c68783",
+        "encoded": "const%20handleSearch%20=%20(query:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "334": {
+        "chunkId": "b8422a",
+        "hash": "3269b7e1",
+        "encoded": "console.log('Search%20query:',%20query);",
+        "prevChunkIds": []
+      },
+      "335": {
+        "chunkId": "b8422a",
+        "hash": "d5c753bf",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "337": {
+        "chunkId": "b8422a",
+        "hash": "381be0ee",
+        "encoded": "const%20handleProductPress%20=%20(product:%20Product)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "338": {
+        "chunkId": "b8422a",
+        "hash": "b60caaf5",
+        "encoded": "console.log('Product%20pressed:',%20product.name);",
+        "prevChunkIds": []
+      },
+      "339": {
+        "chunkId": "b8422a",
+        "hash": "d60f6840",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "341": {
+        "chunkId": "b8422a",
+        "hash": "63eb76a2",
+        "encoded": "export%20const%20HomeScreen%20=%20(%7B%20brandId%20=%20'brandA'%20%7D:%20HomeScreenProps)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "342": {
+        "chunkId": "b8422a",
+        "hash": "c087eaf4",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "343": {
+        "chunkId": "b8422a",
+        "hash": "2e15cc09",
+        "encoded": "const%20menuItems%20=%20getMenuItems(brandId);",
+        "prevChunkIds": []
+      },
+      "344": {
+        "chunkId": "2202bf",
+        "hash": "452cf939",
+        "encoded": "import%20%7B%20StyleSheet%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "345": {
+        "chunkId": "2202bf",
+        "hash": "dffe485a",
+        "encoded": "import%20%7B%20Box,%20Text,%20Button%20%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "347": {
+        "chunkId": "2202bf",
+        "hash": "5cd94d6b",
+        "encoded": "export%20const%20HomeScreen:%20React.FC%20=%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "348": {
+        "chunkId": "2202bf",
+        "hash": "9f8c077c",
+        "encoded": "const%20handlePress%20=%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "349": {
+        "chunkId": "2202bf",
+        "hash": "756ab699",
+        "encoded": "console.log('Button%20pressed');",
+        "prevChunkIds": []
+      },
+      "350": {
+        "chunkId": "2202bf",
+        "hash": "7f718660",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "352": {
+        "chunkId": "2202bf",
+        "hash": "14e117d1",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "353": {
+        "chunkId": "2202bf",
+        "hash": "9e5724a1",
+        "encoded": "%3CBox%20style=%7Bstyles.container%7D%3E",
+        "prevChunkIds": []
+      },
+      "354": {
+        "chunkId": "2202bf",
+        "hash": "e4b508c4",
+        "encoded": "%3CText%20variant=%22heading%22%3EWelcome%20to%20DIB%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "355": {
+        "chunkId": "2202bf",
+        "hash": "6256b5ba",
+        "encoded": "%3CText%20variant=%22body%22%20style=%7Bstyles.subtitle%7D%3E",
+        "prevChunkIds": []
+      },
+      "356": {
+        "chunkId": "2202bf",
+        "hash": "e8be1bfd",
+        "encoded": "Multi-brand%20React%20Native%20App",
+        "prevChunkIds": []
+      },
+      "357": {
+        "chunkId": "2202bf",
+        "hash": "f48ba625",
+        "encoded": "%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "358": {
+        "chunkId": "2202bf",
+        "hash": "afc57a34",
+        "encoded": "%3CButton%20onPress=%7BhandlePress%7D%20title=%22Get%20Started%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "359": {
+        "chunkId": "2202bf",
+        "hash": "abf8a98b",
+        "encoded": "%3C/Box%3E",
+        "prevChunkIds": []
+      },
+      "360": {
+        "chunkId": "2202bf",
+        "hash": "28337781",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "361": {
+        "chunkId": "2202bf",
+        "hash": "9cc070df",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "363": {
+        "chunkId": "2202bf",
+        "hash": "a73363ba",
+        "encoded": "const%20styles%20=%20StyleSheet.create(%7B",
+        "prevChunkIds": []
+      },
+      "364": {
+        "chunkId": "2202bf",
+        "hash": "6a844238",
+        "encoded": "container:%20%7B",
+        "prevChunkIds": []
+      },
+      "365": {
+        "chunkId": "2202bf",
+        "hash": "c3d310bb",
+        "encoded": "flex:%201,",
+        "prevChunkIds": []
+      },
+      "366": {
+        "chunkId": "2202bf",
+        "hash": "65dbec34",
+        "encoded": "justifyContent:%20'center',",
+        "prevChunkIds": []
+      },
+      "367": {
+        "chunkId": "2202bf",
+        "hash": "a0334560",
+        "encoded": "alignItems:%20'center',",
+        "prevChunkIds": []
+      },
+      "368": {
+        "chunkId": "2202bf",
+        "hash": "62336c3e",
+        "encoded": "padding:%2020,",
+        "prevChunkIds": []
+      },
+      "369": {
+        "chunkId": "2202bf",
+        "hash": "bad8379c",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "370": {
+        "chunkId": "2202bf",
+        "hash": "27f0e013",
+        "encoded": "subtitle:%20%7B",
+        "prevChunkIds": []
+      },
+      "371": {
+        "chunkId": "2202bf",
+        "hash": "d4edd12c",
+        "encoded": "marginTop:%208,",
+        "prevChunkIds": []
+      },
+      "372": {
+        "chunkId": "2202bf",
+        "hash": "4c29365d",
+        "encoded": "marginBottom:%2024,",
+        "prevChunkIds": []
+      },
+      "373": {
+        "chunkId": "2202bf",
+        "hash": "67e6169f",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "374": {
+        "chunkId": "2202bf",
+        "hash": "26ad98f1",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "421": {
+        "chunkId": "370b68",
+        "hash": "8e31edb6",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "422": {
+        "chunkId": "370b68",
+        "hash": "a1c41f93",
+        "encoded": "%3CBox%20style=%7B%5Bstyles.container,%20%7B%20backgroundColor:%20theme.colors.background%20%7D%5D%7D%3E",
+        "prevChunkIds": []
+      },
+      "423": {
+        "chunkId": "370b68",
+        "hash": "d6666e87",
+        "encoded": "%7B/*%20Top%20Menu%20Bar%20-%20Brand-specific%20*/%7D",
+        "prevChunkIds": []
+      },
+      "424": {
+        "chunkId": "370b68",
+        "hash": "e6391d4f",
+        "encoded": "%3CTopMenuBar%20items=%7BmenuItems%7D%20activeItemId=%22home%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "426": {
+        "chunkId": "370b68",
+        "hash": "4cc9d2a4",
+        "encoded": "%7B/*%20Search%20Bar%20*/%7D",
+        "prevChunkIds": []
+      },
+      "427": {
+        "chunkId": "370b68",
+        "hash": "241e94d7",
+        "encoded": "%3CSearchBar",
+        "prevChunkIds": []
+      },
+      "428": {
+        "chunkId": "370b68",
+        "hash": "c57dcd1d",
+        "encoded": "placeholder=%22Search%20products...%22",
+        "prevChunkIds": []
+      },
+      "429": {
+        "chunkId": "370b68",
+        "hash": "8b8ce82e",
+        "encoded": "onSearch=%7BhandleSearch%7D",
+        "prevChunkIds": []
+      },
+      "430": {
+        "chunkId": "370b68",
+        "hash": "4dca6fbf",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 100
+  }
+}

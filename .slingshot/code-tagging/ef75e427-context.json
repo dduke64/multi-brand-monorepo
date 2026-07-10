@@ -1,0 +1,31 @@
+{
+  "filename": "brandProductConfig.ts",
+  "path": "packages/design-system/src/config/brandProductConfig.ts",
+  "version": "1.1",
+  "files": {
+    "120ca03f": {
+      "value": [
+        {
+          "programming_language": "Markdown",
+          "fileName": "ECOMMERCE_SETUP.md",
+          "relativeFilePath": "apps/mobile/docs/ECOMMERCE_SETUP.md",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            226
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "a8991331": {
+      "value": "can you make it so each brand has different products?"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

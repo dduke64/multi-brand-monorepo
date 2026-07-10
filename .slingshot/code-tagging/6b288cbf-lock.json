@@ -1,0 +1,211 @@
+{
+  "packages/design-system/src/theme/ThemeProvider.tsx": {
+    "filename": "ThemeProvider.tsx",
+    "path": "packages/design-system/src/theme/ThemeProvider.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "a2760f": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528719,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "37d1b543",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:38:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "a2760f",
+        "hash": "20f60196",
+        "encoded": "import%20React,%20%7B%20createContext,%20useContext,%20useMemo%20%7D%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "a2760f",
+        "hash": "83ec1576",
+        "encoded": "import%20%7B%20Theme%20%7D%20from%20'./types';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "a2760f",
+        "hash": "07e012c9",
+        "encoded": "import%20%7B%20brandATheme%20%7D%20from%20'../themes/brandA/theme';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "a2760f",
+        "hash": "2daba96e",
+        "encoded": "import%20%7B%20brandBTheme%20%7D%20from%20'../themes/brandB/theme';",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "a2760f",
+        "hash": "9d5b4718",
+        "encoded": "const%20ThemeContext%20=%20createContext%3CTheme%20%7C%20undefined%3E(undefined);",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "a2760f",
+        "hash": "f300ceb6",
+        "encoded": "interface%20ThemeProviderProps%20%7B",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "a2760f",
+        "hash": "427986be",
+        "encoded": "brandId:%20string;",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "a2760f",
+        "hash": "4b9673e1",
+        "encoded": "children:%20React.ReactNode;",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "a2760f",
+        "hash": "c2f1edd6",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "a2760f",
+        "hash": "57139535",
+        "encoded": "const%20themeMap:%20Record%3Cstring,%20Theme%3E%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "a2760f",
+        "hash": "bf94cc60",
+        "encoded": "brandA:%20brandATheme,",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "a2760f",
+        "hash": "35b22d73",
+        "encoded": "brandB:%20brandBTheme,",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "a2760f",
+        "hash": "6bd07cf4",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "a2760f",
+        "hash": "bae6ace9",
+        "encoded": "export%20const%20ThemeProvider:%20React.FC%3CThemeProviderProps%3E%20=%20(%7B%20brandId,%20children%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "a2760f",
+        "hash": "839cba2a",
+        "encoded": "const%20theme%20=%20useMemo(()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "a2760f",
+        "hash": "500b3654",
+        "encoded": "return%20themeMap%5BbrandId%5D%20%7C%7C%20brandATheme;",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "a2760f",
+        "hash": "0ad2afcb",
+        "encoded": "%7D,%20%5BbrandId%5D);",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "a2760f",
+        "hash": "b2e3ee96",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "a2760f",
+        "hash": "64e6f764",
+        "encoded": "%3CThemeContext.Provider%20value=%7Btheme%7D%3E",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "a2760f",
+        "hash": "f6842689",
+        "encoded": "%7Bchildren%7D",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "a2760f",
+        "hash": "0d02a2f4",
+        "encoded": "%3C/ThemeContext.Provider%3E",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "a2760f",
+        "hash": "5a1b898d",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "a2760f",
+        "hash": "a3b06819",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "a2760f",
+        "hash": "aa88b5e5",
+        "encoded": "export%20const%20useTheme%20=%20():%20Theme%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "a2760f",
+        "hash": "9bbc050f",
+        "encoded": "const%20context%20=%20useContext(ThemeContext);",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "a2760f",
+        "hash": "0e61bb48",
+        "encoded": "if%20(!context)%20%7B",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "a2760f",
+        "hash": "f3c8dc87",
+        "encoded": "throw%20new%20Error('useTheme%20must%20be%20used%20within%20a%20ThemeProvider');",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "a2760f",
+        "hash": "0e2c0edc",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "a2760f",
+        "hash": "1996e596",
+        "encoded": "return%20context;",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "a2760f",
+        "hash": "ba0e82eb",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

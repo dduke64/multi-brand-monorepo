@@ -1,0 +1,49 @@
+{
+  "filename": "ECOMMERCE_SETUP.md",
+  "path": "apps/mobile/docs/ECOMMERCE_SETUP.md",
+  "version": "1.1",
+  "files": {
+    "50af12c4": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "App.tsx",
+          "relativeFilePath": "apps/mobile/src/App.tsx",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            18
+          ]
+        }
+      ]
+    },
+    "120ca03f": {
+      "value": [
+        {
+          "programming_language": "Markdown",
+          "fileName": "ECOMMERCE_SETUP.md",
+          "relativeFilePath": "apps/mobile/docs/ECOMMERCE_SETUP.md",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            226
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "a122e99f": {
+      "value": "okay this is looking good. Can you change the home page to look like an ecommerce site, with a couple of dummy product tiles, a search bar, and a top menu bar. the components don't need to go anywhere though. Please set it up so that BrandA and BrandB have different top menu options to showcase the flexibility of the mono-repo. Use good design principles that maximize code reuse and generic components that are then customized by each brand"
+    },
+    "a8991331": {
+      "value": "can you make it so each brand has different products?"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

@@ -1,0 +1,1251 @@
+{
+  "apps/mobile/docs/ECOMMERCE_SETUP.md": {
+    "filename": "ECOMMERCE_SETUP.md",
+    "path": "apps/mobile/docs/ECOMMERCE_SETUP.md",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "3c266d": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "7bb1a911",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      },
+      "be8246": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531978,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a8991331",
+          "files": "120ca03f"
+        },
+        "hash": "8d7cdc4f",
+        "messageId": "system_6a22b5d0-7af2-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:32:58 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "3c266d",
+        "hash": "cedecd96",
+        "encoded": "#%20Ecommerce%20Home%20Page%20Setup",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "3c266d",
+        "hash": "5ac33061",
+        "encoded": "##%20Overview",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "3c266d",
+        "hash": "bd5f6d8b",
+        "encoded": "The%20home%20page%20has%20been%20transformed%20into%20an%20ecommerce%20layout%20with%20brand-specific%20customization%20capabilities.",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "3c266d",
+        "hash": "5e2e550f",
+        "encoded": "##%20New%20Components",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "3c266d",
+        "hash": "670c602f",
+        "encoded": "###%201.%20SearchBar%20(Atom)",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "3c266d",
+        "hash": "f3a5b9fa",
+        "encoded": "**Location:**%20%60packages/design-system/src/atoms/SearchBar.tsx%60",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "3c266d",
+        "hash": "fe004048",
+        "encoded": "**Features:**",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "3c266d",
+        "hash": "3d86fe94",
+        "encoded": "-%20Text%20input%20with%20search%20button",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "3c266d",
+        "hash": "b6597215",
+        "encoded": "-%20Automatic%20theme%20integration",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "3c266d",
+        "hash": "8d0ad788",
+        "encoded": "-%20Placeholder%20customization",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "3c266d",
+        "hash": "64adc792",
+        "encoded": "-%20Search%20callback%20support",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "3c266d",
+        "hash": "41c9882a",
+        "encoded": "-%20Accessibility%20support%20(ARIA%20labels,%20keyboard%20navigation)",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "3c266d",
+        "hash": "e3aa2a20",
+        "encoded": "**Usage:**",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "3c266d",
+        "hash": "71483723",
+        "encoded": "%60%60%60tsx",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "3c266d",
+        "hash": "16c8fb93",
+        "encoded": "import%20%7B%20SearchBar%20%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "3c266d",
+        "hash": "342e7dfc",
+        "encoded": "%3CSearchBar",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "3c266d",
+        "hash": "09e3f8ce",
+        "encoded": "placeholder=%22Search%20products...%22",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "3c266d",
+        "hash": "c6238fa1",
+        "encoded": "onSearch=%7B(query)%20=%3E%20console.log(query)%7D",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "3c266d",
+        "hash": "d18486b6",
+        "encoded": "onChangeText=%7B(text)%20=%3E%20console.log(text)%7D",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "3c266d",
+        "hash": "e8f41ea5",
+        "encoded": "value=%7BsearchQuery%7D",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "3c266d",
+        "hash": "f20109a3",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "3c266d",
+        "hash": "ebfd5a89",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "3c266d",
+        "hash": "206e2730",
+        "encoded": "###%202.%20TopMenuBar%20(Molecule)",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "3c266d",
+        "hash": "62f74c3b",
+        "encoded": "**Location:**%20%60packages/design-system/src/molecules/TopMenuBar.tsx%60",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "3c266d",
+        "hash": "dd7c2df9",
+        "encoded": "**Features:**",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "3c266d",
+        "hash": "8504ebde",
+        "encoded": "-%20Horizontal%20scrollable%20menu",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "3c266d",
+        "hash": "75f434b7",
+        "encoded": "-%20Brand-specific%20menu%20items",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "3c266d",
+        "hash": "b44276fb",
+        "encoded": "-%20Active%20state%20highlighting",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "3c266d",
+        "hash": "53b8a197",
+        "encoded": "-%20Automatic%20theme%20colors",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "3c266d",
+        "hash": "bfafa741",
+        "encoded": "-%20Touch-friendly%20design",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "3c266d",
+        "hash": "d3e75694",
+        "encoded": "**Usage:**",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "3c266d",
+        "hash": "9a471b68",
+        "encoded": "%60%60%60tsx",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "3c266d",
+        "hash": "cdb4fc1c",
+        "encoded": "import%20%7B%20TopMenuBar,%20MenuItem%20%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "3c266d",
+        "hash": "9aaaf614",
+        "encoded": "const%20menuItems:%20MenuItem%5B%5D%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "3c266d",
+        "hash": "a9eabd80",
+        "encoded": "%7B%20id:%20'home',%20label:%20'Home',%20onPress:%20()%20=%3E%20%7B%7D%20%7D,",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "3c266d",
+        "hash": "18d5b3c8",
+        "encoded": "%7B%20id:%20'shop',%20label:%20'Shop',%20onPress:%20()%20=%3E%20%7B%7D%20%7D,",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "3c266d",
+        "hash": "76ed61b9",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "3c266d",
+        "hash": "b294d7a1",
+        "encoded": "%3CTopMenuBar%20items=%7BmenuItems%7D%20activeItemId=%22home%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "3c266d",
+        "hash": "9aeea603",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "3c266d",
+        "hash": "69c590ea",
+        "encoded": "###%203.%20ProductTile%20(Molecule)",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "3c266d",
+        "hash": "c45ef187",
+        "encoded": "**Location:**%20%60packages/design-system/src/molecules/ProductTile.tsx%60",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "3c266d",
+        "hash": "e0178e22",
+        "encoded": "**Features:**",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "3c266d",
+        "hash": "0b871658",
+        "encoded": "-%20Product%20image%20display%20(with%20placeholder)",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "3c266d",
+        "hash": "6a54172e",
+        "encoded": "-%20Product%20name%20and%20price",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "3c266d",
+        "hash": "a800f2a9",
+        "encoded": "-%20Optional%20badge%20(New,%20Sale,%20Hot,%20etc.)",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "3c266d",
+        "hash": "f66d413b",
+        "encoded": "-%20Touch%20interaction",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "3c266d",
+        "hash": "b2b8c801",
+        "encoded": "-%20Responsive%20grid%20layout",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "3c266d",
+        "hash": "8e859271",
+        "encoded": "-%20Automatic%20theme%20integration",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "3c266d",
+        "hash": "9cb34374",
+        "encoded": "**Usage:**",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "3c266d",
+        "hash": "81189981",
+        "encoded": "%60%60%60tsx",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "3c266d",
+        "hash": "1ab541ef",
+        "encoded": "import%20%7B%20ProductTile,%20Product%20%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "3c266d",
+        "hash": "b07e4f4a",
+        "encoded": "const%20product:%20Product%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "3c266d",
+        "hash": "1917d6f4",
+        "encoded": "id:%20'1',",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "3c266d",
+        "hash": "f390839e",
+        "encoded": "name:%20'Premium%20Headphones',",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "3c266d",
+        "hash": "2acdd466",
+        "encoded": "price:%20'$299.99',",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "3c266d",
+        "hash": "90365881",
+        "encoded": "imageUrl:%20'https://example.com/image.jpg',%20//%20optional",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "3c266d",
+        "hash": "ae6b0953",
+        "encoded": "badge:%20'New',%20//%20optional",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "3c266d",
+        "hash": "97fbf8f2",
+        "encoded": "onPress:%20()%20=%3E%20console.log('Product%20clicked'),",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "3c266d",
+        "hash": "9bbb12ce",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "3c266d",
+        "hash": "2a923fcf",
+        "encoded": "%3CProductTile%20product=%7Bproduct%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "3c266d",
+        "hash": "930da210",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "3c266d",
+        "hash": "b45dbf2e",
+        "encoded": "##%20Brand-Specific%20Menu%20Configuration",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "3c266d",
+        "hash": "a9a6c68c",
+        "encoded": "###%20Configuration%20File",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "3c266d",
+        "hash": "62d51492",
+        "encoded": "**Location:**%20%60packages/design-system/src/config/brandMenuConfig.ts%60",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "3c266d",
+        "hash": "64feeed9",
+        "encoded": "This%20file%20defines%20different%20menu%20items%20for%20each%20brand,%20showcasing%20the%20monorepo's%20flexibility.",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "3c266d",
+        "hash": "6566bb3b",
+        "encoded": "**BrandA%20Menu%20Items:**",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "3c266d",
+        "hash": "e10381c1",
+        "encoded": "-%20Home",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "3c266d",
+        "hash": "003252f2",
+        "encoded": "-%20Shop%20All",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "3c266d",
+        "hash": "45609680",
+        "encoded": "-%20Categories",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "3c266d",
+        "hash": "40c90559",
+        "encoded": "-%20Deals",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "3c266d",
+        "hash": "a20faba6",
+        "encoded": "-%20New%20Arrivals",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "3c266d",
+        "hash": "867d6867",
+        "encoded": "-%20My%20Account",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "3c266d",
+        "hash": "e6ced91b",
+        "encoded": "**BrandB%20Menu%20Items:**",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "3c266d",
+        "hash": "1d95b5c2",
+        "encoded": "-%20Home",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "3c266d",
+        "hash": "f2ce5049",
+        "encoded": "-%20Products",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "3c266d",
+        "hash": "c0695a02",
+        "encoded": "-%20Featured",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "3c266d",
+        "hash": "1b38beb9",
+        "encoded": "-%20Brands",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "3c266d",
+        "hash": "806956cb",
+        "encoded": "-%20Sale",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "3c266d",
+        "hash": "14025996",
+        "encoded": "-%20Support",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "3c266d",
+        "hash": "c14d8be3",
+        "encoded": "-%20Profile",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "3c266d",
+        "hash": "05a76234",
+        "encoded": "###%20Usage:",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "3c266d",
+        "hash": "9c7654ec",
+        "encoded": "%60%60%60tsx",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "3c266d",
+        "hash": "20ef5202",
+        "encoded": "import%20%7B%20getMenuItemsForBrand%20%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "3c266d",
+        "hash": "d7190ecd",
+        "encoded": "const%20menuItems%20=%20getMenuItemsForBrand('brandA');",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "3c266d",
+        "hash": "01c7e1a7",
+        "encoded": "//%20Returns%20MenuItem%5B%5D%20specific%20to%20brandA",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "3c266d",
+        "hash": "61900443",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "3c266d",
+        "hash": "40958a62",
+        "encoded": "##%20Home%20Page%20Structure",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "3c266d",
+        "hash": "e45bb91e",
+        "encoded": "###%20Layout%20Hierarchy:",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "3c266d",
+        "hash": "34ee810d",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "3c266d",
+        "hash": "af583939",
+        "encoded": "HomeScreen",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "3c266d",
+        "hash": "5ad7c571",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20TopMenuBar%20(brand-specific)",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "3c266d",
+        "hash": "e0b46588",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20SearchBar",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "3c266d",
+        "hash": "1d9ead5f",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20ScrollView",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "3c266d",
+        "hash": "e5f8110b",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20Section%20Title%20(%22Featured%20Products%22)",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "3c266d",
+        "hash": "40c4e54c",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20Product%20Grid",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "3c266d",
+        "hash": "f49e9165",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20ProductTile%20(x6%20dummy%20products)",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "3c266d",
+        "hash": "a4deae30",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "3c266d",
+        "hash": "d16a72f5",
+        "encoded": "###%20Responsive%20Design:",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "3c266d",
+        "hash": "9dd54d22",
+        "encoded": "-%20Product%20tiles%20are%20displayed%20in%20a%202-column%20grid",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "3c266d",
+        "hash": "70f77e64",
+        "encoded": "-%20Each%20tile%20takes%2048%25%20width%20with%20proper%20spacing",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "3c266d",
+        "hash": "45ba2a02",
+        "encoded": "-%20Horizontal%20scrolling%20for%20menu%20items",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "3c266d",
+        "hash": "e9107395",
+        "encoded": "-%20Vertical%20scrolling%20for%20product%20grid",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "3c266d",
+        "hash": "b55ef257",
+        "encoded": "##%20Design%20Principles%20Applied",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "3c266d",
+        "hash": "f776ed43",
+        "encoded": "###%201.%20Code%20Reuse",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "3c266d",
+        "hash": "1bfe3b5b",
+        "encoded": "-%20All%20components%20are%20generic%20and%20theme-aware",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "3c266d",
+        "hash": "c9715093",
+        "encoded": "-%20No%20brand-specific%20hardcoding%20in%20components",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "3c266d",
+        "hash": "6c97660e",
+        "encoded": "-%20Shared%20components%20across%20all%20brands",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "3c266d",
+        "hash": "691e84a3",
+        "encoded": "###%202.%20Atomic%20Design%20Pattern",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "3c266d",
+        "hash": "3b5cac49",
+        "encoded": "-%20**Atoms:**%20SearchBar%20(basic%20input%20component)",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "3c266d",
+        "hash": "817bcfb0",
+        "encoded": "-%20**Molecules:**%20TopMenuBar,%20ProductTile%20(composed%20components)",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "3c266d",
+        "hash": "c89c823a",
+        "encoded": "-%20**Organisms:**%20HomeScreen%20(complex%20page%20layout)",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "3c266d",
+        "hash": "de5f75e9",
+        "encoded": "###%203.%20Brand%20Customization",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "3c266d",
+        "hash": "3d8136a3",
+        "encoded": "-%20**Theme-based:**%20Colors,%20typography%20automatically%20applied",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "3c266d",
+        "hash": "e8a2c3f3",
+        "encoded": "-%20**Configuration-based:**%20Menu%20items%20defined%20per%20brand",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "3c266d",
+        "hash": "801f2359",
+        "encoded": "-%20**Opt-in%20system:**%20Components%20can%20be%20enabled/disabled%20per%20brand",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "3c266d",
+        "hash": "de50529f",
+        "encoded": "###%204.%20Separation%20of%20Concerns",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "3c266d",
+        "hash": "d74bde10",
+        "encoded": "-%20UI%20components%20in%20design%20system%20package",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "3c266d",
+        "hash": "7a482566",
+        "encoded": "-%20Brand%20configuration%20in%20separate%20config%20files",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "3c266d",
+        "hash": "29db6ef1",
+        "encoded": "-%20Business%20logic%20in%20screen%20components",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "3c266d",
+        "hash": "16ba3d9d",
+        "encoded": "##%20Switching%20Between%20Brands",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "3c266d",
+        "hash": "7783729d",
+        "encoded": "To%20see%20different%20brand%20experiences:",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "3c266d",
+        "hash": "b12e398b",
+        "encoded": "###%20Method%201:%20Environment%20Variable",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "3c266d",
+        "hash": "a12e8f07",
+        "encoded": "Edit%20%60.env.example%60%20or%20create%20%60.env%60%20in%20%60apps/mobile/%60:",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "3c266d",
+        "hash": "a93485b4",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "3c266d",
+        "hash": "bc0ea277",
+        "encoded": "EXPO_PUBLIC_BRAND_ID=brandA",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "3c266d",
+        "hash": "90a4868f",
+        "encoded": "#%20or",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "3c266d",
+        "hash": "e9f9ee0c",
+        "encoded": "EXPO_PUBLIC_BRAND_ID=brandB",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "3c266d",
+        "hash": "849c0d36",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "3c266d",
+        "hash": "80c1aaad",
+        "encoded": "###%20Method%202:%20Direct%20Code%20Change",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "3c266d",
+        "hash": "49aeb585",
+        "encoded": "Edit%20%60apps/mobile/src/App.tsx%60:",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "3c266d",
+        "hash": "b62ae688",
+        "encoded": "%60%60%60tsx",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "3c266d",
+        "hash": "71fd509e",
+        "encoded": "const%20brandId%20=%20'brandA';%20//%20or%20'brandB'",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "3c266d",
+        "hash": "afa07962",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "3c266d",
+        "hash": "14cb8ad7",
+        "encoded": "###%20Visual%20Differences%20Between%20Brands:",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "3c266d",
+        "hash": "2107f325",
+        "encoded": "**BrandA:**",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "3c266d",
+        "hash": "86f4f758",
+        "encoded": "-%20Primary%20color:%20Blue%20(#007AFF)",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "3c266d",
+        "hash": "5e0d69c0",
+        "encoded": "-%20Secondary%20color:%20Purple%20(#5856D6)",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "3c266d",
+        "hash": "2531d306",
+        "encoded": "-%20Menu:%20Home,%20Shop%20All,%20Categories,%20Deals,%20New%20Arrivals,%20My%20Account",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "3c266d",
+        "hash": "ff2d8505",
+        "encoded": "-%20White%20background",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "3c266d",
+        "hash": "dbe76abd",
+        "encoded": "**BrandB:**",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "be8246",
+        "hash": "8a5d625a",
+        "encoded": "##%20Brand-Specific%20Product%20Catalogs",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "be8246",
+        "hash": "64f29d0e",
+        "encoded": "###%20Configuration%20File",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "be8246",
+        "hash": "654039c0",
+        "encoded": "**Location:**%20%60packages/design-system/src/config/brandProductConfig.ts%60",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "be8246",
+        "hash": "ca3421d2",
+        "encoded": "Each%20brand%20now%20has%20its%20own%20unique%20product%20inventory,%20showcasing%20the%20monorepo's%20flexibility.",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "be8246",
+        "hash": "53ae2180",
+        "encoded": "###%20BrandA%20Products:",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "be8246",
+        "hash": "b11c2122",
+        "encoded": "1.%20Premium%20Wireless%20Headphones%20-%20$299.99%20(Badge:%20New)",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "be8246",
+        "hash": "acd22612",
+        "encoded": "2.%20Smart%20Watch%20Series%205%20-%20$399.99%20(Badge:%20Sale)",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "be8246",
+        "hash": "9edcb005",
+        "encoded": "3.%20Portable%20Bluetooth%20Speaker%20-%20$149.99",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "be8246",
+        "hash": "7bad4c5f",
+        "encoded": "4.%20USB-C%20Fast%20Charger%20-%20$49.99%20(Badge:%20Hot)",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "be8246",
+        "hash": "769ba4d0",
+        "encoded": "5.%20Laptop%20Stand%20Adjustable%20-%20$79.99",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "be8246",
+        "hash": "de9101fc",
+        "encoded": "6.%20Wireless%20Mouse%20Ergonomic%20-%20$59.99%20(Badge:%20New)",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "be8246",
+        "hash": "2ad20f9a",
+        "encoded": "###%20BrandB%20Products:",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "be8246",
+        "hash": "cfc2b36b",
+        "encoded": "1.%20Professional%20Camera%20Lens%20-%20$599.99%20(Badge:%20New)",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "be8246",
+        "hash": "539240b2",
+        "encoded": "2.%20Mechanical%20Keyboard%20RGB%20-%20$179.99",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "be8246",
+        "hash": "00a97881",
+        "encoded": "3.%20Gaming%20Monitor%2027%22%20-%20$449.99%20(Badge:%20Hot)",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "be8246",
+        "hash": "72ca70fd",
+        "encoded": "4.%20Noise%20Cancelling%20Earbuds%20-%20$199.99%20(Badge:%20Sale)",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "be8246",
+        "hash": "e059a9b8",
+        "encoded": "5.%20Portable%20SSD%201TB%20-%20$129.99",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "be8246",
+        "hash": "60aa6ad6",
+        "encoded": "6.%20Webcam%204K%20Ultra%20HD%20-%20$249.99%20(Badge:%20New)",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "be8246",
+        "hash": "6db873b7",
+        "encoded": "###%20Usage:",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "be8246",
+        "hash": "455b65f0",
+        "encoded": "%60%60%60tsx",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "be8246",
+        "hash": "df1c15c3",
+        "encoded": "import%20%7B%20getProductsForBrand%20%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "be8246",
+        "hash": "41d130bb",
+        "encoded": "const%20products%20=%20getProductsForBrand('brandA');",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "be8246",
+        "hash": "91330da2",
+        "encoded": "//%20Returns%20Product%5B%5D%20specific%20to%20brandA",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "be8246",
+        "hash": "b76731c7",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "3c266d",
+        "hash": "f846b326",
+        "encoded": "-%20Secondary%20color:%20Orange%20(#FF9500)",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "3c266d",
+        "hash": "65c0e043",
+        "encoded": "-%20Menu:%20Home,%20Products,%20Featured,%20Brands,%20Sale,%20Support,%20Profile",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "3c266d",
+        "hash": "760134ca",
+        "encoded": "-%20Light%20gray%20background%20(#F2F2F7)",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "3c266d",
+        "hash": "e7bce170",
+        "encoded": "##%20Dummy%20Product%20Data",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "3c266d",
+        "hash": "e10174c6",
+        "encoded": "The%20home%20page%20displays%206%20dummy%20products:",
+        "prevChunkIds": []
+      },
+      "220": {
+        "chunkId": "3c266d",
+        "hash": "83cd1eb1",
+        "encoded": "1.%20Premium%20Wireless%20Headphones%20-%20$299.99%20(Badge:%20New)",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "3c266d",
+        "hash": "ebb3f538",
+        "encoded": "2.%20Smart%20Watch%20Series%205%20-%20$399.99%20(Badge:%20Sale)",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "3c266d",
+        "hash": "5a319284",
+        "encoded": "3.%20Portable%20Bluetooth%20Speaker%20-%20$149.99",
+        "prevChunkIds": []
+      },
+      "223": {
+        "chunkId": "3c266d",
+        "hash": "bf9c3088",
+        "encoded": "4.%20USB-C%20Fast%20Charger%20-%20$49.99%20(Badge:%20Hot)",
+        "prevChunkIds": []
+      },
+      "224": {
+        "chunkId": "3c266d",
+        "hash": "cb378b8c",
+        "encoded": "5.%20Laptop%20Stand%20Adjustable%20-%20$79.99",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "3c266d",
+        "hash": "499b1006",
+        "encoded": "6.%20Wireless%20Mouse%20Ergonomic%20-%20$59.99%20(Badge:%20New)",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "3c266d",
+        "hash": "de648b1c",
+        "encoded": "##%20Accessibility%20Features",
+        "prevChunkIds": []
+      },
+      "229": {
+        "chunkId": "3c266d",
+        "hash": "d817c6ec",
+        "encoded": "-%20All%20interactive%20elements%20have%20%60accessibilityRole%60%20and%20%60accessibilityLabel%60",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "3c266d",
+        "hash": "35ce9666",
+        "encoded": "-%20Search%20bar%20supports%20keyboard%20navigation%20(return%20key%20=%20search)",
+        "prevChunkIds": []
+      },
+      "231": {
+        "chunkId": "3c266d",
+        "hash": "c25e4dff",
+        "encoded": "-%20Menu%20items%20have%20%60accessibilityState%60%20for%20selected%20state",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "3c266d",
+        "hash": "8054ff5b",
+        "encoded": "-%20Product%20tiles%20have%20descriptive%20labels%20with%20name%20and%20price",
+        "prevChunkIds": []
+      },
+      "234": {
+        "chunkId": "3c266d",
+        "hash": "16773a22",
+        "encoded": "##%20Next%20Steps",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "3c266d",
+        "hash": "14d00907",
+        "encoded": "###%20To%20Make%20Functional:",
+        "prevChunkIds": []
+      },
+      "237": {
+        "chunkId": "3c266d",
+        "hash": "1ae73daa",
+        "encoded": "1.%20Connect%20to%20real%20product%20API",
+        "prevChunkIds": []
+      },
+      "238": {
+        "chunkId": "3c266d",
+        "hash": "74ede42e",
+        "encoded": "2.%20Implement%20search%20functionality%20with%20filtering",
+        "prevChunkIds": []
+      },
+      "239": {
+        "chunkId": "3c266d",
+        "hash": "9e0980d8",
+        "encoded": "3.%20Add%20navigation%20to%20product%20detail%20pages",
+        "prevChunkIds": []
+      },
+      "240": {
+        "chunkId": "3c266d",
+        "hash": "572a4589",
+        "encoded": "4.%20Implement%20menu%20item%20navigation",
+        "prevChunkIds": []
+      },
+      "241": {
+        "chunkId": "3c266d",
+        "hash": "dad413b8",
+        "encoded": "5.%20Add%20shopping%20cart%20functionality",
+        "prevChunkIds": []
+      },
+      "243": {
+        "chunkId": "3c266d",
+        "hash": "10869920",
+        "encoded": "###%20To%20Enhance:",
+        "prevChunkIds": []
+      },
+      "244": {
+        "chunkId": "3c266d",
+        "hash": "91d7fbf5",
+        "encoded": "1.%20Add%20product%20images%20(currently%20using%20placeholders)",
+        "prevChunkIds": []
+      },
+      "245": {
+        "chunkId": "3c266d",
+        "hash": "e83b5128",
+        "encoded": "2.%20Implement%20infinite%20scroll%20for%20products",
+        "prevChunkIds": []
+      },
+      "246": {
+        "chunkId": "3c266d",
+        "hash": "1b331e84",
+        "encoded": "3.%20Add%20category%20filtering",
+        "prevChunkIds": []
+      },
+      "247": {
+        "chunkId": "3c266d",
+        "hash": "338894d7",
+        "encoded": "4.%20Implement%20sort%20options%20(price,%20name,%20etc.)",
+        "prevChunkIds": []
+      },
+      "248": {
+        "chunkId": "3c266d",
+        "hash": "5b67cd9c",
+        "encoded": "5.%20Add%20product%20favorites/wishlist",
+        "prevChunkIds": []
+      },
+      "249": {
+        "chunkId": "3c266d",
+        "hash": "3fadf6da",
+        "encoded": "6.%20Implement%20product%20quick%20view",
+        "prevChunkIds": []
+      },
+      "251": {
+        "chunkId": "3c266d",
+        "hash": "0a0600cc",
+        "encoded": "##%20Component%20Registry",
+        "prevChunkIds": []
+      },
+      "253": {
+        "chunkId": "3c266d",
+        "hash": "a988f577",
+        "encoded": "All%20new%20components%20are%20registered%20in%20%60packages/design-system/src/config/config.json%60:",
+        "prevChunkIds": []
+      },
+      "254": {
+        "chunkId": "3c266d",
+        "hash": "ddacc69a",
+        "encoded": "-%20SearchBar",
+        "prevChunkIds": []
+      },
+      "255": {
+        "chunkId": "3c266d",
+        "hash": "758c9d4f",
+        "encoded": "-%20TopMenuBar",
+        "prevChunkIds": []
+      },
+      "256": {
+        "chunkId": "3c266d",
+        "hash": "14ee9400",
+        "encoded": "-%20ProductTile",
+        "prevChunkIds": []
+      },
+      "258": {
+        "chunkId": "3c266d",
+        "hash": "16ddfda8",
+        "encoded": "Each%20can%20be%20enabled/disabled%20per%20brand%20using%20the%20%60brandOptIn%60%20configuration.",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 252
+  }
+}

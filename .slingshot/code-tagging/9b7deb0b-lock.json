@@ -1,0 +1,621 @@
+{
+  "packages/design-system/src/config/config.json": {
+    "filename": "config.json",
+    "path": "packages/design-system/src/config/config.json",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "9486e4": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783529594,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "3b7a7e3f",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:53:14 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      },
+      "d29a92": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "94fac374",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "9486e4",
+        "hash": "47009686",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "d29a92",
+        "hash": "ea73b665",
+        "encoded": "%22components%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "d29a92",
+        "hash": "6ba7332c",
+        "encoded": "%22SearchBar%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "d29a92",
+        "hash": "c001a72b",
+        "encoded": "%22description%22:%20%22Search%20input%20with%20search%20button%22,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "d29a92",
+        "hash": "21fedc98",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "d29a92",
+        "hash": "8d3a6a91",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "d29a92",
+        "hash": "1407da17",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "d29a92",
+        "hash": "102658a5",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "d29a92",
+        "hash": "f3056d58",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "d29a92",
+        "hash": "4d5a41b2",
+        "encoded": "%22TopMenuBar%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "d29a92",
+        "hash": "f24f343d",
+        "encoded": "%22description%22:%20%22Horizontal%20scrollable%20menu%20bar%20with%20brand-specific%20items%22,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "d29a92",
+        "hash": "8222877a",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "d29a92",
+        "hash": "3bdd0d99",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "d29a92",
+        "hash": "31bbb63d",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "d29a92",
+        "hash": "66d45cc1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "d29a92",
+        "hash": "e682a066",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "d29a92",
+        "hash": "c24c60fe",
+        "encoded": "%22ProductTile%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "d29a92",
+        "hash": "9fbe336d",
+        "encoded": "%22description%22:%20%22Product%20display%20card%20with%20image,%20name,%20price,%20and%20badge%22,",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "d29a92",
+        "hash": "41e6c8c6",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "d29a92",
+        "hash": "dc731d22",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "d29a92",
+        "hash": "19623ae4",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "d29a92",
+        "hash": "4b5cc20d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "d29a92",
+        "hash": "6d666e52",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "d29a92",
+        "hash": "07ba8fd8",
+        "encoded": "%22Card%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "d29a92",
+        "hash": "0dece806",
+        "encoded": "%22description%22:%20%22Container%20component%20with%20elevation%20and%20rounded%20corners%22,",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "d29a92",
+        "hash": "5b3284a2",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "d29a92",
+        "hash": "904edde7",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "d29a92",
+        "hash": "38726e49",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "d29a92",
+        "hash": "46b23985",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "d29a92",
+        "hash": "b0145a10",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "9486e4",
+        "hash": "2c8712a5",
+        "encoded": "%22Card%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "9486e4",
+        "hash": "0b587582",
+        "encoded": "%22description%22:%20%22Container%20component%20with%20elevation%20and%20rounded%20corners%22,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "9486e4",
+        "hash": "fb7647e0",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "9486e4",
+        "hash": "f28e45e5",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "9486e4",
+        "hash": "1e08a2d3",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "9486e4",
+        "hash": "dfad4947",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "9486e4",
+        "hash": "6bb93cd8",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "9486e4",
+        "hash": "ca74fe35",
+        "encoded": "%22Input%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "9486e4",
+        "hash": "8af4a495",
+        "encoded": "%22description%22:%20%22Text%20input%20field%20with%20label%20and%20error%20handling%22,",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "9486e4",
+        "hash": "d247b640",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "9486e4",
+        "hash": "2fc48f82",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "9486e4",
+        "hash": "1531f1ae",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "9486e4",
+        "hash": "5663967b",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "9486e4",
+        "hash": "ea89afce",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "9486e4",
+        "hash": "d1406782",
+        "encoded": "%22Switch%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "9486e4",
+        "hash": "1fa19033",
+        "encoded": "%22description%22:%20%22Toggle%20switch%20component%22,",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "9486e4",
+        "hash": "9268bb56",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "9486e4",
+        "hash": "a443b714",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "9486e4",
+        "hash": "fc1dccfc",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "9486e4",
+        "hash": "0b4804f7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "9486e4",
+        "hash": "41dd60dc",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "9486e4",
+        "hash": "f803066d",
+        "encoded": "%22Badge%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "9486e4",
+        "hash": "36ce2977",
+        "encoded": "%22description%22:%20%22Small%20label%20component%20with%20color%20variants%22,",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "9486e4",
+        "hash": "8b69b400",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "9486e4",
+        "hash": "cfcecbe0",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "9486e4",
+        "hash": "3a380bc3",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "9486e4",
+        "hash": "cdb7b2a0",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "9486e4",
+        "hash": "a56419ed",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "9486e4",
+        "hash": "9d09ee58",
+        "encoded": "%22Avatar%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "9486e4",
+        "hash": "73c10df1",
+        "encoded": "%22description%22:%20%22User%20avatar%20with%20image%20or%20initials%22,",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "9486e4",
+        "hash": "4a8f68f2",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "9486e4",
+        "hash": "8b1676c5",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "9486e4",
+        "hash": "b370e0e9",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "9486e4",
+        "hash": "78db855a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "9486e4",
+        "hash": "3668736d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "9486e4",
+        "hash": "328bbf29",
+        "encoded": "%22Divider%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "9486e4",
+        "hash": "bc639002",
+        "encoded": "%22description%22:%20%22Horizontal%20or%20vertical%20separator%20line%22,",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "9486e4",
+        "hash": "6249116a",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "9486e4",
+        "hash": "72a16437",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "9486e4",
+        "hash": "80b225e8",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "9486e4",
+        "hash": "352e9b23",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "9486e4",
+        "hash": "c1761422",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "9486e4",
+        "hash": "12f33145",
+        "encoded": "%22Button%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "9486e4",
+        "hash": "7563262e",
+        "encoded": "%22description%22:%20%22Pressable%20button%20component%22,",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "9486e4",
+        "hash": "f436071d",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "9486e4",
+        "hash": "f85028f4",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "9486e4",
+        "hash": "ee86550d",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "9486e4",
+        "hash": "20d59727",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "9486e4",
+        "hash": "9dda051a",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "9486e4",
+        "hash": "d6c3601d",
+        "encoded": "%22Box%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "9486e4",
+        "hash": "13ea6a18",
+        "encoded": "%22description%22:%20%22Basic%20container%20component%22,",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "9486e4",
+        "hash": "0a774fb0",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "9486e4",
+        "hash": "4eb45d82",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "9486e4",
+        "hash": "2b722b95",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "9486e4",
+        "hash": "d7cd7257",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "9486e4",
+        "hash": "a07fb4c6",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "9486e4",
+        "hash": "c6b09d4f",
+        "encoded": "%22Text%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "9486e4",
+        "hash": "50491001",
+        "encoded": "%22description%22:%20%22Themed%20text%20component%20with%20variants%22,",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "9486e4",
+        "hash": "249d95a6",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "9486e4",
+        "hash": "22197992",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "9486e4",
+        "hash": "985d48f1",
+        "encoded": "%22brandB%22:%20true",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "9486e4",
+        "hash": "70416dc1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "9486e4",
+        "hash": "06a855c2",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "9486e4",
+        "hash": "94b19f35",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "9486e4",
+        "hash": "db89230b",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 88
+  }
+}

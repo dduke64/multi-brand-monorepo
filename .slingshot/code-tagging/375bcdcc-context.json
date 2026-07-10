@@ -1,0 +1,49 @@
+{
+  "filename": "package.json",
+  "path": "apps/mobile/package.json",
+  "version": "1.1",
+  "files": {
+    "dd3090ac": {
+      "value": [
+        {
+          "programming_language": "",
+          "fileName": "example-tree",
+          "relativeFilePath": "DIB-showcase/example-tree",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            88
+          ]
+        }
+      ]
+    },
+    "6c8a21b9": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "HomeScreen.tsx",
+          "relativeFilePath": "apps/mobile/src/screens/HomeScreen.tsx",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            33
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "255578ff": {
+      "value": "I want this to be a monorepo that will re-use as much of the code base as possible to create apps for different brands. they will all follow the same overall layout and UX, but will have different designs as each brand sees fit. Please set up that based on the file structure shown in example-tree, but for now only do what is necessary to get a basic MVP working"
+    },
+    "01dc5d62": {
+      "value": "can you build out 1-2 more pages to showcase various common components in a mobile app. Follow the mono-repo design and set it up so each brand can opt into/out of each component individually, and use its brand theming across all components automatically"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

@@ -1,0 +1,539 @@
+{
+  "packages/design-system/src/index.ts": {
+    "filename": "index.ts",
+    "path": "packages/design-system/src/index.ts",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "876928": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528719,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "73c2c977",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:38:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      },
+      "1c939f": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783529575,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "0acf37ae",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:52:55 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "9cff8c": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783529610,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "8545bcc8",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:53:30 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "0ed339": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "8d06ade9",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "2f2c1c": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531775,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a8991331",
+          "files": "120ca03f"
+        },
+        "hash": "6ff910b8",
+        "messageId": "system_6a22b5d0-7af2-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:29:35 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "0ed339",
+        "hash": "0997fd1d",
+        "encoded": "//%20Atoms",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "0ed339",
+        "hash": "db4afe63",
+        "encoded": "export%20%7B%20Box%20%7D%20from%20'./atoms/Box';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "0ed339",
+        "hash": "c1e3b52f",
+        "encoded": "export%20%7B%20Text%20%7D%20from%20'./atoms/Text';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "0ed339",
+        "hash": "dd368507",
+        "encoded": "export%20%7B%20Button%20%7D%20from%20'./atoms/Button';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "0ed339",
+        "hash": "4ec24aa0",
+        "encoded": "export%20%7B%20Card%20%7D%20from%20'./atoms/Card';",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "0ed339",
+        "hash": "83cfbfc2",
+        "encoded": "export%20%7B%20Input%20%7D%20from%20'./atoms/Input';",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "0ed339",
+        "hash": "7b0fc232",
+        "encoded": "export%20%7B%20Switch%20%7D%20from%20'./atoms/Switch';",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "0ed339",
+        "hash": "833bdb7e",
+        "encoded": "export%20%7B%20Badge%20%7D%20from%20'./atoms/Badge';",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "0ed339",
+        "hash": "c65e39ca",
+        "encoded": "export%20%7B%20Avatar%20%7D%20from%20'./atoms/Avatar';",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "0ed339",
+        "hash": "a3088451",
+        "encoded": "export%20%7B%20Divider%20%7D%20from%20'./atoms/Divider';",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "0ed339",
+        "hash": "63ae7242",
+        "encoded": "export%20%7B%20SearchBar%20%7D%20from%20'./atoms/SearchBar';",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "0ed339",
+        "hash": "ef58f47a",
+        "encoded": "//%20Molecules",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "0ed339",
+        "hash": "946a140c",
+        "encoded": "export%20%7B%20TopMenuBar%20%7D%20from%20'./molecules/TopMenuBar';",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "0ed339",
+        "hash": "5522d97f",
+        "encoded": "export%20type%20%7B%20MenuItem%20%7D%20from%20'./molecules/TopMenuBar';",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "0ed339",
+        "hash": "cbb05187",
+        "encoded": "export%20%7B%20ProductTile%20%7D%20from%20'./molecules/ProductTile';",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "0ed339",
+        "hash": "02a0e4ab",
+        "encoded": "export%20type%20%7B%20Product%20%7D%20from%20'./molecules/ProductTile';",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "0ed339",
+        "hash": "1295b2f5",
+        "encoded": "//%20Theme",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "0ed339",
+        "hash": "2e6f5642",
+        "encoded": "export%20%7B%20ThemeProvider,%20useTheme%20%7D%20from%20'./theme/ThemeProvider';",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "0ed339",
+        "hash": "caabcf6f",
+        "encoded": "export%20type%20%7B%20Theme,%20BrandTheme%20%7D%20from%20'./theme/types';",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "0ed339",
+        "hash": "5fc14006",
+        "encoded": "//%20Component%20Registry",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "0ed339",
+        "hash": "07a94568",
+        "encoded": "export%20%7B",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "0ed339",
+        "hash": "c31dc42e",
+        "encoded": "getEnabledComponents,",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "0ed339",
+        "hash": "514126bb",
+        "encoded": "isComponentEnabled,",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "0ed339",
+        "hash": "066b186a",
+        "encoded": "getComponent,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "0ed339",
+        "hash": "c05b60f8",
+        "encoded": "componentRegistry",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "0ed339",
+        "hash": "66f0db56",
+        "encoded": "%7D%20from%20'./config/ComponentRegistry';",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "0ed339",
+        "hash": "1d03c61a",
+        "encoded": "export%20type%20%7B%20ComponentName,%20BrandComponentConfig%20%7D%20from%20'./config/ComponentRegistry';",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "2f2c1c",
+        "hash": "0e5e108f",
+        "encoded": "//%20Brand%20Configuration",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "2f2c1c",
+        "hash": "ceeb70d7",
+        "encoded": "export%20%7B%20brandMenuConfig,%20getMenuItemsForBrand%20%7D%20from%20'./config/brandMenuConfig';",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "2f2c1c",
+        "hash": "c5214157",
+        "encoded": "export%20type%20%7B%20BrandMenuConfig%20%7D%20from%20'./config/brandMenuConfig';",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "2f2c1c",
+        "hash": "e99739b6",
+        "encoded": "export%20%7B%20brandProductConfig,%20getProductsForBrand%20%7D%20from%20'./config/brandProductConfig';",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "2f2c1c",
+        "hash": "bbe78696",
+        "encoded": "export%20type%20%7B%20BrandProductConfig%20%7D%20from%20'./config/brandProductConfig';",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "0ed339",
+        "hash": "49131a4b",
+        "encoded": "export%20%7B%20brandMenuConfig,%20getMenuItemsForBrand%20%7D%20from%20'./config/brandMenuConfig';",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "0ed339",
+        "hash": "f6edfb9b",
+        "encoded": "export%20type%20%7B%20BrandMenuConfig%20%7D%20from%20'./config/brandMenuConfig';",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "9cff8c",
+        "hash": "b4a5b8c6",
+        "encoded": "export%20%7B%20Box%20%7D%20from%20'./atoms/Box';",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "9cff8c",
+        "hash": "8dc2c212",
+        "encoded": "export%20%7B%20Text%20%7D%20from%20'./atoms/Text';",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "9cff8c",
+        "hash": "455c99de",
+        "encoded": "export%20%7B%20Button%20%7D%20from%20'./atoms/Button';",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "9cff8c",
+        "hash": "2eba2ee5",
+        "encoded": "export%20%7B%20Card%20%7D%20from%20'./atoms/Card';",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "9cff8c",
+        "hash": "21e633ac",
+        "encoded": "export%20%7B%20Input%20%7D%20from%20'./atoms/Input';",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "9cff8c",
+        "hash": "8afb9a1a",
+        "encoded": "export%20%7B%20Switch%20%7D%20from%20'./atoms/Switch';",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "9cff8c",
+        "hash": "b2079c70",
+        "encoded": "export%20%7B%20Badge%20%7D%20from%20'./atoms/Badge';",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "9cff8c",
+        "hash": "aee886c9",
+        "encoded": "export%20%7B%20Avatar%20%7D%20from%20'./atoms/Avatar';",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "9cff8c",
+        "hash": "ac32372c",
+        "encoded": "export%20%7B%20Divider%20%7D%20from%20'./atoms/Divider';",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "9cff8c",
+        "hash": "52f1368f",
+        "encoded": "//%20Theme",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "9cff8c",
+        "hash": "94b987e2",
+        "encoded": "export%20%7B%20ThemeProvider,%20useTheme%20%7D%20from%20'./theme/ThemeProvider';",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "9cff8c",
+        "hash": "e99c6e10",
+        "encoded": "export%20type%20%7B%20Theme,%20BrandTheme%20%7D%20from%20'./theme/types';",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "9cff8c",
+        "hash": "3c4c9002",
+        "encoded": "//%20Component%20Registry",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "9cff8c",
+        "hash": "09bdd80e",
+        "encoded": "export%20%7B",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "9cff8c",
+        "hash": "bb9fa958",
+        "encoded": "getEnabledComponents,",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "9cff8c",
+        "hash": "43831fda",
+        "encoded": "isComponentEnabled,",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "9cff8c",
+        "hash": "1c669260",
+        "encoded": "getComponent,",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "9cff8c",
+        "hash": "88f98a50",
+        "encoded": "componentRegistry",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "9cff8c",
+        "hash": "8d74ac05",
+        "encoded": "%7D%20from%20'./config/ComponentRegistry';",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "9cff8c",
+        "hash": "fef3b3a3",
+        "encoded": "export%20type%20%7B%20ComponentName,%20BrandComponentConfig%20%7D%20from%20'./config/ComponentRegistry';",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "1c939f",
+        "hash": "99b311a6",
+        "encoded": "export%20%7B%20Box%20%7D%20from%20'./atoms/Box';",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "1c939f",
+        "hash": "1961cd3e",
+        "encoded": "export%20%7B%20Text%20%7D%20from%20'./atoms/Text';",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "1c939f",
+        "hash": "f1d9bca5",
+        "encoded": "export%20%7B%20Button%20%7D%20from%20'./atoms/Button';",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "1c939f",
+        "hash": "894ed2df",
+        "encoded": "export%20%7B%20Card%20%7D%20from%20'./atoms/Card';",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "1c939f",
+        "hash": "96778e08",
+        "encoded": "export%20%7B%20Input%20%7D%20from%20'./atoms/Input';",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "1c939f",
+        "hash": "1dc5f19c",
+        "encoded": "export%20%7B%20Switch%20%7D%20from%20'./atoms/Switch';",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "1c939f",
+        "hash": "fcc50992",
+        "encoded": "export%20%7B%20Badge%20%7D%20from%20'./atoms/Badge';",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "1c939f",
+        "hash": "09e2d2db",
+        "encoded": "export%20%7B%20Avatar%20%7D%20from%20'./atoms/Avatar';",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "1c939f",
+        "hash": "35f7fae6",
+        "encoded": "export%20%7B%20Divider%20%7D%20from%20'./atoms/Divider';",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "1c939f",
+        "hash": "afbae4fa",
+        "encoded": "//%20Theme",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "1c939f",
+        "hash": "80d5faf7",
+        "encoded": "export%20%7B%20ThemeProvider,%20useTheme%20%7D%20from%20'./theme/ThemeProvider';",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "1c939f",
+        "hash": "143166c8",
+        "encoded": "export%20type%20%7B%20Theme,%20BrandTheme%20%7D%20from%20'./theme/types';",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "876928",
+        "hash": "b4f3c4e9",
+        "encoded": "export%20%7B%20Box%20%7D%20from%20'./atoms/Box';",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "876928",
+        "hash": "07a5d678",
+        "encoded": "export%20%7B%20Text%20%7D%20from%20'./atoms/Text';",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "876928",
+        "hash": "87266dad",
+        "encoded": "export%20%7B%20Button%20%7D%20from%20'./atoms/Button';",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "876928",
+        "hash": "b9ae73d1",
+        "encoded": "//%20Theme",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "876928",
+        "hash": "4793e704",
+        "encoded": "export%20%7B%20ThemeProvider,%20useTheme%20%7D%20from%20'./theme/ThemeProvider';",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "876928",
+        "hash": "693d812b",
+        "encoded": "export%20type%20%7B%20Theme,%20BrandTheme%20%7D%20from%20'./theme/types';",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

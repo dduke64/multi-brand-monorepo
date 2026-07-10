@@ -1,0 +1,772 @@
+{
+  "packages/design-system/src/molecules/TopMenuBar.tsx": {
+    "filename": "TopMenuBar.tsx",
+    "path": "packages/design-system/src/molecules/TopMenuBar.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "3cb90c": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783530939,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "431b9191",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:15:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      },
+      "c9ef59": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531411,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "07a1181c",
+          "files": "13e07e09"
+        },
+        "hash": "5529816d",
+        "messageId": "system_a1660200-7af1-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:23:31 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "76d9d9": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531411,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "07a1181c",
+          "files": "13e07e09"
+        },
+        "hash": "94924c1d",
+        "messageId": "system_a1660200-7af1-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:23:31 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "c7e902": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531541,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "9d1948ac",
+          "files": "9c7f7132"
+        },
+        "hash": "65ddd7bf",
+        "messageId": "system_e6f048d0-7af1-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:25:41 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "3cb90c",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "1": {
+        "chunkId": "3cb90c",
+        "hash": "8ca69784",
+        "encoded": "import%20%7B%20StyleSheet,%20View,%20TouchableOpacity,%20ScrollView%20%7D%20from%20'react-native';",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "2": {
+        "chunkId": "3cb90c",
+        "hash": "1a9b5565",
+        "encoded": "import%20%7B%20useTheme%20%7D%20from%20'../theme/ThemeProvider';",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "3": {
+        "chunkId": "3cb90c",
+        "hash": "a3bde58b",
+        "encoded": "import%20%7B%20Text%20%7D%20from%20'../atoms/Text';",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "5": {
+        "chunkId": "3cb90c",
+        "hash": "4f428420",
+        "encoded": "export%20interface%20MenuItem%20%7B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "6": {
+        "chunkId": "3cb90c",
+        "hash": "f5066bd9",
+        "encoded": "id:%20string;",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "7": {
+        "chunkId": "3cb90c",
+        "hash": "17fc24fe",
+        "encoded": "label:%20string;",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "8": {
+        "chunkId": "3cb90c",
+        "hash": "0ebdf4a1",
+        "encoded": "onPress?:%20()%20=%3E%20void;",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "9": {
+        "chunkId": "3cb90c",
+        "hash": "2ce165fa",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "11": {
+        "chunkId": "3cb90c",
+        "hash": "d27ed04a",
+        "encoded": "interface%20TopMenuBarProps%20%7B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "12": {
+        "chunkId": "3cb90c",
+        "hash": "fadcce96",
+        "encoded": "items:%20MenuItem%5B%5D;",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "13": {
+        "chunkId": "3cb90c",
+        "hash": "c3788fa0",
+        "encoded": "activeItemId?:%20string;",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "14": {
+        "chunkId": "3cb90c",
+        "hash": "66d45cc1",
+        "encoded": "%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "17": {
+        "chunkId": "76d9d9",
+        "hash": "9f455732",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": [
+          "c9ef59"
+        ]
+      },
+      "19": {
+        "chunkId": "76d9d9",
+        "hash": "48744816",
+        "encoded": "return%20(",
+        "prevChunkIds": [
+          "c9ef59"
+        ]
+      },
+      "20": {
+        "chunkId": "76d9d9",
+        "hash": "ef3923c6",
+        "encoded": "%3CView%20style=%7B%5Bstyles.container,%20%7B%20backgroundColor:%20theme.colors.primary%20%7D%5D%7D%3E",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "3cb90c",
+        "hash": "a65e1c47",
+        "encoded": "%3CScrollView",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "3cb90c",
+        "hash": "b33da9ee",
+        "encoded": "horizontal",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "23": {
+        "chunkId": "3cb90c",
+        "hash": "53d958d8",
+        "encoded": "showsHorizontalScrollIndicator=%7Bfalse%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "24": {
+        "chunkId": "3cb90c",
+        "hash": "89bf45b2",
+        "encoded": "contentContainerStyle=%7Bstyles.scrollContent%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "25": {
+        "chunkId": "3cb90c",
+        "hash": "074a99fe",
+        "encoded": "%3E",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "26": {
+        "chunkId": "3cb90c",
+        "hash": "73670d13",
+        "encoded": "%7Bitems.map((item)%20=%3E%20%7B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "27": {
+        "chunkId": "3cb90c",
+        "hash": "547bb572",
+        "encoded": "const%20isActive%20=%20item.id%20===%20activeItemId;",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "28": {
+        "chunkId": "c9ef59",
+        "hash": "40850e0b",
+        "encoded": "return%20(",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "29": {
+        "chunkId": "3cb90c",
+        "hash": "24627135",
+        "encoded": "%3CTouchableOpacity",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "30": {
+        "chunkId": "3cb90c",
+        "hash": "2a0105e1",
+        "encoded": "key=%7Bitem.id%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "31": {
+        "chunkId": "3cb90c",
+        "hash": "68a5b142",
+        "encoded": "style=%7B%5B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "32": {
+        "chunkId": "3cb90c",
+        "hash": "366f24cf",
+        "encoded": "styles.menuItem,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "33": {
+        "chunkId": "3cb90c",
+        "hash": "0c02d338",
+        "encoded": "isActive%20&&%20%5B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "34": {
+        "chunkId": "3cb90c",
+        "hash": "0a985aa9",
+        "encoded": "styles.activeMenuItem,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "35": {
+        "chunkId": "3cb90c",
+        "hash": "bb1bb8a4",
+        "encoded": "%7B%20backgroundColor:%20theme.colors.secondary%20%7D,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "36": {
+        "chunkId": "3cb90c",
+        "hash": "2a52faa0",
+        "encoded": "%5D,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "37": {
+        "chunkId": "3cb90c",
+        "hash": "78290acb",
+        "encoded": "%5D%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "38": {
+        "chunkId": "3cb90c",
+        "hash": "a5409ead",
+        "encoded": "onPress=%7Bitem.onPress%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "39": {
+        "chunkId": "3cb90c",
+        "hash": "541e3849",
+        "encoded": "accessibilityLabel=%7Bitem.label%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "40": {
+        "chunkId": "3cb90c",
+        "hash": "e8563d26",
+        "encoded": "accessibilityRole=%22button%22",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "41": {
+        "chunkId": "3cb90c",
+        "hash": "add865b1",
+        "encoded": "accessibilityState=%7B%7B%20selected:%20isActive%20%7D%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "42": {
+        "chunkId": "3cb90c",
+        "hash": "86e0098a",
+        "encoded": "%3E",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "43": {
+        "chunkId": "3cb90c",
+        "hash": "9c119f42",
+        "encoded": "%3CText",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "44": {
+        "chunkId": "3cb90c",
+        "hash": "6e1fbc57",
+        "encoded": "style=%7B%5B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "45": {
+        "chunkId": "3cb90c",
+        "hash": "76e69e09",
+        "encoded": "styles.menuText,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "46": {
+        "chunkId": "3cb90c",
+        "hash": "19dc5ae6",
+        "encoded": "%7B%20color:%20theme.colors.buttonText%20%7D,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "47": {
+        "chunkId": "3cb90c",
+        "hash": "556843a7",
+        "encoded": "isActive%20&&%20styles.activeMenuText,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "48": {
+        "chunkId": "3cb90c",
+        "hash": "96512f1d",
+        "encoded": "%5D%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "49": {
+        "chunkId": "3cb90c",
+        "hash": "56edb96c",
+        "encoded": "%3E",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "50": {
+        "chunkId": "3cb90c",
+        "hash": "6d03f319",
+        "encoded": "%7Bitem.label%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "51": {
+        "chunkId": "3cb90c",
+        "hash": "8d3d7dd0",
+        "encoded": "%3C/Text%3E",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "52": {
+        "chunkId": "3cb90c",
+        "hash": "a4fb23c9",
+        "encoded": "%3C/TouchableOpacity%3E",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "53": {
+        "chunkId": "3cb90c",
+        "hash": "fcbe4ad9",
+        "encoded": ");",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "54": {
+        "chunkId": "3cb90c",
+        "hash": "3ea4f5ad",
+        "encoded": "%7D)%7D",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "55": {
+        "chunkId": "3cb90c",
+        "hash": "29550568",
+        "encoded": "%3C/ScrollView%3E",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "56": {
+        "chunkId": "3cb90c",
+        "hash": "878cd2e9",
+        "encoded": "%3C/View%3E",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "57": {
+        "chunkId": "3cb90c",
+        "hash": "3b8ec5b0",
+        "encoded": ");",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "58": {
+        "chunkId": "3cb90c",
+        "hash": "d6071797",
+        "encoded": "%7D;",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "60": {
+        "chunkId": "c7e902",
+        "hash": "b32cce37",
+        "encoded": "const%20styles%20=%20StyleSheet.create(%7B",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "c7e902",
+        "hash": "7ba673e8",
+        "encoded": "container:%20%7B",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "c7e902",
+        "hash": "24019039",
+        "encoded": "paddingTop:%2048,",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "c7e902",
+        "hash": "22d60a12",
+        "encoded": "paddingBottom:%208,",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "c7e902",
+        "hash": "3668736d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "c7e902",
+        "hash": "0a509947",
+        "encoded": "scrollContent:%20%7B",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "c7e902",
+        "hash": "c1f50750",
+        "encoded": "paddingHorizontal:%208,",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "c7e902",
+        "hash": "0e7b41fd",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "3cb90c",
+        "hash": "2b99e9b1",
+        "encoded": "container:%20%7B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "71": {
+        "chunkId": "3cb90c",
+        "hash": "c1761422",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "72": {
+        "chunkId": "3cb90c",
+        "hash": "a8139ffc",
+        "encoded": "scrollContent:%20%7B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "73": {
+        "chunkId": "3cb90c",
+        "hash": "3152b5fd",
+        "encoded": "paddingHorizontal:%208,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "74": {
+        "chunkId": "3cb90c",
+        "hash": "d427286f",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "75": {
+        "chunkId": "3cb90c",
+        "hash": "a02837b8",
+        "encoded": "menuItem:%20%7B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "76": {
+        "chunkId": "3cb90c",
+        "hash": "6d1a35a2",
+        "encoded": "paddingHorizontal:%2016,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "77": {
+        "chunkId": "3cb90c",
+        "hash": "5216419f",
+        "encoded": "paddingVertical:%2010,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "78": {
+        "chunkId": "3cb90c",
+        "hash": "ad5b7199",
+        "encoded": "marginHorizontal:%204,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "79": {
+        "chunkId": "3cb90c",
+        "hash": "656223c9",
+        "encoded": "borderRadius:%206,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "80": {
+        "chunkId": "3cb90c",
+        "hash": "ffe98c3c",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "81": {
+        "chunkId": "3cb90c",
+        "hash": "abb05ce2",
+        "encoded": "activeMenuItem:%20%7B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "82": {
+        "chunkId": "3cb90c",
+        "hash": "e7135da1",
+        "encoded": "elevation:%202,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "83": {
+        "chunkId": "3cb90c",
+        "hash": "ae0413ef",
+        "encoded": "shadowColor:%20'#000',",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "84": {
+        "chunkId": "3cb90c",
+        "hash": "0f00a43b",
+        "encoded": "shadowOffset:%20%7B%20width:%200,%20height:%201%20%7D,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "85": {
+        "chunkId": "3cb90c",
+        "hash": "b2186efe",
+        "encoded": "shadowOpacity:%200.2,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "86": {
+        "chunkId": "3cb90c",
+        "hash": "5d8f63ea",
+        "encoded": "shadowRadius:%202,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "87": {
+        "chunkId": "3cb90c",
+        "hash": "8826589f",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "88": {
+        "chunkId": "3cb90c",
+        "hash": "1b13f378",
+        "encoded": "menuText:%20%7B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "89": {
+        "chunkId": "3cb90c",
+        "hash": "13b4ba70",
+        "encoded": "fontSize:%2014,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "90": {
+        "chunkId": "3cb90c",
+        "hash": "51e1f173",
+        "encoded": "fontWeight:%20'500',",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "91": {
+        "chunkId": "3cb90c",
+        "hash": "5f475dcc",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "92": {
+        "chunkId": "3cb90c",
+        "hash": "0aeb6149",
+        "encoded": "activeMenuText:%20%7B",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "93": {
+        "chunkId": "3cb90c",
+        "hash": "26103e65",
+        "encoded": "fontWeight:%20'700',",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "94": {
+        "chunkId": "3cb90c",
+        "hash": "ee8434e0",
+        "encoded": "%7D,",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      },
+      "95": {
+        "chunkId": "3cb90c",
+        "hash": "98569f06",
+        "encoded": "%7D);",
+        "prevChunkIds": [
+          "3cb90c"
+        ]
+      }
+    }
+  }
+}

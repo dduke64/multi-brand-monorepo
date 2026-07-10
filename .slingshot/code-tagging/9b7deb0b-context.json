@@ -1,0 +1,49 @@
+{
+  "filename": "config.json",
+  "path": "packages/design-system/src/config/config.json",
+  "version": "1.1",
+  "files": {
+    "6c8a21b9": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "HomeScreen.tsx",
+          "relativeFilePath": "apps/mobile/src/screens/HomeScreen.tsx",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            33
+          ]
+        }
+      ]
+    },
+    "50af12c4": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "App.tsx",
+          "relativeFilePath": "apps/mobile/src/App.tsx",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            18
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "01dc5d62": {
+      "value": "can you build out 1-2 more pages to showcase various common components in a mobile app. Follow the mono-repo design and set it up so each brand can opt into/out of each component individually, and use its brand theming across all components automatically"
+    },
+    "a122e99f": {
+      "value": "okay this is looking good. Can you change the home page to look like an ecommerce site, with a couple of dummy product tiles, a search bar, and a top menu bar. the components don't need to go anywhere though. Please set it up so that BrandA and BrandB have different top menu options to showcase the flexibility of the mono-repo. Use good design principles that maximize code reuse and generic components that are then customized by each brand"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

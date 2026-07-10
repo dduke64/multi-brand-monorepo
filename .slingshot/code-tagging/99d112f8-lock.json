@@ -1,0 +1,308 @@
+{
+  "package.json": {
+    "filename": "package.json",
+    "path": "package.json",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "e06940": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528718,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "2b18190e",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:38:38 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      },
+      "2decb7": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528776,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "a7e234b5",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:39:36 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "2decb7",
+        "hash": "47009686",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "2decb7",
+        "hash": "c4d02b17",
+        "encoded": "%22name%22:%20%22dib-monorepo%22,",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "2decb7",
+        "hash": "bde4980f",
+        "encoded": "%22version%22:%20%221.0.0%22,",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "2decb7",
+        "hash": "6aea5eaa",
+        "encoded": "%22private%22:%20true,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "2decb7",
+        "hash": "b88cde44",
+        "encoded": "%22workspaces%22:%20%5B",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "2decb7",
+        "hash": "1e69a6c0",
+        "encoded": "%22apps/*%22,",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "2decb7",
+        "hash": "31cc014f",
+        "encoded": "%22packages/*%22",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "2decb7",
+        "hash": "c391b260",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "2decb7",
+        "hash": "f98cf40c",
+        "encoded": "%22scripts%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "2decb7",
+        "hash": "4589f04f",
+        "encoded": "%22mobile%22:%20%22npm%20run%20--workspace=@dib/mobile%22,",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "2decb7",
+        "hash": "7d124626",
+        "encoded": "%22mobile:start%22:%20%22npm%20run%20start%20--workspace=@dib/mobile%22,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "2decb7",
+        "hash": "e1e49152",
+        "encoded": "%22mobile:android%22:%20%22npm%20run%20android%20--workspace=@dib/mobile%22,",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "2decb7",
+        "hash": "43865e28",
+        "encoded": "%22mobile:ios%22:%20%22npm%20run%20ios%20--workspace=@dib/mobile%22",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "2decb7",
+        "hash": "c162cffc",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "2decb7",
+        "hash": "e31bcf4d",
+        "encoded": "%22devDependencies%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "2decb7",
+        "hash": "4f484df6",
+        "encoded": "%22typescript%22:%20%22~6.0.3%22",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "2decb7",
+        "hash": "e0024018",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "2decb7",
+        "hash": "e3c379f5",
+        "encoded": "%22engines%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "2decb7",
+        "hash": "9b626abe",
+        "encoded": "%22node%22:%20%22%3E=18.0.0%22,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "2decb7",
+        "hash": "60f9ef7a",
+        "encoded": "%22npm%22:%20%22%3E=8.0.0%22",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "2decb7",
+        "hash": "acbf036f",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "2decb7",
+        "hash": "4b5cc20d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "e06940",
+        "hash": "c84e16ab",
+        "encoded": "%22name%22:%20%22dib-monorepo%22,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "e06940",
+        "hash": "efb6b05a",
+        "encoded": "%22version%22:%20%221.0.0%22,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "e06940",
+        "hash": "4662c4bb",
+        "encoded": "%22private%22:%20true,",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "e06940",
+        "hash": "cb6bff4f",
+        "encoded": "%22workspaces%22:%20%5B",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "e06940",
+        "hash": "a48baf44",
+        "encoded": "%22apps/*%22,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "e06940",
+        "hash": "39d3e931",
+        "encoded": "%22packages/*%22",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "e06940",
+        "hash": "3d303d91",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "e06940",
+        "hash": "87378623",
+        "encoded": "%22scripts%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "e06940",
+        "hash": "840f754b",
+        "encoded": "%22mobile%22:%20%22yarn%20workspace%20@dib/mobile%22,",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "e06940",
+        "hash": "dc8aa306",
+        "encoded": "%22mobile:start%22:%20%22yarn%20workspace%20@dib/mobile%20start%22,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "e06940",
+        "hash": "6611e8cb",
+        "encoded": "%22mobile:android%22:%20%22yarn%20workspace%20@dib/mobile%20android%22,",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "e06940",
+        "hash": "6f9aad4b",
+        "encoded": "%22mobile:ios%22:%20%22yarn%20workspace%20@dib/mobile%20ios%22",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "e06940",
+        "hash": "108b8db2",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "e06940",
+        "hash": "56189d31",
+        "encoded": "%22devDependencies%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "e06940",
+        "hash": "19a2705e",
+        "encoded": "%22typescript%22:%20%22~6.0.3%22",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "e06940",
+        "hash": "c541b7ab",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "e06940",
+        "hash": "edee2440",
+        "encoded": "%22engines%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "e06940",
+        "hash": "f3c17719",
+        "encoded": "%22node%22:%20%22%3E=18.0.0%22,",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "e06940",
+        "hash": "56d1840c",
+        "encoded": "%22yarn%22:%20%22%3E=1.22.0%22",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "e06940",
+        "hash": "98f83ab6",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "e06940",
+        "hash": "5663967b",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

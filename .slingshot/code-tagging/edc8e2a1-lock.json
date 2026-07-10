@@ -1,0 +1,355 @@
+{
+  "packages/design-system/src/atoms/Avatar.tsx": {
+    "filename": "Avatar.tsx",
+    "path": "packages/design-system/src/atoms/Avatar.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "9e59d1": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783529574,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "0070a9d3",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:52:54 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "9e59d1",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "9e59d1",
+        "hash": "dae7ceb4",
+        "encoded": "import%20%7B%20View,%20Image,%20StyleSheet,%20ViewStyle,%20ImageSourcePropType%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "9e59d1",
+        "hash": "1a9b5565",
+        "encoded": "import%20%7B%20useTheme%20%7D%20from%20'../theme/ThemeProvider';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "9e59d1",
+        "hash": "897d5e9b",
+        "encoded": "import%20%7B%20Text%20%7D%20from%20'./Text';",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "9e59d1",
+        "hash": "d0d27e46",
+        "encoded": "interface%20AvatarProps%20%7B",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "9e59d1",
+        "hash": "fe08b95f",
+        "encoded": "source?:%20ImageSourcePropType;",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "9e59d1",
+        "hash": "1f555a3a",
+        "encoded": "initials?:%20string;",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "9e59d1",
+        "hash": "a90396e5",
+        "encoded": "size?:%20'small'%20%7C%20'medium'%20%7C%20'large';",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "9e59d1",
+        "hash": "3466ec98",
+        "encoded": "style?:%20ViewStyle;",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "9e59d1",
+        "hash": "c2f1edd6",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "9e59d1",
+        "hash": "0758a6fb",
+        "encoded": "export%20const%20Avatar:%20React.FC%3CAvatarProps%3E%20=%20(%7B%20source,%20initials,%20size%20=%20'medium',%20style%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "9e59d1",
+        "hash": "6438f780",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "9e59d1",
+        "hash": "4005f481",
+        "encoded": "const%20sizeMap%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "9e59d1",
+        "hash": "7833057a",
+        "encoded": "small:%2032,",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "9e59d1",
+        "hash": "b20452f5",
+        "encoded": "medium:%2048,",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "9e59d1",
+        "hash": "ecda2c22",
+        "encoded": "large:%2064,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "9e59d1",
+        "hash": "1c5cd165",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "9e59d1",
+        "hash": "61c09af1",
+        "encoded": "const%20avatarSize%20=%20sizeMap%5Bsize%5D;",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "9e59d1",
+        "hash": "08983426",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "9e59d1",
+        "hash": "51d6bff1",
+        "encoded": "%3CView",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "9e59d1",
+        "hash": "f3b9e75c",
+        "encoded": "style=%7B%5B",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "9e59d1",
+        "hash": "87174a64",
+        "encoded": "styles.avatar,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "9e59d1",
+        "hash": "c3d55038",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "9e59d1",
+        "hash": "c8722299",
+        "encoded": "width:%20avatarSize,",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "9e59d1",
+        "hash": "62ef671d",
+        "encoded": "height:%20avatarSize,",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "9e59d1",
+        "hash": "e2977ae8",
+        "encoded": "borderRadius:%20avatarSize%20/%202,",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "9e59d1",
+        "hash": "3c245ed6",
+        "encoded": "backgroundColor:%20theme.colors.primary,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "9e59d1",
+        "hash": "82e603d7",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "9e59d1",
+        "hash": "65f1267f",
+        "encoded": "style,",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "9e59d1",
+        "hash": "b7372b7c",
+        "encoded": "%5D%7D",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "9e59d1",
+        "hash": "13e2d57e",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "9e59d1",
+        "hash": "25a1cba0",
+        "encoded": "%7Bsource%20?%20(",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "9e59d1",
+        "hash": "1835abe9",
+        "encoded": "%3CImage%20source=%7Bsource%7D%20style=%7B%5Bstyles.image,%20%7B%20width:%20avatarSize,%20height:%20avatarSize,%20borderRadius:%20avatarSize%20/%202%20%7D%5D%7D%20/%3E",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "9e59d1",
+        "hash": "2f7b1d74",
+        "encoded": ")%20:%20(",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "9e59d1",
+        "hash": "77d2d770",
+        "encoded": "%3CText%20variant=%22body%22%20style=%7Bstyles.initials%7D%3E",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "9e59d1",
+        "hash": "5bd1025f",
+        "encoded": "%7Binitials%20%7C%7C%20'?'%7D",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "9e59d1",
+        "hash": "9b79d09e",
+        "encoded": "%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "9e59d1",
+        "hash": "04898fa6",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "9e59d1",
+        "hash": "991ab342",
+        "encoded": "%3C/View%3E",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "9e59d1",
+        "hash": "15b81b0c",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "9e59d1",
+        "hash": "d95efe69",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "9e59d1",
+        "hash": "b990dd3b",
+        "encoded": "const%20styles%20=%20StyleSheet.create(%7B",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "9e59d1",
+        "hash": "69892c07",
+        "encoded": "avatar:%20%7B",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "9e59d1",
+        "hash": "20c09ebb",
+        "encoded": "justifyContent:%20'center',",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "9e59d1",
+        "hash": "97c8d41e",
+        "encoded": "alignItems:%20'center',",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "9e59d1",
+        "hash": "c4149f68",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "9e59d1",
+        "hash": "7ff7da50",
+        "encoded": "image:%20%7B",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "9e59d1",
+        "hash": "29249357",
+        "encoded": "resizeMode:%20'cover',",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "9e59d1",
+        "hash": "0b781114",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "9e59d1",
+        "hash": "78cfb612",
+        "encoded": "initials:%20%7B",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "9e59d1",
+        "hash": "53d944f3",
+        "encoded": "color:%20'#FFFFFF',",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "9e59d1",
+        "hash": "9df81139",
+        "encoded": "fontWeight:%20'bold',",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "9e59d1",
+        "hash": "f31f7ed2",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "9e59d1",
+        "hash": "22ea84c9",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "apps/mobile/src/navigation/Navigation.tsx": {
+    "filename": "Navigation.tsx",
+    "path": "apps/mobile/src/navigation/Navigation.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "932287": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531253,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "1d10ce92",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:20:53 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "d403da": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783529889,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "10f47a2a",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:58:09 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "d403da",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "d403da",
+        "hash": "b64d1955",
+        "encoded": "import%20%7B%20createBottomTabNavigator%20%7D%20from%20'@react-navigation/bottom-tabs';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "d403da",
+        "hash": "f2df3e7c",
+        "encoded": "import%20%7B%20NavigationContainer%20%7D%20from%20'@react-navigation/native';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "d403da",
+        "hash": "f8caddb4",
+        "encoded": "import%20%7B%20HomeScreen%20%7D%20from%20'../screens/HomeScreen';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "d403da",
+        "hash": "0608963d",
+        "encoded": "import%20%7B%20ComponentsScreen%20%7D%20from%20'../screens/ComponentsScreen';",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "d403da",
+        "hash": "af4255f7",
+        "encoded": "import%20%7B%20ProfileScreen%20%7D%20from%20'../screens/ProfileScreen';",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "d403da",
+        "hash": "2c6ef3df",
+        "encoded": "import%20%7B%20useTheme%20%7D%20from%20'@dib/design-system';",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "d403da",
+        "hash": "3c996ee8",
+        "encoded": "const%20Tab%20=%20createBottomTabNavigator();",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "d403da",
+        "hash": "6d649c51",
+        "encoded": "interface%20NavigationProps%20%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "d403da",
+        "hash": "ffac1bf5",
+        "encoded": "brandId:%20string;",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "d403da",
+        "hash": "6a3f2143",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "d403da",
+        "hash": "c80fb0b0",
+        "encoded": "export%20const%20Navigation:%20React.FC%3CNavigationProps%3E%20=%20(%7B%20brandId%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "d403da",
+        "hash": "445a80b0",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "d403da",
+        "hash": "56ef7880",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "d403da",
+        "hash": "56ef4c7e",
+        "encoded": "%3CNavigationContainer%3E",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "d403da",
+        "hash": "2d764e1e",
+        "encoded": "%3CTab.Navigator",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "d403da",
+        "hash": "34f6be0e",
+        "encoded": "screenOptions=%7B%7B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "d403da",
+        "hash": "a336079d",
+        "encoded": "headerShown:%20false,",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "d403da",
+        "hash": "273b486a",
+        "encoded": "tabBarActiveTintColor:%20theme.colors.primary,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "d403da",
+        "hash": "ffd701c8",
+        "encoded": "tabBarInactiveTintColor:%20theme.colors.textSecondary,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "d403da",
+        "hash": "f71f8c1f",
+        "encoded": "tabBarStyle:%20%7B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "d403da",
+        "hash": "bc8378ec",
+        "encoded": "backgroundColor:%20theme.colors.background,",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "d403da",
+        "hash": "1ede8a5b",
+        "encoded": "borderTopColor:%20theme.colors.textSecondary,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "d403da",
+        "hash": "3b955d05",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "d403da",
+        "hash": "6e78d1ff",
+        "encoded": "%7D%7D",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "d403da",
+        "hash": "13df6c1b",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "932287",
+        "hash": "80abb612",
+        "encoded": "%3CTab.Screen",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "932287",
+        "hash": "401aa0d8",
+        "encoded": "name=%22Home%22",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "932287",
+        "hash": "da73cc68",
+        "encoded": "options=%7B%7B",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "932287",
+        "hash": "95689ffe",
+        "encoded": "tabBarLabel:%20'Home',",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "932287",
+        "hash": "b94eb44e",
+        "encoded": "%7D%7D",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "932287",
+        "hash": "13e2d57e",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "932287",
+        "hash": "9afadb23",
+        "encoded": "%7B()%20=%3E%20%3CHomeScreen%20brandId=%7BbrandId%7D%20/%3E%7D",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "932287",
+        "hash": "ac0a158e",
+        "encoded": "%3C/Tab.Screen%3E",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "d403da",
+        "hash": "d4242d3c",
+        "encoded": "name=%22Home%22",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "d403da",
+        "hash": "de64e7b1",
+        "encoded": "component=%7BHomeScreen%7D",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "d403da",
+        "hash": "6f17de15",
+        "encoded": "options=%7B%7B",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "d403da",
+        "hash": "819b02dc",
+        "encoded": "tabBarLabel:%20'Home',",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "d403da",
+        "hash": "ed69ceea",
+        "encoded": "%7D%7D",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "d403da",
+        "hash": "2d64bf8c",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "d403da",
+        "hash": "8c4629e2",
+        "encoded": "%3CTab.Screen",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "d403da",
+        "hash": "6177483b",
+        "encoded": "name=%22Components%22",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "d403da",
+        "hash": "fa8e1521",
+        "encoded": "options=%7B%7B",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "d403da",
+        "hash": "981119b0",
+        "encoded": "tabBarLabel:%20'Components',",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "d403da",
+        "hash": "e93bb736",
+        "encoded": "%7D%7D",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "d403da",
+        "hash": "56edb96c",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "d403da",
+        "hash": "f316985d",
+        "encoded": "%7B()%20=%3E%20%3CComponentsScreen%20brandId=%7BbrandId%7D%20/%3E%7D",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "d403da",
+        "hash": "93f6f84f",
+        "encoded": "%3C/Tab.Screen%3E",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "d403da",
+        "hash": "9157b2a1",
+        "encoded": "%3CTab.Screen",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "d403da",
+        "hash": "07432ff5",
+        "encoded": "name=%22Profile%22",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "d403da",
+        "hash": "e4a4b899",
+        "encoded": "options=%7B%7B",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "d403da",
+        "hash": "1d9c7e15",
+        "encoded": "tabBarLabel:%20'Profile',",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "d403da",
+        "hash": "139d734f",
+        "encoded": "%7D%7D",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "d403da",
+        "hash": "a8235f5b",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "d403da",
+        "hash": "7781d9ab",
+        "encoded": "%7B()%20=%3E%20%3CProfileScreen%20brandId=%7BbrandId%7D%20/%3E%7D",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "d403da",
+        "hash": "bd03d488",
+        "encoded": "%3C/Tab.Screen%3E",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "d403da",
+        "hash": "e87a16a4",
+        "encoded": "%3C/Tab.Navigator%3E",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "d403da",
+        "hash": "20f9e738",
+        "encoded": "%3C/NavigationContainer%3E",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "d403da",
+        "hash": "8bde6d40",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "d403da",
+        "hash": "9ab1c559",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 58
+  }
+}

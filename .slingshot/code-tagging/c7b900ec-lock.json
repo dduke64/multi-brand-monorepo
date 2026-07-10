@@ -1,0 +1,752 @@
+{
+  "packages/design-system/src/molecules/ProductTile.tsx": {
+    "filename": "ProductTile.tsx",
+    "path": "packages/design-system/src/molecules/ProductTile.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "6b0589": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783530939,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "32da9a61",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:15:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      },
+      "75fdeb": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783531444,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "07a1181c",
+          "files": "13e07e09"
+        },
+        "hash": "476b135e",
+        "messageId": "system_a1660200-7af1-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:24:04 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "6b0589",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "6b0589",
+        "hash": "a196b1de",
+        "encoded": "import%20%7B%20StyleSheet,%20TouchableOpacity,%20Image,%20View%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "6b0589",
+        "hash": "1a9b5565",
+        "encoded": "import%20%7B%20useTheme%20%7D%20from%20'../theme/ThemeProvider';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "6b0589",
+        "hash": "a3bde58b",
+        "encoded": "import%20%7B%20Text%20%7D%20from%20'../atoms/Text';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "6b0589",
+        "hash": "85b11ad9",
+        "encoded": "import%20%7B%20Badge%20%7D%20from%20'../atoms/Badge';",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "6b0589",
+        "hash": "6776f4c9",
+        "encoded": "export%20interface%20Product%20%7B",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "6b0589",
+        "hash": "421f944d",
+        "encoded": "id:%20string;",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "6b0589",
+        "hash": "6f5d543b",
+        "encoded": "name:%20string;",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "6b0589",
+        "hash": "20e582e3",
+        "encoded": "price:%20string;",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "6b0589",
+        "hash": "e7c569b7",
+        "encoded": "imageUrl?:%20string;",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "6b0589",
+        "hash": "0eb2e670",
+        "encoded": "badge?:%20string;",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "6b0589",
+        "hash": "d7632326",
+        "encoded": "onPress?:%20()%20=%3E%20void;",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "6b0589",
+        "hash": "e683dcf7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "6b0589",
+        "hash": "3ac92b18",
+        "encoded": "interface%20ProductTileProps%20%7B",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "6b0589",
+        "hash": "77d7ef54",
+        "encoded": "product:%20Product;",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "6b0589",
+        "hash": "76477189",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "75fdeb",
+        "hash": "37c6569a",
+        "encoded": "export%20const%20ProductTile%20=%20(%7B%20product%20%7D:%20ProductTileProps)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "75fdeb",
+        "hash": "c141702b",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "75fdeb",
+        "hash": "b2e3ee96",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "6b0589",
+        "hash": "18a5e822",
+        "encoded": "%3CTouchableOpacity",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "6b0589",
+        "hash": "6fd5bb4b",
+        "encoded": "style=%7B%5B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "6b0589",
+        "hash": "c56c9dce",
+        "encoded": "styles.container,",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "6b0589",
+        "hash": "63287bfe",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "6b0589",
+        "hash": "4bbcff58",
+        "encoded": "backgroundColor:%20theme.colors.background,",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "6b0589",
+        "hash": "49c11e99",
+        "encoded": "borderColor:%20theme.colors.textSecondary,",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "6b0589",
+        "hash": "b0145a10",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "6b0589",
+        "hash": "a9a2e5dc",
+        "encoded": "%5D%7D",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "6b0589",
+        "hash": "5ebf7bc3",
+        "encoded": "onPress=%7Bproduct.onPress%7D",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "6b0589",
+        "hash": "f66f0d89",
+        "encoded": "accessibilityLabel=%7B%60$%7Bproduct.name%7D,%20$%7Bproduct.price%7D%60%7D",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "6b0589",
+        "hash": "46bf6867",
+        "encoded": "accessibilityRole=%22button%22",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "6b0589",
+        "hash": "e4938632",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "6b0589",
+        "hash": "df7c4fce",
+        "encoded": "%3CView%20style=%7Bstyles.imageContainer%7D%3E",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "6b0589",
+        "hash": "f28d5fb8",
+        "encoded": "%7Bproduct.imageUrl%20?%20(",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "6b0589",
+        "hash": "a021456d",
+        "encoded": "%3CImage",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "6b0589",
+        "hash": "734f3f6b",
+        "encoded": "source=%7B%7B%20uri:%20product.imageUrl%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "6b0589",
+        "hash": "ce714253",
+        "encoded": "style=%7Bstyles.image%7D",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "6b0589",
+        "hash": "d2576446",
+        "encoded": "resizeMode=%22cover%22",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "6b0589",
+        "hash": "696dda69",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "6b0589",
+        "hash": "e2a701b0",
+        "encoded": ")%20:%20(",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "6b0589",
+        "hash": "8d05b309",
+        "encoded": "%3CView",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "6b0589",
+        "hash": "6e1fbc57",
+        "encoded": "style=%7B%5B",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "6b0589",
+        "hash": "35a00cf8",
+        "encoded": "styles.imagePlaceholder,",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "6b0589",
+        "hash": "fd69eb67",
+        "encoded": "%7B%20backgroundColor:%20theme.colors.textSecondary%20+%20'20'%20%7D,",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "6b0589",
+        "hash": "42af15a4",
+        "encoded": "%5D%7D",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "6b0589",
+        "hash": "117ff266",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "6b0589",
+        "hash": "d83fc299",
+        "encoded": "%3CText%20style=%7B%7B%20color:%20theme.colors.textSecondary%20%7D%7D%3E%F0%9F%93%A6%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "6b0589",
+        "hash": "f49a4eff",
+        "encoded": "%3C/View%3E",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "6b0589",
+        "hash": "fffe51d2",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "6b0589",
+        "hash": "7fcf874b",
+        "encoded": "%7Bproduct.badge%20&&%20(",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "6b0589",
+        "hash": "8af40bba",
+        "encoded": "%3CView%20style=%7Bstyles.badgeContainer%7D%3E",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "6b0589",
+        "hash": "2f3a5ad9",
+        "encoded": "%3CBadge%20label=%7Bproduct.badge%7D%20variant=%22primary%22%20/%3E",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "6b0589",
+        "hash": "a6a8cb55",
+        "encoded": "%3C/View%3E",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "6b0589",
+        "hash": "fc03a6f9",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "6b0589",
+        "hash": "dc812881",
+        "encoded": "%3C/View%3E",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "6b0589",
+        "hash": "3ee97994",
+        "encoded": "%3CView%20style=%7Bstyles.infoContainer%7D%3E",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "6b0589",
+        "hash": "4c01586b",
+        "encoded": "%3CText",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "6b0589",
+        "hash": "00dd1d2f",
+        "encoded": "variant=%22body%22",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "6b0589",
+        "hash": "dee9c3f7",
+        "encoded": "style=%7B%5Bstyles.productName,%20%7B%20color:%20theme.colors.text%20%7D%5D%7D",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "6b0589",
+        "hash": "30c0020e",
+        "encoded": "numberOfLines=%7B2%7D",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "6b0589",
+        "hash": "d5a83c0d",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "6b0589",
+        "hash": "ea927065",
+        "encoded": "%7Bproduct.name%7D",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "6b0589",
+        "hash": "8e186703",
+        "encoded": "%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "6b0589",
+        "hash": "f1ebb07e",
+        "encoded": "%3CText",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "6b0589",
+        "hash": "50ae692b",
+        "encoded": "variant=%22body%22",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "6b0589",
+        "hash": "bfafda29",
+        "encoded": "style=%7B%5Bstyles.productPrice,%20%7B%20color:%20theme.colors.primary%20%7D%5D%7D",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "6b0589",
+        "hash": "a1f242ce",
+        "encoded": "%3E",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "6b0589",
+        "hash": "c7034f59",
+        "encoded": "%7Bproduct.price%7D",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "6b0589",
+        "hash": "df8c901f",
+        "encoded": "%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "6b0589",
+        "hash": "43ce5850",
+        "encoded": "%3C/View%3E",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "6b0589",
+        "hash": "968e480a",
+        "encoded": "%3C/TouchableOpacity%3E",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "6b0589",
+        "hash": "18089eed",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "6b0589",
+        "hash": "04c8973c",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "6b0589",
+        "hash": "bd66e8f2",
+        "encoded": "const%20styles%20=%20StyleSheet.create(%7B",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "6b0589",
+        "hash": "2f8bc367",
+        "encoded": "container:%20%7B",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "6b0589",
+        "hash": "6c8e4fbe",
+        "encoded": "width:%20'48%25',",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "6b0589",
+        "hash": "ea919965",
+        "encoded": "marginBottom:%2016,",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "6b0589",
+        "hash": "dd56923f",
+        "encoded": "borderRadius:%2012,",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "6b0589",
+        "hash": "c53dd527",
+        "encoded": "borderWidth:%201,",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "6b0589",
+        "hash": "503315c8",
+        "encoded": "overflow:%20'hidden',",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "6b0589",
+        "hash": "7d3d5f89",
+        "encoded": "elevation:%202,",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "6b0589",
+        "hash": "851ea6c0",
+        "encoded": "shadowColor:%20'#000',",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "6b0589",
+        "hash": "631068dd",
+        "encoded": "shadowOffset:%20%7B%20width:%200,%20height:%202%20%7D,",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "6b0589",
+        "hash": "0b8bc27d",
+        "encoded": "shadowOpacity:%200.1,",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "6b0589",
+        "hash": "deca7c3f",
+        "encoded": "shadowRadius:%204,",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "6b0589",
+        "hash": "d7c5d414",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "6b0589",
+        "hash": "7a2e43f9",
+        "encoded": "imageContainer:%20%7B",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "6b0589",
+        "hash": "c864f01a",
+        "encoded": "position:%20'relative',",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "6b0589",
+        "hash": "b3114899",
+        "encoded": "width:%20'100%25',",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "6b0589",
+        "hash": "e9a06d35",
+        "encoded": "aspectRatio:%201,",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "6b0589",
+        "hash": "ee8434e0",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "6b0589",
+        "hash": "17fe0fcb",
+        "encoded": "image:%20%7B",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "6b0589",
+        "hash": "ea8533cf",
+        "encoded": "width:%20'100%25',",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "6b0589",
+        "hash": "fa27c106",
+        "encoded": "height:%20'100%25',",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "6b0589",
+        "hash": "4886e925",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "6b0589",
+        "hash": "722bc1d9",
+        "encoded": "imagePlaceholder:%20%7B",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "6b0589",
+        "hash": "c5a27ed8",
+        "encoded": "width:%20'100%25',",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "6b0589",
+        "hash": "e8a6fed2",
+        "encoded": "height:%20'100%25',",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "6b0589",
+        "hash": "0eee54af",
+        "encoded": "justifyContent:%20'center',",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "6b0589",
+        "hash": "067a7ff2",
+        "encoded": "alignItems:%20'center',",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "6b0589",
+        "hash": "cc6e78e5",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "6b0589",
+        "hash": "1e6c5f6b",
+        "encoded": "badgeContainer:%20%7B",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "6b0589",
+        "hash": "1eb3dedb",
+        "encoded": "position:%20'absolute',",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "6b0589",
+        "hash": "6e50d743",
+        "encoded": "top:%208,",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "6b0589",
+        "hash": "fd843aff",
+        "encoded": "right:%208,",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "6b0589",
+        "hash": "8f9a04e1",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "6b0589",
+        "hash": "fdab5292",
+        "encoded": "infoContainer:%20%7B",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "6b0589",
+        "hash": "eb02c7c1",
+        "encoded": "padding:%2012,",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "6b0589",
+        "hash": "18d108ec",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "6b0589",
+        "hash": "7d86ac9e",
+        "encoded": "productName:%20%7B",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "6b0589",
+        "hash": "0b843e21",
+        "encoded": "marginBottom:%204,",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "6b0589",
+        "hash": "4eb30269",
+        "encoded": "fontWeight:%20'500',",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "6b0589",
+        "hash": "b6c82857",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "6b0589",
+        "hash": "26afe124",
+        "encoded": "productPrice:%20%7B",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "6b0589",
+        "hash": "02ee56f4",
+        "encoded": "fontWeight:%20'700',",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "6b0589",
+        "hash": "db95af1e",
+        "encoded": "fontSize:%2016,",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "6b0589",
+        "hash": "57885395",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "6b0589",
+        "hash": "c4a7e6ed",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

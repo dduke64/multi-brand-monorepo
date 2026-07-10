@@ -1,0 +1,31 @@
+{
+  "filename": "README.md",
+  "path": "packages/design-system/src/config/README.md",
+  "version": "1.1",
+  "files": {
+    "6c8a21b9": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "HomeScreen.tsx",
+          "relativeFilePath": "apps/mobile/src/screens/HomeScreen.tsx",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            33
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "01dc5d62": {
+      "value": "can you build out 1-2 more pages to showcase various common components in a mobile app. Follow the mono-repo design and set it up so each brand can opt into/out of each component individually, and use its brand theming across all components automatically"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

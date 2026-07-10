@@ -1,0 +1,253 @@
+{
+  ".gitignore": {
+    "filename": ".gitignore",
+    "path": ".gitignore",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "ce562c": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528776,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "5187e11e",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:39:36 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "ce562c",
+        "hash": "78a5f81f",
+        "encoded": "#%20Dependencies",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "ce562c",
+        "hash": "e645e5bb",
+        "encoded": "node_modules/",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "ce562c",
+        "hash": "a4d2b783",
+        "encoded": "#%20Expo",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "ce562c",
+        "hash": "62cd0884",
+        "encoded": ".expo/",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "ce562c",
+        "hash": "b264cfeb",
+        "encoded": "dist/",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "ce562c",
+        "hash": "0af86d41",
+        "encoded": "web-build/",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "ce562c",
+        "hash": "b6a7867e",
+        "encoded": "#%20Native",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "ce562c",
+        "hash": "56004d92",
+        "encoded": "*.orig.*",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "ce562c",
+        "hash": "270642be",
+        "encoded": "*.jks",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "ce562c",
+        "hash": "ecd94044",
+        "encoded": "*.p8",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "ce562c",
+        "hash": "b8b87e2e",
+        "encoded": "*.p12",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "ce562c",
+        "hash": "88fc733e",
+        "encoded": "*.key",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "ce562c",
+        "hash": "18298c01",
+        "encoded": "*.mobileprovision",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "ce562c",
+        "hash": "f68852f3",
+        "encoded": "*.keystore",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "ce562c",
+        "hash": "35d6579b",
+        "encoded": "#%20Metro",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "ce562c",
+        "hash": "a0b70ff7",
+        "encoded": ".metro-health-check*",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "ce562c",
+        "hash": "3811752e",
+        "encoded": "#%20Debug",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "ce562c",
+        "hash": "56e0ef18",
+        "encoded": "npm-debug.*",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "ce562c",
+        "hash": "aa2cf524",
+        "encoded": "yarn-debug.*",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "ce562c",
+        "hash": "f1889770",
+        "encoded": "yarn-error.*",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "ce562c",
+        "hash": "413a967c",
+        "encoded": "#%20macOS",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "ce562c",
+        "hash": "f6831301",
+        "encoded": ".DS_Store",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "ce562c",
+        "hash": "2538dbf9",
+        "encoded": "*.pem",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "ce562c",
+        "hash": "46f3cecc",
+        "encoded": "#%20Local%20env%20files",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "ce562c",
+        "hash": "1bc640bb",
+        "encoded": ".env*.local",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "ce562c",
+        "hash": "9cbc7aef",
+        "encoded": ".env",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "ce562c",
+        "hash": "cf54498b",
+        "encoded": "#%20TypeScript",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "ce562c",
+        "hash": "163496ce",
+        "encoded": "*.tsbuildinfo",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "ce562c",
+        "hash": "f7943746",
+        "encoded": "#%20IDE",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "ce562c",
+        "hash": "2925844a",
+        "encoded": ".vscode/",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "ce562c",
+        "hash": "0dc7db0b",
+        "encoded": ".idea/",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "ce562c",
+        "hash": "0122ab86",
+        "encoded": "*.swp",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "ce562c",
+        "hash": "5eb3132b",
+        "encoded": "*.swo",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "ce562c",
+        "hash": "ecc04145",
+        "encoded": "*~",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "ce562c",
+        "hash": "0ce03412",
+        "encoded": "#%20Build",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "ce562c",
+        "hash": "618b2251",
+        "encoded": "build/",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "ce562c",
+        "hash": "ad60de61",
+        "encoded": "*.log",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

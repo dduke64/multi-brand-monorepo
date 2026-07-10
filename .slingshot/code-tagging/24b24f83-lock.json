@@ -1,0 +1,763 @@
+{
+  "apps/mobile/docs/SETUP_INSTRUCTIONS.md": {
+    "filename": "SETUP_INSTRUCTIONS.md",
+    "path": "apps/mobile/docs/SETUP_INSTRUCTIONS.md",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "3de982": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783530133,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "a4e493e7",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:02:13 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "3de982",
+        "hash": "74ed70d1",
+        "encoded": "#%20Setup%20Instructions%20for%20Component%20Showcase",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "3de982",
+        "hash": "41aa0496",
+        "encoded": "Follow%20these%20steps%20to%20get%20the%20multi-brand%20component%20showcase%20running.",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "3de982",
+        "hash": "46df7dcd",
+        "encoded": "##%20Prerequisites",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "3de982",
+        "hash": "2b69675c",
+        "encoded": "-%20Node.js%20(v18%20or%20higher)",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "3de982",
+        "hash": "9c879817",
+        "encoded": "-%20npm%20or%20yarn",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "3de982",
+        "hash": "f4bed19f",
+        "encoded": "-%20Expo%20CLI%20(installed%20via%20dependencies)",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "3de982",
+        "hash": "3e1383f6",
+        "encoded": "-%20For%20iOS:%20Xcode%20(macOS%20only)",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "3de982",
+        "hash": "31f300d0",
+        "encoded": "-%20For%20Android:%20Android%20Studio%20with%20emulator",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "3de982",
+        "hash": "4bdf6dcd",
+        "encoded": "##%20Installation%20Steps",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "3de982",
+        "hash": "460f9584",
+        "encoded": "###%201.%20Install%20Dependencies",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "3de982",
+        "hash": "06798b52",
+        "encoded": "From%20the%20project%20root%20directory:",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "3de982",
+        "hash": "8d900de2",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "3de982",
+        "hash": "a3d4e8d3",
+        "encoded": "npm%20install",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "3de982",
+        "hash": "529379ff",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "3de982",
+        "hash": "0afbeb3c",
+        "encoded": "This%20will%20install%20dependencies%20for%20all%20packages%20in%20the%20monorepo.",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "3de982",
+        "hash": "77a30583",
+        "encoded": "###%202.%20Navigate%20to%20Mobile%20App",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "3de982",
+        "hash": "4f1f88e4",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "3de982",
+        "hash": "3dd7f587",
+        "encoded": "cd%20apps/mobile",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "3de982",
+        "hash": "7b91c9e6",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "3de982",
+        "hash": "4b2673ce",
+        "encoded": "###%203.%20Start%20the%20Development%20Server",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "3de982",
+        "hash": "992a1d5e",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "3de982",
+        "hash": "030fc95e",
+        "encoded": "npm%20start",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "3de982",
+        "hash": "1345d99c",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "3de982",
+        "hash": "00774f3a",
+        "encoded": "Or%20use%20the%20Expo%20CLI%20directly:",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "3de982",
+        "hash": "a8561cf1",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "3de982",
+        "hash": "dda0badb",
+        "encoded": "expx%20expo%20start",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "3de982",
+        "hash": "cd4430ef",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "3de982",
+        "hash": "d1887df1",
+        "encoded": "###%204.%20Choose%20Your%20Platform",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "3de982",
+        "hash": "2922f98b",
+        "encoded": "Once%20the%20development%20server%20starts,%20you'll%20see%20options:",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "3de982",
+        "hash": "997a3718",
+        "encoded": "-%20Press%20**%60a%60**%20to%20open%20on%20Android%20emulator/device",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "3de982",
+        "hash": "49609e41",
+        "encoded": "-%20Press%20**%60i%60**%20to%20open%20on%20iOS%20simulator%20(macOS%20only)",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "3de982",
+        "hash": "24c00ab6",
+        "encoded": "-%20Press%20**%60w%60**%20to%20open%20in%20web%20browser",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "3de982",
+        "hash": "f576d538",
+        "encoded": "##%20Testing%20Different%20Brands",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "3de982",
+        "hash": "dfd26d37",
+        "encoded": "###%20Method%201:%20Environment%20Variable%20(Recommended)",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "3de982",
+        "hash": "b4a38ede",
+        "encoded": "Set%20the%20brand%20before%20starting:",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "3de982",
+        "hash": "9315df62",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "3de982",
+        "hash": "82e7b95d",
+        "encoded": "EXPO_PUBLIC_BRAND_ID=brandA%20npm%20start",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "3de982",
+        "hash": "f206249c",
+        "encoded": "#%20or",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "3de982",
+        "hash": "55a23d39",
+        "encoded": "EXPO_PUBLIC_BRAND_ID=brandB%20npm%20start",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "3de982",
+        "hash": "4b176361",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "3de982",
+        "hash": "dee1c746",
+        "encoded": "###%20Method%202:%20Edit%20App.tsx",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "3de982",
+        "hash": "23b57fac",
+        "encoded": "Edit%20%60/apps/mobile/src/App.tsx%60:",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "3de982",
+        "hash": "b35e22bc",
+        "encoded": "%60%60%60typescript",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "3de982",
+        "hash": "6ee688ff",
+        "encoded": "const%20brandId%20=%20'brandB';%20//%20Change%20from%20'brandA'%20to%20'brandB'",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "3de982",
+        "hash": "6053681b",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "3de982",
+        "hash": "72c88e50",
+        "encoded": "##%20Customizing%20Component%20Availability",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "3de982",
+        "hash": "aa6bcfbf",
+        "encoded": "###%20Disable%20Components%20for%20a%20Brand",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "3de982",
+        "hash": "0948b7c8",
+        "encoded": "Edit%20%60/packages/design-system/src/config/config.json%60:",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "3de982",
+        "hash": "32eff857",
+        "encoded": "%60%60%60json",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "3de982",
+        "hash": "8144bdf5",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "3de982",
+        "hash": "e4342c7e",
+        "encoded": "%22components%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "3de982",
+        "hash": "5ed7a344",
+        "encoded": "%22Card%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "3de982",
+        "hash": "c9ccdb81",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "3de982",
+        "hash": "2277ae1b",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "3de982",
+        "hash": "ab6bda74",
+        "encoded": "%22brandB%22:%20false%20%20//%20Disable%20Card%20for%20brandB",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "3de982",
+        "hash": "e4b921c6",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "3de982",
+        "hash": "d7cd7257",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "3de982",
+        "hash": "7bb00016",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "3de982",
+        "hash": "9c0e6ebc",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "3de982",
+        "hash": "4d9b1499",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "3de982",
+        "hash": "46a186cb",
+        "encoded": "After%20editing,%20restart%20the%20development%20server%20to%20see%20changes.",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "3de982",
+        "hash": "f959d56b",
+        "encoded": "##%20Navigation%20Structure",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "3de982",
+        "hash": "3ef2c16b",
+        "encoded": "The%20app%20includes%20three%20screens%20accessible%20via%20bottom%20tabs:",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "3de982",
+        "hash": "a0c79f20",
+        "encoded": "1.%20**Home**%20-%20Welcome%20screen%20with%20basic%20components",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "3de982",
+        "hash": "4af7b4a9",
+        "encoded": "2.%20**Components**%20-%20Showcase%20of%20all%20available%20UI%20components",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "3de982",
+        "hash": "ef588056",
+        "encoded": "3.%20**Profile**%20-%20Realistic%20user%20profile%20page",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "3de982",
+        "hash": "018e6835",
+        "encoded": "##%20Troubleshooting",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "3de982",
+        "hash": "da8cc2e3",
+        "encoded": "###%20Dependencies%20Not%20Installing",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "3de982",
+        "hash": "406adf29",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "3de982",
+        "hash": "6f7d4d0d",
+        "encoded": "#%20Clear%20npm%20cache",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "3de982",
+        "hash": "2c814fb7",
+        "encoded": "npm%20cache%20clean%20--force",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "3de982",
+        "hash": "0faaac4e",
+        "encoded": "#%20Remove%20node_modules%20and%20reinstall",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "3de982",
+        "hash": "9e5d23d7",
+        "encoded": "rm%20-rf%20node_modules%20package-lock.json",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "3de982",
+        "hash": "680cdc69",
+        "encoded": "npm%20install",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "3de982",
+        "hash": "9e3c8fa0",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "3de982",
+        "hash": "578adbf6",
+        "encoded": "###%20Metro%20Bundler%20Issues",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "3de982",
+        "hash": "3f705304",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "3de982",
+        "hash": "f58b67c5",
+        "encoded": "#%20Clear%20Metro%20cache",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "3de982",
+        "hash": "a19c2b92",
+        "encoded": "expx%20expo%20start%20--clear",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "3de982",
+        "hash": "ffa9b2a8",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "3de982",
+        "hash": "da9dc716",
+        "encoded": "###%20TypeScript%20Errors",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "3de982",
+        "hash": "dbe07cc2",
+        "encoded": "Ensure%20all%20packages%20are%20built:",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "3de982",
+        "hash": "51eaa80b",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "3de982",
+        "hash": "0daeea58",
+        "encoded": "#%20From%20project%20root",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "3de982",
+        "hash": "99e08f32",
+        "encoded": "npm%20install",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "3de982",
+        "hash": "a4deae30",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "3de982",
+        "hash": "94418503",
+        "encoded": "###%20Navigation%20Not%20Working",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "3de982",
+        "hash": "80ab1970",
+        "encoded": "Ensure%20React%20Navigation%20dependencies%20are%20installed:",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "3de982",
+        "hash": "13bcc53d",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "3de982",
+        "hash": "c0d251ac",
+        "encoded": "cd%20apps/mobile",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "3de982",
+        "hash": "616d144b",
+        "encoded": "npm%20install%20@react-navigation/native%20@react-navigation/bottom-tabs%20react-native-screens%20react-native-safe-area-context",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "3de982",
+        "hash": "22f49967",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "3de982",
+        "hash": "771355a1",
+        "encoded": "##%20Project%20Structure",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "3de982",
+        "hash": "1e477eab",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "3de982",
+        "hash": "d077e4a2",
+        "encoded": "arch/",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "3de982",
+        "hash": "fc4b215b",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20apps/",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "3de982",
+        "hash": "e29faf5e",
+        "encoded": "%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20mobile/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20React%20Native%20app",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "3de982",
+        "hash": "4b6b55c5",
+        "encoded": "%E2%94%82%20%20%20%20%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20src/",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "3de982",
+        "hash": "bf8a4089",
+        "encoded": "%E2%94%82%20%20%20%20%20%20%20%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20screens/%20%20%20%20%20%20%20%20%20#%20Screen%20components",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "3de982",
+        "hash": "2ab716a9",
+        "encoded": "%E2%94%82%20%20%20%20%20%20%20%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20navigation/%20%20%20%20%20%20#%20Navigation%20setup",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "3de982",
+        "hash": "eb2ace46",
+        "encoded": "%E2%94%82%20%20%20%20%20%20%20%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20App.tsx%20%20%20%20%20%20%20%20%20%20#%20Root%20component",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "3de982",
+        "hash": "fd499127",
+        "encoded": "%E2%94%82%20%20%20%20%20%20%20%E2%94%94%E2%94%80%E2%94%80%20package.json",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "3de982",
+        "hash": "398f907a",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20packages/",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "3de982",
+        "hash": "308b13d2",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20design-system/%20%20%20%20%20%20%20#%20Shared%20UI%20components",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "3de982",
+        "hash": "e0944ea8",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20src/",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "3de982",
+        "hash": "2090ea14",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20atoms/%20%20%20%20%20%20%20%20%20%20%20#%20Atomic%20components",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "3de982",
+        "hash": "186234dc",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20theme/%20%20%20%20%20%20%20%20%20%20%20#%20Theme%20system",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "3de982",
+        "hash": "ec762df1",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20themes/%20%20%20%20%20%20%20%20%20%20#%20Brand%20themes",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "3de982",
+        "hash": "d4c19b9e",
+        "encoded": "%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20config/%20%20%20%20%20%20%20%20%20%20#%20Component%20config",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "3de982",
+        "hash": "cb847794",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20package.json",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "3de982",
+        "hash": "92bc600d",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "3de982",
+        "hash": "9ad597c6",
+        "encoded": "##%20Next%20Steps",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "3de982",
+        "hash": "92094492",
+        "encoded": "1.%20Explore%20the%20**Components**%20tab%20to%20see%20all%20available%20components",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "3de982",
+        "hash": "a31ad3a3",
+        "encoded": "2.%20Check%20the%20**Profile**%20tab%20for%20a%20realistic%20usage%20example",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "3de982",
+        "hash": "3f5e191a",
+        "encoded": "3.%20Try%20switching%20between%20brandA%20and%20brandB%20to%20see%20theming%20differences",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "3de982",
+        "hash": "c24714be",
+        "encoded": "4.%20Experiment%20with%20disabling%20components%20in%20%60config.json%60",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "3de982",
+        "hash": "5356a04b",
+        "encoded": "5.%20Create%20your%20own%20brand%20theme%20in%20%60/packages/design-system/src/themes/%60",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "3de982",
+        "hash": "84202c92",
+        "encoded": "##%20Additional%20Resources",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "3de982",
+        "hash": "035bf606",
+        "encoded": "-%20%5BExpo%20Documentation%5D(https://docs.expo.dev/)",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "3de982",
+        "hash": "783a67a3",
+        "encoded": "-%20%5BReact%20Navigation%5D(https://reactnavigation.org/)",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "3de982",
+        "hash": "1e8867c5",
+        "encoded": "-%20%5BComponent%20Configuration%20System%5D(../packages/design-system/src/config/README.md)",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "3de982",
+        "hash": "dd44353b",
+        "encoded": "-%20%5BComponent%20Showcase%20Details%5D(./COMPONENT_SHOWCASE.md)",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

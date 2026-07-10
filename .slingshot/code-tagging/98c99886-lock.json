@@ -1,0 +1,212 @@
+{
+  "packages/design-system/src/config/brandMenuConfig.ts": {
+    "filename": "brandMenuConfig.ts",
+    "path": "packages/design-system/src/config/brandMenuConfig.ts",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "3f373d": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783530939,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "a122e99f",
+          "files": "50af12c4"
+        },
+        "hash": "3fb4880d",
+        "messageId": "system_6d61c620-7af0-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:15:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "3f373d",
+        "hash": "9864479f",
+        "encoded": "import%20%7B%20MenuItem%20%7D%20from%20'../molecules/TopMenuBar';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "3f373d",
+        "hash": "7773cb70",
+        "encoded": "export%20interface%20BrandMenuConfig%20%7B",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "3f373d",
+        "hash": "9b02041c",
+        "encoded": "%5BbrandId:%20string%5D:%20MenuItem%5B%5D;",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "3f373d",
+        "hash": "22b977f0",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "3f373d",
+        "hash": "692dab65",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "3f373d",
+        "hash": "2560f772",
+        "encoded": "*%20Brand-specific%20menu%20configurations",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "3f373d",
+        "hash": "569a0dcb",
+        "encoded": "*%20Each%20brand%20can%20define%20its%20own%20menu%20items%20to%20showcase%20monorepo%20flexibility",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "3f373d",
+        "hash": "7c8b9e0c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "3f373d",
+        "hash": "f53fee44",
+        "encoded": "export%20const%20brandMenuConfig:%20BrandMenuConfig%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "3f373d",
+        "hash": "b7b2238f",
+        "encoded": "brandA:%20%5B",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "3f373d",
+        "hash": "e88f1800",
+        "encoded": "%7B%20id:%20'home',%20label:%20'Home'%20%7D,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "3f373d",
+        "hash": "a4b1b892",
+        "encoded": "%7B%20id:%20'shop',%20label:%20'Shop%20All'%20%7D,",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "3f373d",
+        "hash": "0421bf33",
+        "encoded": "%7B%20id:%20'new',%20label:%20'New%20Arrivals'%20%7D,",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "3f373d",
+        "hash": "9808cf43",
+        "encoded": "%7B%20id:%20'account',%20label:%20'My%20Account'%20%7D,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "3f373d",
+        "hash": "8d0f862f",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "3f373d",
+        "hash": "652abea5",
+        "encoded": "brandB:%20%5B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "3f373d",
+        "hash": "e2d50e7d",
+        "encoded": "%7B%20id:%20'home',%20label:%20'Home'%20%7D,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "3f373d",
+        "hash": "073a8fc2",
+        "encoded": "%7B%20id:%20'sale',%20label:%20'Sale'%20%7D,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "3f373d",
+        "hash": "2171613e",
+        "encoded": "%7B%20id:%20'support',%20label:%20'Support'%20%7D,",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "3f373d",
+        "hash": "7bbfdae5",
+        "encoded": "%7B%20id:%20'profile',%20label:%20'Profile'%20%7D,",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "3f373d",
+        "hash": "c2fb41b9",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "3f373d",
+        "hash": "388e60ac",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "3f373d",
+        "hash": "9ae119a6",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "3f373d",
+        "hash": "dba41d01",
+        "encoded": "*%20Get%20menu%20items%20for%20a%20specific%20brand",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "3f373d",
+        "hash": "165864d0",
+        "encoded": "*%20@param%20brandId%20-%20The%20brand%20identifier",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "3f373d",
+        "hash": "ccc91825",
+        "encoded": "*%20@returns%20Array%20of%20menu%20items%20for%20the%20brand",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "3f373d",
+        "hash": "fc05b72a",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "3f373d",
+        "hash": "82c37988",
+        "encoded": "export%20const%20getMenuItemsForBrand%20=%20(brandId:%20string):%20MenuItem%5B%5D%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "3f373d",
+        "hash": "ac436811",
+        "encoded": "return%20brandMenuConfig%5BbrandId%5D%20%7C%7C%20brandMenuConfig.brandA;",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "3f373d",
+        "hash": "252f0ed4",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 33
+  }
+}

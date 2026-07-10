@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-07-08T17:20:10.107Z",
+  "user_memory": [],
+  "slingshot_memory": [
+    {
+      "id": "mem_1783528876267_wevc3l",
+      "content": "Project uses npm workspaces for monorepo management with file: protocol for local package dependencies",
+      "createdAt": "2026-07-08T16:41:16.267Z",
+      "updatedAt": "2026-07-08T16:41:16.267Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783528876268_4j1iqj",
+      "content": "Multi-brand architecture uses ThemeProvider with brandId prop to switch between brand themes dynamically",
+      "createdAt": "2026-07-08T16:41:16.268Z",
+      "updatedAt": "2026-07-08T16:41:16.268Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783528876269_4jb5al",
+      "content": "Design system follows Atomic Design pattern with atoms, molecules, organisms structure",
+      "createdAt": "2026-07-08T16:41:16.269Z",
+      "updatedAt": "2026-07-08T16:41:16.269Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783528876270_dd83al",
+      "content": "Brand themes stored in packages/design-system/src/themes/{brandName}/ with colors and typography config",
+      "createdAt": "2026-07-08T16:41:16.270Z",
+      "updatedAt": "2026-07-08T16:41:16.270Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783530119036_w9tj8d",
+      "content": "Component opt-in system uses config.json with brandOptIn flags and isComponentEnabled() for conditional rendering",
+      "createdAt": "2026-07-08T17:01:59.035Z",
+      "updatedAt": "2026-07-08T17:01:59.035Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783530119038_lenrxb",
+      "content": "New showcase screens: ComponentsScreen (all components demo) and ProfileScreen (realistic usage example)",
+      "createdAt": "2026-07-08T17:01:59.038Z",
+      "updatedAt": "2026-07-08T17:01:59.038Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783530119039_lo3nvl",
+      "content": "Navigation uses React Navigation bottom tabs with themed tab bar matching brand colors automatically",
+      "createdAt": "2026-07-08T17:01:59.039Z",
+      "updatedAt": "2026-07-08T17:01:59.039Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783530119040_1noj8u",
+      "content": "Six new atomic components added: Card, Input, Switch, Badge, Avatar, Divider with brand theming via useTheme",
+      "createdAt": "2026-07-08T17:01:59.040Z",
+      "updatedAt": "2026-07-08T17:01:59.040Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783531210104_gz3ckh",
+      "content": "HomeScreen transformed to ecommerce layout with SearchBar, TopMenuBar, ProductTile components",
+      "createdAt": "2026-07-08T17:20:10.104Z",
+      "updatedAt": "2026-07-08T17:20:10.104Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783531210105_nvda3u",
+      "content": "Brand-specific menu configs in brandMenuConfig.ts allow different menu items per brand (brandA: 6 items, brandB: 7 items)",
+      "createdAt": "2026-07-08T17:20:10.105Z",
+      "updatedAt": "2026-07-08T17:20:10.105Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783531210106_uhkxru",
+      "content": "Product grid uses 2-column responsive layout with 48% width tiles and flexWrap",
+      "createdAt": "2026-07-08T17:20:10.106Z",
+      "updatedAt": "2026-07-08T17:20:10.106Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1783531210107_jzgxgw",
+      "content": "New molecules folder created for composed components: TopMenuBar, ProductTile",
+      "createdAt": "2026-07-08T17:20:10.107Z",
+      "updatedAt": "2026-07-08T17:20:10.107Z",
+      "isEnabled": true
+    }
+  ]
+}

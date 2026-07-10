@@ -1,0 +1,22 @@
+{
+  "name": "dib-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "mobile": "npm run --workspace=@dib/mobile",
+    "mobile:start": "npm run start --workspace=@dib/mobile",
+    "mobile:android": "npm run android --workspace=@dib/mobile",
+    "mobile:ios": "npm run ios --workspace=@dib/mobile"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

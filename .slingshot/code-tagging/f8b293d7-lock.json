@@ -1,0 +1,193 @@
+{
+  "packages/design-system/src/atoms/Switch.tsx": {
+    "filename": "Switch.tsx",
+    "path": "packages/design-system/src/atoms/Switch.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "231066": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783529574,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "e809f031",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:52:54 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "231066",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "231066",
+        "hash": "207c066f",
+        "encoded": "import%20%7B%20Switch%20as%20RNSwitch,%20SwitchProps,%20View,%20StyleSheet%20%7D%20from%20'react-native';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "231066",
+        "hash": "1a9b5565",
+        "encoded": "import%20%7B%20useTheme%20%7D%20from%20'../theme/ThemeProvider';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "231066",
+        "hash": "897d5e9b",
+        "encoded": "import%20%7B%20Text%20%7D%20from%20'./Text';",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "231066",
+        "hash": "55a66c0e",
+        "encoded": "interface%20CustomSwitchProps%20extends%20SwitchProps%20%7B",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "231066",
+        "hash": "0b871c1c",
+        "encoded": "label?:%20string;",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "231066",
+        "hash": "102658a5",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "231066",
+        "hash": "49ab68b8",
+        "encoded": "export%20const%20Switch:%20React.FC%3CCustomSwitchProps%3E%20=%20(%7B%20label,%20...props%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "231066",
+        "hash": "8fd06336",
+        "encoded": "const%20theme%20=%20useTheme();",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "231066",
+        "hash": "ad52ceed",
+        "encoded": "return%20(",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "231066",
+        "hash": "50363d9c",
+        "encoded": "%3CView%20style=%7Bstyles.container%7D%3E",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "231066",
+        "hash": "852daf68",
+        "encoded": "%7Blabel%20&&%20%3CText%20variant=%22body%22%3E%7Blabel%7D%3C/Text%3E%7D",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "231066",
+        "hash": "87fd4f40",
+        "encoded": "%3CRNSwitch",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "231066",
+        "hash": "2402bab1",
+        "encoded": "trackColor=%7B%7B%20false:%20theme.colors.textSecondary,%20true:%20theme.colors.primary%20%7D%7D",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "231066",
+        "hash": "896e7a6d",
+        "encoded": "thumbColor=%7Bprops.value%20?%20theme.colors.buttonText%20:%20'#f4f3f4'%7D",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "231066",
+        "hash": "41146680",
+        "encoded": "%7B...props%7D",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "231066",
+        "hash": "bd591b9e",
+        "encoded": "/%3E",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "231066",
+        "hash": "4b8bfd93",
+        "encoded": "%3C/View%3E",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "231066",
+        "hash": "05a8f1d5",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "231066",
+        "hash": "4da7dd63",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "231066",
+        "hash": "cc3598c8",
+        "encoded": "const%20styles%20=%20StyleSheet.create(%7B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "231066",
+        "hash": "34f4ac62",
+        "encoded": "container:%20%7B",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "231066",
+        "hash": "e8064771",
+        "encoded": "flexDirection:%20'row',",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "231066",
+        "hash": "cb2ca21a",
+        "encoded": "alignItems:%20'center',",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "231066",
+        "hash": "5524140c",
+        "encoded": "justifyContent:%20'space-between',",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "231066",
+        "hash": "b0145a10",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "231066",
+        "hash": "b991b7e1",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

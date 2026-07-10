@@ -1,0 +1,88 @@
+{
+  "components": {
+    "SearchBar": {
+      "description": "Search input with search button",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "TopMenuBar": {
+      "description": "Horizontal scrollable menu bar with brand-specific items",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "ProductTile": {
+      "description": "Product display card with image, name, price, and badge",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "Card": {
+      "description": "Container component with elevation and rounded corners",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "Input": {
+      "description": "Text input field with label and error handling",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "Switch": {
+      "description": "Toggle switch component",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "Badge": {
+      "description": "Small label component with color variants",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "Avatar": {
+      "description": "User avatar with image or initials",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "Divider": {
+      "description": "Horizontal or vertical separator line",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "Button": {
+      "description": "Pressable button component",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "Box": {
+      "description": "Basic container component",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    },
+    "Text": {
+      "description": "Themed text component with variants",
+      "brandOptIn": {
+        "brandA": true,
+        "brandB": true
+      }
+    }
+  }
+}

@@ -1,0 +1,1015 @@
+{
+  "apps/mobile/docs/COMPONENT_SHOWCASE.md": {
+    "filename": "COMPONENT_SHOWCASE.md",
+    "path": "apps/mobile/docs/COMPONENT_SHOWCASE.md",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "84d08f": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783530067,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "01dc5d62",
+          "files": "6c8a21b9"
+        },
+        "hash": "e7492d71",
+        "messageId": "system_458d6c10-7aed-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 1:01:07 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "84d08f",
+        "hash": "6bb179fe",
+        "encoded": "#%20Component%20Showcase%20Documentation",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "84d08f",
+        "hash": "b0d615bf",
+        "encoded": "This%20document%20describes%20the%20new%20showcase%20screens%20added%20to%20demonstrate%20the%20multi-brand%20component%20system.",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "84d08f",
+        "hash": "d2f5d4e9",
+        "encoded": "##%20New%20Screens",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "84d08f",
+        "hash": "7af8d5b8",
+        "encoded": "###%201.%20ComponentsScreen%20(%60/apps/mobile/src/screens/ComponentsScreen.tsx%60)",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "84d08f",
+        "hash": "ada98e61",
+        "encoded": "A%20comprehensive%20showcase%20of%20all%20available%20UI%20components%20with%20interactive%20examples.",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "84d08f",
+        "hash": "fe004048",
+        "encoded": "**Features:**",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "84d08f",
+        "hash": "30564f0a",
+        "encoded": "-%20Displays%20all%20atomic%20components%20(Card,%20Input,%20Switch,%20Badge,%20Avatar,%20Divider,%20Button)",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "84d08f",
+        "hash": "110699ab",
+        "encoded": "-%20Interactive%20demos%20(text%20input,%20toggle%20switches)",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "84d08f",
+        "hash": "57b8eef8",
+        "encoded": "-%20Brand%20badge%20showing%20current%20active%20brand",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "84d08f",
+        "hash": "f9c8f8a4",
+        "encoded": "-%20Conditional%20rendering%20based%20on%20brand%20component%20opt-in",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "84d08f",
+        "hash": "ddef2c7c",
+        "encoded": "**Components%20Demonstrated:**",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "84d08f",
+        "hash": "f09d1d37",
+        "encoded": "-%20**Card**:%20Shows%20different%20elevation%20levels%20(medium,%20high)",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "84d08f",
+        "hash": "9b3290fa",
+        "encoded": "-%20**Input**:%20Text%20input%20with%20labels,%20placeholders,%20and%20error%20states",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "84d08f",
+        "hash": "57581bdc",
+        "encoded": "-%20**Switch**:%20Toggle%20switches%20with%20labels",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "84d08f",
+        "hash": "ac5cf549",
+        "encoded": "-%20**Badge**:%20Multiple%20color%20variants%20(primary,%20success,%20warning,%20error)",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "84d08f",
+        "hash": "f1c047a2",
+        "encoded": "-%20**Avatar**:%20Different%20sizes%20(small,%20medium,%20large)%20with%20initials",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "84d08f",
+        "hash": "038f611f",
+        "encoded": "-%20**Divider**:%20Horizontal%20separators%20between%20sections",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "84d08f",
+        "hash": "50d7306f",
+        "encoded": "-%20**Button**:%20Primary%20action%20button",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "84d08f",
+        "hash": "92eb2b03",
+        "encoded": "###%202.%20ProfileScreen%20(%60/apps/mobile/src/screens/ProfileScreen.tsx%60)",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "84d08f",
+        "hash": "edcdbed3",
+        "encoded": "A%20realistic%20user%20profile%20page%20demonstrating%20practical%20component%20usage.",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "84d08f",
+        "hash": "3f21bce1",
+        "encoded": "**Features:**",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "84d08f",
+        "hash": "837f420b",
+        "encoded": "-%20User%20avatar%20and%20profile%20header",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "84d08f",
+        "hash": "80da1356",
+        "encoded": "-%20Personal%20information%20form%20(name,%20email)",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "84d08f",
+        "hash": "d6b66904",
+        "encoded": "-%20Settings%20toggles%20(notifications,%20dark%20mode)",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "84d08f",
+        "hash": "b853fc3c",
+        "encoded": "-%20Account%20statistics%20with%20vertical%20dividers",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "84d08f",
+        "hash": "a90aaaa4",
+        "encoded": "-%20Action%20buttons%20(save,%20sign%20out)",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "84d08f",
+        "hash": "2b11ec1b",
+        "encoded": "**Sections:**",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "84d08f",
+        "hash": "6c31c5dc",
+        "encoded": "1.%20**Profile%20Header**:%20Avatar,%20title,%20subtitle",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "84d08f",
+        "hash": "df1ba9b2",
+        "encoded": "2.%20**Personal%20Information**:%20Card%20with%20input%20fields",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "84d08f",
+        "hash": "40c0fa04",
+        "encoded": "3.%20**Preferences**:%20Card%20with%20toggle%20switches",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "84d08f",
+        "hash": "0d274d4a",
+        "encoded": "4.%20**Account%20Statistics**:%20Card%20with%20stats%20display%20and%20vertical%20dividers",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "84d08f",
+        "hash": "c5173fd6",
+        "encoded": "5.%20**Actions**:%20Save%20and%20sign%20out%20buttons",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "84d08f",
+        "hash": "471f53f2",
+        "encoded": "##%20Navigation",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "84d08f",
+        "hash": "74960ff3",
+        "encoded": "Bottom%20tab%20navigation%20connects%20all%20screens:",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "84d08f",
+        "hash": "a29762c1",
+        "encoded": "-%20**Home%20Tab**:%20Original%20welcome%20screen",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "84d08f",
+        "hash": "5b1f7363",
+        "encoded": "-%20**Components%20Tab**:%20Component%20showcase",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "84d08f",
+        "hash": "a0eb4b6c",
+        "encoded": "-%20**Profile%20Tab**:%20User%20profile%20page",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "84d08f",
+        "hash": "256d2b0c",
+        "encoded": "Navigation%20UI%20automatically%20uses%20brand%20theming%20(colors,%20styles).",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "84d08f",
+        "hash": "4275c7cb",
+        "encoded": "##%20Brand%20Theming",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "84d08f",
+        "hash": "bfe3565c",
+        "encoded": "All%20components%20automatically%20apply%20the%20active%20brand's%20theme:",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "84d08f",
+        "hash": "fee1899a",
+        "encoded": "%60%60%60typescript",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "84d08f",
+        "hash": "a9fcbeb8",
+        "encoded": "const%20theme%20=%20useTheme();%20//%20Returns%20current%20brand's%20theme",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "84d08f",
+        "hash": "6c7a47da",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "84d08f",
+        "hash": "de716610",
+        "encoded": "**Theme%20Properties%20Used:**",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "84d08f",
+        "hash": "8af055f7",
+        "encoded": "-%20%60colors.primary%60:%20Primary%20brand%20color",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "84d08f",
+        "hash": "278fba24",
+        "encoded": "-%20%60colors.secondary%60:%20Secondary%20brand%20color",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "84d08f",
+        "hash": "efc3152b",
+        "encoded": "-%20%60colors.background%60:%20Background%20color",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "84d08f",
+        "hash": "8132fa29",
+        "encoded": "-%20%60colors.text%60:%20Primary%20text%20color",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "84d08f",
+        "hash": "abfe1cb2",
+        "encoded": "-%20%60colors.textSecondary%60:%20Secondary%20text%20color",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "84d08f",
+        "hash": "d1157a7e",
+        "encoded": "-%20%60colors.buttonText%60:%20Button%20text%20color",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "84d08f",
+        "hash": "b868f8f7",
+        "encoded": "-%20%60typography.fontSize.*%60:%20Font%20sizes",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "84d08f",
+        "hash": "65e9c50f",
+        "encoded": "-%20%60typography.fontWeight.*%60:%20Font%20weights",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "84d08f",
+        "hash": "e6686116",
+        "encoded": "##%20Component%20Opt-In%20System",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "84d08f",
+        "hash": "d7dd7a32",
+        "encoded": "Each%20screen%20checks%20component%20availability%20before%20rendering:",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "84d08f",
+        "hash": "473752d9",
+        "encoded": "%60%60%60typescript",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "84d08f",
+        "hash": "78265f0d",
+        "encoded": "const%20isEnabled%20=%20(componentName:%20ComponentName)%20=%3E",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "84d08f",
+        "hash": "0a2e87d3",
+        "encoded": "isComponentEnabled(componentName,%20brandId);",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "84d08f",
+        "hash": "3d5911dc",
+        "encoded": "//%20Conditional%20rendering",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "84d08f",
+        "hash": "d6dcb75a",
+        "encoded": "%7BisEnabled('Card')%20&&%20(",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "84d08f",
+        "hash": "3ab339f8",
+        "encoded": "%3CCard%3E",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "84d08f",
+        "hash": "36cee24d",
+        "encoded": "%3CText%3EContent%3C/Text%3E",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "84d08f",
+        "hash": "0ae130a6",
+        "encoded": "%3C/Card%3E",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "84d08f",
+        "hash": "367401a2",
+        "encoded": ")%7D",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "84d08f",
+        "hash": "a9cec825",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "84d08f",
+        "hash": "4f724099",
+        "encoded": "**Benefits:**",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "84d08f",
+        "hash": "28cf1a4a",
+        "encoded": "-%20Brands%20can%20disable%20components%20they%20don't%20want",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "84d08f",
+        "hash": "104c5a8f",
+        "encoded": "-%20No%20code%20changes%20needed%20-%20just%20update%20%60config.json%60",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "84d08f",
+        "hash": "82d8de17",
+        "encoded": "-%20Graceful%20degradation%20if%20components%20are%20disabled",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "84d08f",
+        "hash": "1e2679d1",
+        "encoded": "##%20Testing%20Different%20Brands",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "84d08f",
+        "hash": "9a42f70b",
+        "encoded": "To%20test%20with%20different%20brands:",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "84d08f",
+        "hash": "db1bb5b8",
+        "encoded": "1.%20**Environment%20Variable**%20(recommended):",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "84d08f",
+        "hash": "a7bf3789",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "84d08f",
+        "hash": "8c496086",
+        "encoded": "EXPO_PUBLIC_BRAND_ID=brandB%20npm%20start",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "84d08f",
+        "hash": "0b932502",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "84d08f",
+        "hash": "13594df7",
+        "encoded": "2.%20**Edit%20App.tsx**:",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "84d08f",
+        "hash": "11667ce4",
+        "encoded": "%60%60%60typescript",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "84d08f",
+        "hash": "b010d15a",
+        "encoded": "const%20brandId%20=%20'brandB';%20//%20Change%20this",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "84d08f",
+        "hash": "d273f303",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "84d08f",
+        "hash": "47985789",
+        "encoded": "3.%20**Update%20config.json**%20to%20enable/disable%20components:",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "84d08f",
+        "hash": "05805a7b",
+        "encoded": "%60%60%60json",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "84d08f",
+        "hash": "27a4df12",
+        "encoded": "%22Card%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "84d08f",
+        "hash": "739a5cfe",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "84d08f",
+        "hash": "e7efc3e3",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "84d08f",
+        "hash": "b4a1c1dd",
+        "encoded": "%22brandB%22:%20false%20%20//%20Disable%20for%20brandB",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "84d08f",
+        "hash": "367981c3",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "84d08f",
+        "hash": "3674f723",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "84d08f",
+        "hash": "61900443",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "84d08f",
+        "hash": "81cc8d81",
+        "encoded": "##%20File%20Structure",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "84d08f",
+        "hash": "ffa9b2a8",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "84d08f",
+        "hash": "f91e38e0",
+        "encoded": "apps/mobile/src/",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "84d08f",
+        "hash": "92ffc32c",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20screens/",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "84d08f",
+        "hash": "8a33a2b1",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20HomeScreen.tsx%20%20%20%20%20%20%20%20%20%20#%20Original%20welcome%20screen",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "84d08f",
+        "hash": "8562bc70",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20ComponentsScreen.tsx%20%20%20%20#%20Component%20showcase%20(NEW)",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "84d08f",
+        "hash": "dbacedfa",
+        "encoded": "%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20ProfileScreen.tsx%20%20%20%20%20%20%20#%20User%20profile%20page%20(NEW)",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "84d08f",
+        "hash": "03acbd89",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20navigation/",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "84d08f",
+        "hash": "0424bb2a",
+        "encoded": "%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20Navigation.tsx%20%20%20%20%20%20%20%20%20%20#%20Bottom%20tab%20navigation%20(NEW)",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "84d08f",
+        "hash": "bb2772e1",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20App.tsx%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Updated%20with%20navigation",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "84d08f",
+        "hash": "b099f6f2",
+        "encoded": "packages/design-system/src/",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "84d08f",
+        "hash": "187b3f86",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20atoms/",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "84d08f",
+        "hash": "d1ad1e07",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20Card.tsx%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20NEW",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "84d08f",
+        "hash": "bf67eb5a",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20Input.tsx%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20NEW",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "84d08f",
+        "hash": "207c418c",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20Switch.tsx%20%20%20%20%20%20%20%20%20%20%20%20%20#%20NEW",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "84d08f",
+        "hash": "cec56f5d",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20Badge.tsx%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20NEW",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "84d08f",
+        "hash": "60649e9f",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20Avatar.tsx%20%20%20%20%20%20%20%20%20%20%20%20%20#%20NEW",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "84d08f",
+        "hash": "8fb10179",
+        "encoded": "%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20Divider.tsx%20%20%20%20%20%20%20%20%20%20%20%20#%20NEW",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "84d08f",
+        "hash": "a0e2ee21",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20config/",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "84d08f",
+        "hash": "3b2a997a",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20config.json%20%20%20%20%20%20%20%20%20%20%20%20#%20Component%20opt-in%20config%20(NEW)",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "84d08f",
+        "hash": "e2a0ac15",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20ComponentRegistry.tsx%20%20#%20Opt-in%20utilities%20(NEW)",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "84d08f",
+        "hash": "03564eee",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20README.md%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Config%20system%20docs%20(NEW)",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "84d08f",
+        "hash": "1e477eab",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "84d08f",
+        "hash": "d6ff0246",
+        "encoded": "##%20Running%20the%20App",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "84d08f",
+        "hash": "1dcde9d6",
+        "encoded": "1.%20**Install%20dependencies**:",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "84d08f",
+        "hash": "4eebe8b5",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "84d08f",
+        "hash": "a114cd33",
+        "encoded": "npm%20install",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "84d08f",
+        "hash": "5b532b7f",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "84d08f",
+        "hash": "b913f026",
+        "encoded": "2.%20**Start%20the%20app**:",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "84d08f",
+        "hash": "0f724de4",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "84d08f",
+        "hash": "6dae48d3",
+        "encoded": "cd%20apps/mobile",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "84d08f",
+        "hash": "57ae646f",
+        "encoded": "npm%20start",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "84d08f",
+        "hash": "11e59bee",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "84d08f",
+        "hash": "486262a0",
+        "encoded": "3.%20**Choose%20platform**:",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "84d08f",
+        "hash": "27e860e1",
+        "encoded": "-%20Press%20%60a%60%20for%20Android",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "84d08f",
+        "hash": "dd175da9",
+        "encoded": "-%20Press%20%60i%60%20for%20iOS",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "84d08f",
+        "hash": "65a86abc",
+        "encoded": "-%20Press%20%60w%60%20for%20web",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "84d08f",
+        "hash": "1d124676",
+        "encoded": "##%20Customization%20Examples",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "84d08f",
+        "hash": "060a8dab",
+        "encoded": "###%20Disable%20Card%20Component%20for%20BrandB",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "84d08f",
+        "hash": "1e3d7314",
+        "encoded": "Edit%20%60/packages/design-system/src/config/config.json%60:",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "84d08f",
+        "hash": "5e2a2127",
+        "encoded": "%60%60%60json",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "84d08f",
+        "hash": "8ac18ed4",
+        "encoded": "%22Card%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "84d08f",
+        "hash": "14d5ee76",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "84d08f",
+        "hash": "92389e08",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "84d08f",
+        "hash": "6de93658",
+        "encoded": "%22brandB%22:%20false",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "84d08f",
+        "hash": "2ec69243",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "84d08f",
+        "hash": "3dffa596",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "84d08f",
+        "hash": "afa07962",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "84d08f",
+        "hash": "74127a58",
+        "encoded": "Result:%20ComponentsScreen%20and%20ProfileScreen%20will%20not%20show%20Card%20components%20when%20running%20as%20brandB.",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "84d08f",
+        "hash": "cfd5558c",
+        "encoded": "###%20Add%20New%20Brand%20(BrandC)",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "84d08f",
+        "hash": "ca9dd8e5",
+        "encoded": "1.%20Create%20theme:%20%60/packages/design-system/src/themes/brandC/theme.ts%60",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "84d08f",
+        "hash": "be66ecfa",
+        "encoded": "2.%20Update%20all%20components%20in%20%60config.json%60:",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "84d08f",
+        "hash": "5e941b3d",
+        "encoded": "%60%60%60json",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "84d08f",
+        "hash": "0da57c07",
+        "encoded": "%22Card%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "84d08f",
+        "hash": "7ee5a932",
+        "encoded": "%22brandOptIn%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "84d08f",
+        "hash": "3d6bf167",
+        "encoded": "%22brandA%22:%20true,",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "84d08f",
+        "hash": "197e780d",
+        "encoded": "%22brandB%22:%20true,",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "84d08f",
+        "hash": "2dff6910",
+        "encoded": "%22brandC%22:%20true",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "84d08f",
+        "hash": "92ab12a1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "84d08f",
+        "hash": "aab5eeb9",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "84d08f",
+        "hash": "9c195bb5",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "84d08f",
+        "hash": "044c9267",
+        "encoded": "3.%20Run%20with:%20%60EXPO_PUBLIC_BRAND_ID=brandC%20npm%20start%60",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "84d08f",
+        "hash": "5d478ad6",
+        "encoded": "##%20Key%20Features%20Implemented",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "84d08f",
+        "hash": "6d40a6a1",
+        "encoded": "%E2%9C%85%20**Monorepo%20Design**:%20All%20components%20in%20shared%20design-system%20package",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "84d08f",
+        "hash": "4963f95e",
+        "encoded": "%E2%9C%85%20**Brand%20Opt-In/Out**:%20JSON%20config%20controls%20component%20availability%20per%20brand",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "84d08f",
+        "hash": "e087a4bc",
+        "encoded": "%E2%9C%85%20**Automatic%20Theming**:%20All%20components%20use%20%60useTheme()%60%20hook",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "84d08f",
+        "hash": "d5b311dd",
+        "encoded": "%E2%9C%85%20**Multiple%20Screens**:%20Home,%20Components%20showcase,%20Profile%20page",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "84d08f",
+        "hash": "9b373570",
+        "encoded": "%E2%9C%85%20**Navigation**:%20Bottom%20tabs%20with%20themed%20navigation%20UI",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "84d08f",
+        "hash": "41351d90",
+        "encoded": "%E2%9C%85%20**Conditional%20Rendering**:%20Components%20check%20opt-in%20status%20before%20rendering",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "84d08f",
+        "hash": "57cf8f63",
+        "encoded": "%E2%9C%85%20**Type%20Safety**:%20TypeScript%20ensures%20component%20names%20are%20valid",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "84d08f",
+        "hash": "0f235b21",
+        "encoded": "%E2%9C%85%20**Documentation**:%20Comprehensive%20docs%20for%20usage%20and%20extension",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "84d08f",
+        "hash": "e3ded105",
+        "encoded": "##%20Next%20Steps",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "84d08f",
+        "hash": "069568a5",
+        "encoded": "-%20Add%20more%20component%20variants%20(molecules,%20organisms)",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "84d08f",
+        "hash": "6c4e52af",
+        "encoded": "-%20Implement%20brand%20switcher%20UI",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "84d08f",
+        "hash": "80cdcb8d",
+        "encoded": "-%20Add%20more%20theme%20properties%20(shadows,%20borders,%20etc.)",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "84d08f",
+        "hash": "c01cb0ee",
+        "encoded": "-%20Create%20brand-specific%20component%20overrides",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "84d08f",
+        "hash": "e42699d0",
+        "encoded": "-%20Add%20component%20prop%20customization%20per%20brand",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

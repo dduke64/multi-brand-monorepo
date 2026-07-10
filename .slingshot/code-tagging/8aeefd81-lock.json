@@ -1,0 +1,163 @@
+{
+  "packages/design-system/src/theme/types.ts": {
+    "filename": "types.ts",
+    "path": "packages/design-system/src/theme/types.ts",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "bc2c4d": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1783528719,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "255578ff",
+          "files": "dd3090ac"
+        },
+        "hash": "caeb80e8",
+        "messageId": "system_2f36f4b0-7aeb-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:38:39 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "bc2c4d",
+        "hash": "4fabd09a",
+        "encoded": "export%20interface%20BrandTheme%20%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "bc2c4d",
+        "hash": "f1c5f7f6",
+        "encoded": "colors:%20%7B",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "bc2c4d",
+        "hash": "9838e2f6",
+        "encoded": "primary:%20string;",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "bc2c4d",
+        "hash": "cabb53ff",
+        "encoded": "secondary:%20string;",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "bc2c4d",
+        "hash": "3c992606",
+        "encoded": "background:%20string;",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "bc2c4d",
+        "hash": "d4af508f",
+        "encoded": "text:%20string;",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "bc2c4d",
+        "hash": "e9d0e6c7",
+        "encoded": "textSecondary:%20string;",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "bc2c4d",
+        "hash": "710951d5",
+        "encoded": "buttonText:%20string;",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "bc2c4d",
+        "hash": "af89cfeb",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "bc2c4d",
+        "hash": "028c2509",
+        "encoded": "typography:%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "bc2c4d",
+        "hash": "3838bdc8",
+        "encoded": "fontSize:%20%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "bc2c4d",
+        "hash": "cc8f268c",
+        "encoded": "heading:%20number;",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "bc2c4d",
+        "hash": "3db908a3",
+        "encoded": "body:%20number;",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "bc2c4d",
+        "hash": "a89f9d74",
+        "encoded": "caption:%20number;",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "bc2c4d",
+        "hash": "734baa97",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "bc2c4d",
+        "hash": "0de69c8c",
+        "encoded": "fontWeight:%20%7B",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "bc2c4d",
+        "hash": "0ed617cd",
+        "encoded": "regular:%20string;",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "bc2c4d",
+        "hash": "162a6f1b",
+        "encoded": "bold:%20string;",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "bc2c4d",
+        "hash": "1b9d836b",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "bc2c4d",
+        "hash": "1c5cd165",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "bc2c4d",
+        "hash": "acbf036f",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "bc2c4d",
+        "hash": "05b0c8d1",
+        "encoded": "export%20type%20Theme%20=%20BrandTheme;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
