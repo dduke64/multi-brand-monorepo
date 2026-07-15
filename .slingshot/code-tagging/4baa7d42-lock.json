@@ -1,0 +1,451 @@
+{
+  "apps/mobile/docs/REFACTORING_SUMMARY.md": {
+    "filename": "REFACTORING_SUMMARY.md",
+    "path": "apps/mobile/docs/REFACTORING_SUMMARY.md",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "58b9cb": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1784130792,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "f2ea9af0",
+          "files": "198cdbfd"
+        },
+        "hash": "01c9dd88",
+        "messageId": "system_84150110-8064-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/15/2026, 11:53:12 AM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "58b9cb",
+        "hash": "ba9253ef",
+        "encoded": "#%20Design%20System%20Refactoring%20Summary",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "58b9cb",
+        "hash": "5ac33061",
+        "encoded": "##%20Overview",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "58b9cb",
+        "hash": "4ddd87eb",
+        "encoded": "Successfully%20moved%20the%20design-system%20package%20from%20%60packages/design-system%60%20to%20%60apps/mobile/src/design-system%60.",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "58b9cb",
+        "hash": "ff36a397",
+        "encoded": "##%20Changes%20Made",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "58b9cb",
+        "hash": "e5447070",
+        "encoded": "###%201.%20File%20Structure%20Changes",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "58b9cb",
+        "hash": "7727adb2",
+        "encoded": "-%20**Copied**%20all%20content%20from%20%60packages/design-system/src%60%20to%20%60apps/mobile/src/design-system%60",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "58b9cb",
+        "hash": "c75b55f3",
+        "encoded": "-%20**Removed**%20the%20entire%20%60packages/design-system%60%20directory",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "58b9cb",
+        "hash": "0b27277c",
+        "encoded": "-%20Design%20system%20is%20now%20part%20of%20the%20mobile%20app's%20source%20code%20instead%20of%20a%20separate%20workspace%20package",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "58b9cb",
+        "hash": "250c2116",
+        "encoded": "###%202.%20Configuration%20Updates",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "58b9cb",
+        "hash": "798a79ed",
+        "encoded": "####%20apps/mobile/package.json",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "58b9cb",
+        "hash": "c9fd2001",
+        "encoded": "-%20**Removed**%20dependency:%20%60%22@dib/design-system%22:%20%22file:../../packages/design-system%22%60",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "58b9cb",
+        "hash": "6474a319",
+        "encoded": "-%20The%20design%20system%20is%20now%20imported%20directly%20from%20the%20local%20src%20directory",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "58b9cb",
+        "hash": "d1922f34",
+        "encoded": "####%20apps/mobile/tsconfig.json",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "58b9cb",
+        "hash": "c02f2dde",
+        "encoded": "-%20**Updated**%20path%20alias%20from%20%60%22../../packages/design-system/src%22%60%20to%20%60%22./src/design-system%22%60",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "58b9cb",
+        "hash": "4eb95c6b",
+        "encoded": "-%20TypeScript%20now%20resolves%20%60@dib/design-system%60%20imports%20to%20the%20local%20directory",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "58b9cb",
+        "hash": "c26fc256",
+        "encoded": "###%203.%20Code%20Fixes",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "58b9cb",
+        "hash": "52956989",
+        "encoded": "####%20apps/mobile/src/design-system/atoms/Text.tsx",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "58b9cb",
+        "hash": "c380eaed",
+        "encoded": "-%20Fixed%20TypeScript%20error%20with%20fontWeight%20type%20assertion",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "58b9cb",
+        "hash": "8cb08e46",
+        "encoded": "-%20Changed%20from%20%60as%20RNTextProps%5B'style'%5D%60%20to%20%60as%20any%60%20for%20compatibility",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "58b9cb",
+        "hash": "715c298f",
+        "encoded": "####%20apps/mobile/src/design-system/config/ComponentRegistry.tsx",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "58b9cb",
+        "hash": "ef5895e7",
+        "encoded": "-%20Added%20missing%20imports:%20%60SearchBar%60,%20%60TopMenuBar%60,%20%60ProductTile%60",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "58b9cb",
+        "hash": "e26d1051",
+        "encoded": "-%20Added%20these%20components%20to%20the%20%60componentRegistry%60%20object",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "58b9cb",
+        "hash": "3ec7b287",
+        "encoded": "-%20Fixed%20TypeScript%20indexing%20errors",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "58b9cb",
+        "hash": "eff83779",
+        "encoded": "###%204.%20Dependency%20Updates",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "58b9cb",
+        "hash": "abf8b4a6",
+        "encoded": "-%20Ran%20%60npm%20install%60%20at%20root%20to%20update%20workspace%20dependencies",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "58b9cb",
+        "hash": "194e86e4",
+        "encoded": "-%20Removed%20the%20deleted%20%60@dib/design-system%60%20package%20from%20node_modules",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "58b9cb",
+        "hash": "b70a184b",
+        "encoded": "##%20Verification",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "58b9cb",
+        "hash": "5107b16c",
+        "encoded": "%E2%9C%85%20**TypeScript%20Compilation**:%20%60npx%20tsc%20--noEmit%60%20passes%20with%20no%20errors",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "58b9cb",
+        "hash": "10d99dd5",
+        "encoded": "%E2%9C%85%20**File%20Structure**:%20All%20design-system%20files%20successfully%20moved%20to%20%60apps/mobile/src/design-system%60",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "58b9cb",
+        "hash": "7cb731c9",
+        "encoded": "%E2%9C%85%20**Import%20Resolution**:%20All%20%60@dib/design-system%60%20imports%20resolve%20correctly%20via%20tsconfig%20path%20alias",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "58b9cb",
+        "hash": "f55148a1",
+        "encoded": "##%20Impact",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "58b9cb",
+        "hash": "be81772e",
+        "encoded": "###%20Before",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "58b9cb",
+        "hash": "80090741",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "58b9cb",
+        "hash": "ffb83bd7",
+        "encoded": "packages/",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "58b9cb",
+        "hash": "cc42002b",
+        "encoded": "design-system/",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "58b9cb",
+        "hash": "d4d26f65",
+        "encoded": "src/",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "58b9cb",
+        "hash": "fb7f7bd9",
+        "encoded": "atoms/",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "58b9cb",
+        "hash": "53a3ade8",
+        "encoded": "molecules/",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "58b9cb",
+        "hash": "1fa7f833",
+        "encoded": "theme/",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "58b9cb",
+        "hash": "ec565baa",
+        "encoded": "themes/",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "58b9cb",
+        "hash": "318bd410",
+        "encoded": "config/",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "58b9cb",
+        "hash": "74f60063",
+        "encoded": "index.ts",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "58b9cb",
+        "hash": "4864eb05",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "58b9cb",
+        "hash": "ed6d101c",
+        "encoded": "###%20After",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "58b9cb",
+        "hash": "4e510c34",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "58b9cb",
+        "hash": "4d6bc672",
+        "encoded": "apps/",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "58b9cb",
+        "hash": "fa0e7633",
+        "encoded": "mobile/",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "58b9cb",
+        "hash": "8ba57022",
+        "encoded": "src/",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "58b9cb",
+        "hash": "6aa37f25",
+        "encoded": "design-system/",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "58b9cb",
+        "hash": "91671855",
+        "encoded": "atoms/",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "58b9cb",
+        "hash": "b39ade45",
+        "encoded": "molecules/",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "58b9cb",
+        "hash": "6bdc74d8",
+        "encoded": "theme/",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "58b9cb",
+        "hash": "5865a6b6",
+        "encoded": "themes/",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "58b9cb",
+        "hash": "1c24793e",
+        "encoded": "config/",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "58b9cb",
+        "hash": "d93b926f",
+        "encoded": "index.ts",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "58b9cb",
+        "hash": "45f8512d",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "58b9cb",
+        "hash": "4872b204",
+        "encoded": "##%20Benefits",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "58b9cb",
+        "hash": "4127f1b5",
+        "encoded": "1.%20**Simplified%20Architecture**:%20Design%20system%20is%20now%20directly%20part%20of%20the%20mobile%20app",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "58b9cb",
+        "hash": "5f8c8a97",
+        "encoded": "2.%20**Faster%20Development**:%20No%20need%20to%20manage%20separate%20package%20dependencies",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "58b9cb",
+        "hash": "f47904b1",
+        "encoded": "3.%20**Easier%20Refactoring**:%20All%20code%20is%20in%20one%20place%20for%20the%20mobile%20app",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "58b9cb",
+        "hash": "1de36b66",
+        "encoded": "4.%20**No%20Breaking%20Changes**:%20All%20imports%20still%20use%20%60@dib/design-system%60%20via%20path%20alias",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "58b9cb",
+        "hash": "24d7055b",
+        "encoded": "##%20Next%20Steps",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "58b9cb",
+        "hash": "b9f16ee0",
+        "encoded": "To%20run%20the%20app%20and%20verify%20everything%20works:",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "58b9cb",
+        "hash": "d6a77c6f",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "58b9cb",
+        "hash": "98863e4d",
+        "encoded": "#%20From%20project%20root",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "58b9cb",
+        "hash": "813e1d00",
+        "encoded": "npm%20run%20mobile:start",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "58b9cb",
+        "hash": "946b988b",
+        "encoded": "#%20Or%20from%20apps/mobile",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "58b9cb",
+        "hash": "993da25c",
+        "encoded": "npm%20start",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "58b9cb",
+        "hash": "f9db9798",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "58b9cb",
+        "hash": "aa5b369a",
+        "encoded": "The%20app%20should%20start%20normally%20with%20all%20design%20system%20components%20working%20as%20before.",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

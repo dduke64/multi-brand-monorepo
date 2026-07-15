@@ -17,11 +17,29 @@
           ]
         }
       ]
+    },
+    "198cdbfd": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "index.ts",
+          "relativeFilePath": "packages/common/core/src/index.ts",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            5
+          ]
+        }
+      ]
     }
   },
   "promptMessage": {
     "255578ff": {
       "value": "I want this to be a monorepo that will re-use as much of the code base as possible to create apps for different brands. they will all follow the same overall layout and UX, but will have different designs as each brand sees fit. Please set up that based on the file structure shown in example-tree, but for now only do what is necessary to get a basic MVP working"
+    },
+    "f2ea9af0": {
+      "value": "we need to refactor the code so that all of the content of the design-system directory that is currently inside of the packages directory, is moved to be inside of src directory inside of apps/mobile. please do this carefully and ensure that the app still works afterward."
     }
   },
   "localPrompts": {},

@@ -4,7 +4,7 @@
     "strict": true,
     "paths": {
       "@dib/design-system": [
-        "../../packages/design-system/src"
+        "./src/design-system"
       ],
       "@dib/core": [
         "../../packages/common/core/src"

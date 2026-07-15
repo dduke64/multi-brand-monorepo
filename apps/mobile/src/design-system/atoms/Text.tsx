@@ -18,17 +18,17 @@ export const Text: React.FC<TextProps> = ({
   const variantStyles = {
     heading: {
       fontSize: theme.typography.fontSize.heading,
-      fontWeight: theme.typography.fontWeight.bold as RNTextProps['style'],
+      fontWeight: theme.typography.fontWeight.bold as any,
       color: theme.colors.text,
     },
     body: {
       fontSize: theme.typography.fontSize.body,
-      fontWeight: theme.typography.fontWeight.regular as RNTextProps['style'],
+      fontWeight: theme.typography.fontWeight.regular as any,
       color: theme.colors.text,
     },
     caption: {
       fontSize: theme.typography.fontSize.caption,
-      fontWeight: theme.typography.fontWeight.regular as RNTextProps['style'],
+      fontWeight: theme.typography.fontWeight.regular as any,
       color: theme.colors.textSecondary,
     },
   };

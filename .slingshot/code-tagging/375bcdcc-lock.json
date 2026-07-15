@@ -80,6 +80,25 @@
         "codeBlockId": null,
         "isActive": true,
         "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/8/2026, 12:57:56 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "7dbd39": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1784130624,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f2ea9af0",
+          "files": "198cdbfd"
+        },
+        "hash": "2f845cce",
+        "messageId": "system_84150110-8064-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/15/2026, 11:50:24 AM\n- **source**: agent\n- **type**: agentEditTool\n"
       }
     },
     "lines": {
@@ -114,461 +133,480 @@
         "prevChunkIds": []
       },
       "5": {
-        "chunkId": "b1903a",
+        "chunkId": "7dbd39",
         "hash": "42c9d855",
         "encoded": "%22dependencies%22:%20%7B",
         "prevChunkIds": []
       },
       "6": {
-        "chunkId": "b1903a",
-        "hash": "bcc923d1",
-        "encoded": "%22expo%22:%20%22~57.0.4%22,",
+        "chunkId": "7dbd39",
+        "hash": "82c52cfc",
+        "encoded": "%22@dib/core%22:%20%22file:../../packages/common/core%22,",
         "prevChunkIds": []
       },
       "7": {
-        "chunkId": "b1903a",
-        "hash": "77dc8dfd",
-        "encoded": "%22expo-status-bar%22:%20%22~57.0.0%22,",
+        "chunkId": "7dbd39",
+        "hash": "916cf18d",
+        "encoded": "%22@react-navigation/bottom-tabs%22:%20%22%5E7.2.3%22,",
         "prevChunkIds": []
       },
       "8": {
-        "chunkId": "b1903a",
-        "hash": "ee1ed6bd",
-        "encoded": "%22react%22:%20%2219.2.3%22,",
+        "chunkId": "7dbd39",
+        "hash": "eaf0367f",
+        "encoded": "%22@react-navigation/native%22:%20%22%5E7.0.18%22,",
         "prevChunkIds": []
       },
       "9": {
         "chunkId": "b1903a",
-        "hash": "39ebede3",
-        "encoded": "%22react-native%22:%20%220.86.0%22,",
+        "hash": "7ec31fd9",
+        "encoded": "%22expo%22:%20%22~57.0.4%22,",
         "prevChunkIds": []
       },
       "10": {
         "chunkId": "b1903a",
-        "hash": "2a98b3e2",
-        "encoded": "%22@dib/design-system%22:%20%22file:../../packages/design-system%22,",
+        "hash": "c1235603",
+        "encoded": "%22expo-status-bar%22:%20%22~57.0.0%22,",
         "prevChunkIds": []
       },
       "11": {
         "chunkId": "b1903a",
-        "hash": "95b7497f",
-        "encoded": "%22@dib/core%22:%20%22file:../../packages/common/core%22",
+        "hash": "3b810a5b",
+        "encoded": "%22react%22:%20%2219.2.3%22,",
         "prevChunkIds": []
       },
       "12": {
         "chunkId": "b1903a",
-        "hash": "2af362fb",
-        "encoded": "%7D,",
+        "hash": "7d9f617f",
+        "encoded": "%22react-native%22:%20%220.86.0%22,",
         "prevChunkIds": []
       },
       "13": {
         "chunkId": "b1903a",
-        "hash": "17be0736",
-        "encoded": "%22devDependencies%22:%20%7B",
+        "hash": "60139384",
+        "encoded": "%22@dib/design-system%22:%20%22file:../../packages/design-system%22,",
         "prevChunkIds": []
       },
       "14": {
         "chunkId": "b1903a",
-        "hash": "183c764f",
-        "encoded": "%22@types/react%22:%20%22~19.2.2%22,",
+        "hash": "69644f4f",
+        "encoded": "%22@dib/core%22:%20%22file:../../packages/common/core%22",
         "prevChunkIds": []
       },
       "15": {
         "chunkId": "b1903a",
-        "hash": "4f484df6",
-        "encoded": "%22typescript%22:%20%22~6.0.3%22",
+        "hash": "e682a066",
+        "encoded": "%7D,",
         "prevChunkIds": []
       },
       "16": {
         "chunkId": "b1903a",
-        "hash": "e0024018",
-        "encoded": "%7D,",
+        "hash": "fc2dbad5",
+        "encoded": "%22devDependencies%22:%20%7B",
         "prevChunkIds": []
       },
       "17": {
         "chunkId": "b1903a",
-        "hash": "88550b11",
-        "encoded": "%22scripts%22:%20%7B",
+        "hash": "58312279",
+        "encoded": "%22@types/react%22:%20%22~19.2.2%22,",
         "prevChunkIds": []
       },
       "18": {
         "chunkId": "b1903a",
-        "hash": "7410c793",
-        "encoded": "%22start%22:%20%22expo%20start%22,",
+        "hash": "b4fe0b29",
+        "encoded": "%22typescript%22:%20%22~6.0.3%22",
         "prevChunkIds": []
       },
       "19": {
         "chunkId": "b1903a",
-        "hash": "1d84b2e9",
-        "encoded": "%22android%22:%20%22expo%20start%20--android%22,",
+        "hash": "0b42153b",
+        "encoded": "%7D,",
         "prevChunkIds": []
       },
       "20": {
         "chunkId": "b1903a",
-        "hash": "0a5ea339",
-        "encoded": "%22ios%22:%20%22expo%20start%20--ios%22,",
+        "hash": "c6098fd0",
+        "encoded": "%22scripts%22:%20%7B",
         "prevChunkIds": []
       },
       "21": {
         "chunkId": "b1903a",
-        "hash": "648c59cf",
-        "encoded": "%22web%22:%20%22expo%20start%20--web%22",
+        "hash": "b623aec4",
+        "encoded": "%22start%22:%20%22expo%20start%22,",
         "prevChunkIds": []
       },
       "22": {
         "chunkId": "b1903a",
-        "hash": "4c3814eb",
-        "encoded": "%7D",
+        "hash": "24b19f46",
+        "encoded": "%22android%22:%20%22expo%20start%20--android%22,",
         "prevChunkIds": []
       },
       "23": {
         "chunkId": "b1903a",
-        "hash": "7b3531ab",
-        "encoded": "%7D",
+        "hash": "1918afdd",
+        "encoded": "%22ios%22:%20%22expo%20start%20--ios%22,",
         "prevChunkIds": []
       },
       "24": {
-        "chunkId": "1a72e7",
-        "hash": "bb73216d",
-        "encoded": "%22name%22:%20%22@dib/mobile%22,",
+        "chunkId": "b1903a",
+        "hash": "8fcb48fd",
+        "encoded": "%22web%22:%20%22expo%20start%20--web%22",
         "prevChunkIds": []
       },
       "25": {
-        "chunkId": "1a72e7",
-        "hash": "6f035d9e",
-        "encoded": "%22version%22:%20%221.0.0%22,",
+        "chunkId": "b1903a",
+        "hash": "840004ae",
+        "encoded": "%7D",
         "prevChunkIds": []
       },
       "26": {
-        "chunkId": "1a72e7",
-        "hash": "7bdbf32b",
-        "encoded": "%22main%22:%20%22index.ts%22,",
+        "chunkId": "b1903a",
+        "hash": "e256b81a",
+        "encoded": "%7D",
         "prevChunkIds": []
       },
       "27": {
         "chunkId": "1a72e7",
-        "hash": "bd4f3fe8",
-        "encoded": "%22private%22:%20true,",
+        "hash": "984c480b",
+        "encoded": "%22name%22:%20%22@dib/mobile%22,",
         "prevChunkIds": []
       },
       "28": {
-        "chunkId": "aca9c8",
-        "hash": "69a1ecd1",
-        "encoded": "%22dependencies%22:%20%7B",
+        "chunkId": "1a72e7",
+        "hash": "9a2ada78",
+        "encoded": "%22version%22:%20%221.0.0%22,",
         "prevChunkIds": []
       },
       "29": {
-        "chunkId": "aca9c8",
-        "hash": "001aadc6",
-        "encoded": "%22expo%22:%20%22~57.0.4%22,",
+        "chunkId": "1a72e7",
+        "hash": "49459964",
+        "encoded": "%22main%22:%20%22index.ts%22,",
         "prevChunkIds": []
       },
       "30": {
-        "chunkId": "aca9c8",
-        "hash": "a14fee82",
-        "encoded": "%22expo-status-bar%22:%20%22~57.0.0%22,",
+        "chunkId": "1a72e7",
+        "hash": "3ba0a315",
+        "encoded": "%22private%22:%20true,",
         "prevChunkIds": []
       },
       "31": {
         "chunkId": "aca9c8",
-        "hash": "f5607fcc",
-        "encoded": "%22react%22:%20%2219.2.3%22,",
+        "hash": "a1460305",
+        "encoded": "%22dependencies%22:%20%7B",
         "prevChunkIds": []
       },
       "32": {
         "chunkId": "aca9c8",
-        "hash": "ace4cc7b",
-        "encoded": "%22react-native%22:%20%220.86.0%22,",
+        "hash": "177c393b",
+        "encoded": "%22expo%22:%20%22~57.0.4%22,",
         "prevChunkIds": []
       },
       "33": {
         "chunkId": "aca9c8",
-        "hash": "13ce6793",
-        "encoded": "%22@dib/design-system%22:%20%22file:../../packages/design-system%22,",
+        "hash": "7bcb1204",
+        "encoded": "%22expo-status-bar%22:%20%22~57.0.0%22,",
         "prevChunkIds": []
       },
       "34": {
         "chunkId": "aca9c8",
-        "hash": "437612c4",
-        "encoded": "%22@dib/core%22:%20%22file:../../packages/common/core%22,",
+        "hash": "343bd4ac",
+        "encoded": "%22react%22:%20%2219.2.3%22,",
         "prevChunkIds": []
       },
       "35": {
         "chunkId": "aca9c8",
-        "hash": "00ff8b53",
-        "encoded": "%22@react-navigation/native%22:%20%22%5E7.0.18%22,",
+        "hash": "d8a3eff7",
+        "encoded": "%22react-native%22:%20%220.86.0%22,",
         "prevChunkIds": []
       },
       "36": {
         "chunkId": "aca9c8",
-        "hash": "6ff4384b",
-        "encoded": "%22@react-navigation/bottom-tabs%22:%20%22%5E7.2.3%22,",
+        "hash": "e1253110",
+        "encoded": "%22@dib/design-system%22:%20%22file:../../packages/design-system%22,",
         "prevChunkIds": []
       },
       "37": {
         "chunkId": "aca9c8",
-        "hash": "7ffa0ce4",
-        "encoded": "%22react-native-screens%22:%20%22%5E4.5.0%22,",
+        "hash": "4ac7dd9a",
+        "encoded": "%22@dib/core%22:%20%22file:../../packages/common/core%22,",
         "prevChunkIds": []
       },
       "38": {
         "chunkId": "aca9c8",
-        "hash": "e1aa7618",
-        "encoded": "%22react-native-safe-area-context%22:%20%22%5E5.0.0%22",
+        "hash": "0f470655",
+        "encoded": "%22@react-navigation/native%22:%20%22%5E7.0.18%22,",
         "prevChunkIds": []
       },
       "39": {
         "chunkId": "aca9c8",
-        "hash": "fe8033d3",
-        "encoded": "%7D,",
+        "hash": "abf38670",
+        "encoded": "%22@react-navigation/bottom-tabs%22:%20%22%5E7.2.3%22,",
         "prevChunkIds": []
       },
       "40": {
-        "chunkId": "1a72e7",
-        "hash": "0c87fda6",
-        "encoded": "%22expo%22:%20%22~57.0.4%22,",
+        "chunkId": "aca9c8",
+        "hash": "bc1c24ea",
+        "encoded": "%22react-native-screens%22:%20%22%5E4.5.0%22,",
         "prevChunkIds": []
       },
       "41": {
-        "chunkId": "1a72e7",
-        "hash": "8b393df5",
-        "encoded": "%22expo-status-bar%22:%20%22~57.0.0%22,",
+        "chunkId": "aca9c8",
+        "hash": "ebec01b8",
+        "encoded": "%22react-native-safe-area-context%22:%20%22%5E5.0.0%22",
         "prevChunkIds": []
       },
       "42": {
-        "chunkId": "1a72e7",
-        "hash": "8af1fc8e",
-        "encoded": "%22react%22:%20%2219.2.3%22,",
+        "chunkId": "aca9c8",
+        "hash": "81d4c2f1",
+        "encoded": "%7D,",
         "prevChunkIds": []
       },
       "43": {
         "chunkId": "1a72e7",
-        "hash": "44fa524f",
-        "encoded": "%22react-native%22:%20%220.86.0%22,",
+        "hash": "57b382c8",
+        "encoded": "%22expo%22:%20%22~57.0.4%22,",
         "prevChunkIds": []
       },
       "44": {
         "chunkId": "1a72e7",
-        "hash": "1a89e0d3",
-        "encoded": "%22@dib/design-system%22:%20%22workspace:*%22,",
+        "hash": "0722de11",
+        "encoded": "%22expo-status-bar%22:%20%22~57.0.0%22,",
         "prevChunkIds": []
       },
       "45": {
         "chunkId": "1a72e7",
-        "hash": "746e682b",
-        "encoded": "%22@dib/core%22:%20%22workspace:*%22",
+        "hash": "29bc4de2",
+        "encoded": "%22react%22:%20%2219.2.3%22,",
         "prevChunkIds": []
       },
       "46": {
         "chunkId": "1a72e7",
-        "hash": "59282b78",
-        "encoded": "%7D,",
+        "hash": "451b5545",
+        "encoded": "%22react-native%22:%20%220.86.0%22,",
         "prevChunkIds": []
       },
       "47": {
         "chunkId": "1a72e7",
-        "hash": "62aa9899",
-        "encoded": "%22devDependencies%22:%20%7B",
+        "hash": "b1ce81c5",
+        "encoded": "%22@dib/design-system%22:%20%22workspace:*%22,",
         "prevChunkIds": []
       },
       "48": {
         "chunkId": "1a72e7",
-        "hash": "a3a2c2c0",
-        "encoded": "%22@types/react%22:%20%22~19.2.2%22,",
+        "hash": "c6b8f910",
+        "encoded": "%22@dib/core%22:%20%22workspace:*%22",
         "prevChunkIds": []
       },
       "49": {
         "chunkId": "1a72e7",
-        "hash": "b7587a7b",
-        "encoded": "%22typescript%22:%20%22~6.0.3%22",
+        "hash": "3171cd21",
+        "encoded": "%7D,",
         "prevChunkIds": []
       },
       "50": {
         "chunkId": "1a72e7",
-        "hash": "41dd60dc",
-        "encoded": "%7D,",
+        "hash": "956f7c85",
+        "encoded": "%22devDependencies%22:%20%7B",
         "prevChunkIds": []
       },
       "51": {
         "chunkId": "1a72e7",
-        "hash": "75c0539d",
-        "encoded": "%22scripts%22:%20%7B",
+        "hash": "cccd6bd8",
+        "encoded": "%22@types/react%22:%20%22~19.2.2%22,",
         "prevChunkIds": []
       },
       "52": {
         "chunkId": "1a72e7",
-        "hash": "e89cb131",
-        "encoded": "%22start%22:%20%22expo%20start%22,",
+        "hash": "2d1c4334",
+        "encoded": "%22typescript%22:%20%22~6.0.3%22",
         "prevChunkIds": []
       },
       "53": {
         "chunkId": "1a72e7",
-        "hash": "9030e559",
-        "encoded": "%22android%22:%20%22expo%20start%20--android%22,",
+        "hash": "0cbb9f72",
+        "encoded": "%7D,",
         "prevChunkIds": []
       },
       "54": {
         "chunkId": "1a72e7",
-        "hash": "5235c62d",
-        "encoded": "%22ios%22:%20%22expo%20start%20--ios%22,",
+        "hash": "d2f46443",
+        "encoded": "%22scripts%22:%20%7B",
         "prevChunkIds": []
       },
       "55": {
         "chunkId": "1a72e7",
-        "hash": "3844e704",
-        "encoded": "%22web%22:%20%22expo%20start%20--web%22",
+        "hash": "b18fb7a5",
+        "encoded": "%22start%22:%20%22expo%20start%22,",
         "prevChunkIds": []
       },
       "56": {
         "chunkId": "1a72e7",
-        "hash": "cdb7b2a0",
-        "encoded": "%7D",
+        "hash": "3033c7f0",
+        "encoded": "%22android%22:%20%22expo%20start%20--android%22,",
         "prevChunkIds": []
       },
       "57": {
         "chunkId": "1a72e7",
-        "hash": "17837346",
-        "encoded": "%7D",
+        "hash": "d61ff3dc",
+        "encoded": "%22ios%22:%20%22expo%20start%20--ios%22,",
         "prevChunkIds": []
       },
       "58": {
-        "chunkId": "7ff8b0",
-        "hash": "c0ebbd85",
-        "encoded": "%22name%22:%20%22@dib/mobile%22,",
+        "chunkId": "1a72e7",
+        "hash": "b9ca69fe",
+        "encoded": "%22web%22:%20%22expo%20start%20--web%22",
         "prevChunkIds": []
       },
       "59": {
-        "chunkId": "7ff8b0",
-        "hash": "94be08fe",
-        "encoded": "%22version%22:%20%221.0.0%22,",
+        "chunkId": "1a72e7",
+        "hash": "309dd352",
+        "encoded": "%7D",
         "prevChunkIds": []
       },
       "60": {
-        "chunkId": "7ff8b0",
-        "hash": "65264d98",
-        "encoded": "%22main%22:%20%22index.ts%22,",
+        "chunkId": "1a72e7",
+        "hash": "42f7c135",
+        "encoded": "%7D",
         "prevChunkIds": []
       },
       "61": {
         "chunkId": "7ff8b0",
-        "hash": "fe9eb243",
-        "encoded": "%22private%22:%20true,",
+        "hash": "47b97d8e",
+        "encoded": "%22name%22:%20%22@dib/mobile%22,",
         "prevChunkIds": []
       },
       "62": {
         "chunkId": "7ff8b0",
-        "hash": "fa8549f0",
-        "encoded": "%22dependencies%22:%20%7B",
+        "hash": "589a394e",
+        "encoded": "%22version%22:%20%221.0.0%22,",
         "prevChunkIds": []
       },
       "63": {
         "chunkId": "7ff8b0",
-        "hash": "b4e82376",
-        "encoded": "%22expo%22:%20%22~57.0.4%22,",
+        "hash": "03443c97",
+        "encoded": "%22main%22:%20%22index.ts%22,",
         "prevChunkIds": []
       },
       "64": {
         "chunkId": "7ff8b0",
-        "hash": "ef1d1124",
-        "encoded": "%22expo-status-bar%22:%20%22~57.0.0%22,",
+        "hash": "a3656eba",
+        "encoded": "%22private%22:%20true,",
         "prevChunkIds": []
       },
       "65": {
         "chunkId": "7ff8b0",
-        "hash": "b2906e3f",
-        "encoded": "%22react%22:%20%2219.2.3%22,",
+        "hash": "56997532",
+        "encoded": "%22dependencies%22:%20%7B",
         "prevChunkIds": []
       },
       "66": {
         "chunkId": "7ff8b0",
-        "hash": "138637b9",
-        "encoded": "%22react-native%22:%20%220.86.0%22,",
+        "hash": "89238130",
+        "encoded": "%22expo%22:%20%22~57.0.4%22,",
         "prevChunkIds": []
       },
       "67": {
         "chunkId": "7ff8b0",
-        "hash": "4680db7b",
-        "encoded": "%22@dib/design-system%22:%20%22*%22,",
+        "hash": "10d33b2e",
+        "encoded": "%22expo-status-bar%22:%20%22~57.0.0%22,",
         "prevChunkIds": []
       },
       "68": {
         "chunkId": "7ff8b0",
-        "hash": "a2168ff0",
-        "encoded": "%22@dib/core%22:%20%22*%22",
+        "hash": "ab69cc32",
+        "encoded": "%22react%22:%20%2219.2.3%22,",
         "prevChunkIds": []
       },
       "69": {
         "chunkId": "7ff8b0",
-        "hash": "91a1ba9e",
-        "encoded": "%7D,",
+        "hash": "da9a0aa7",
+        "encoded": "%22react-native%22:%20%220.86.0%22,",
         "prevChunkIds": []
       },
       "70": {
         "chunkId": "7ff8b0",
-        "hash": "bfa633b4",
-        "encoded": "%22devDependencies%22:%20%7B",
+        "hash": "be19843c",
+        "encoded": "%22@dib/design-system%22:%20%22*%22,",
         "prevChunkIds": []
       },
       "71": {
         "chunkId": "7ff8b0",
-        "hash": "a2980584",
-        "encoded": "%22@types/react%22:%20%22~19.2.2%22,",
+        "hash": "e750304f",
+        "encoded": "%22@dib/core%22:%20%22*%22",
         "prevChunkIds": []
       },
       "72": {
         "chunkId": "7ff8b0",
-        "hash": "78c24d88",
-        "encoded": "%22typescript%22:%20%22~6.0.3%22",
+        "hash": "3c632b8b",
+        "encoded": "%7D,",
         "prevChunkIds": []
       },
       "73": {
         "chunkId": "7ff8b0",
-        "hash": "d1ed9091",
-        "encoded": "%7D,",
+        "hash": "03235914",
+        "encoded": "%22devDependencies%22:%20%7B",
         "prevChunkIds": []
       },
       "74": {
         "chunkId": "7ff8b0",
-        "hash": "ec38a960",
-        "encoded": "%22scripts%22:%20%7B",
+        "hash": "7aef41b4",
+        "encoded": "%22@types/react%22:%20%22~19.2.2%22,",
         "prevChunkIds": []
       },
       "75": {
         "chunkId": "7ff8b0",
-        "hash": "a6fa0d02",
-        "encoded": "%22start%22:%20%22expo%20start%22,",
+        "hash": "8864693c",
+        "encoded": "%22typescript%22:%20%22~6.0.3%22",
         "prevChunkIds": []
       },
       "76": {
         "chunkId": "7ff8b0",
-        "hash": "d953412b",
-        "encoded": "%22android%22:%20%22expo%20start%20--android%22,",
+        "hash": "11fc4278",
+        "encoded": "%7D,",
         "prevChunkIds": []
       },
       "77": {
         "chunkId": "7ff8b0",
-        "hash": "4745d3a6",
-        "encoded": "%22ios%22:%20%22expo%20start%20--ios%22,",
+        "hash": "79ced759",
+        "encoded": "%22scripts%22:%20%7B",
         "prevChunkIds": []
       },
       "78": {
         "chunkId": "7ff8b0",
-        "hash": "4e2c0d9f",
-        "encoded": "%22web%22:%20%22expo%20start%20--web%22",
+        "hash": "2f61afc3",
+        "encoded": "%22start%22:%20%22expo%20start%22,",
         "prevChunkIds": []
       },
       "79": {
         "chunkId": "7ff8b0",
-        "hash": "8aac2494",
-        "encoded": "%7D",
+        "hash": "a0b41d25",
+        "encoded": "%22android%22:%20%22expo%20start%20--android%22,",
         "prevChunkIds": []
       },
       "80": {
         "chunkId": "7ff8b0",
-        "hash": "a2f26355",
+        "hash": "a8db36d7",
+        "encoded": "%22ios%22:%20%22expo%20start%20--ios%22,",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "7ff8b0",
+        "hash": "fa83da58",
+        "encoded": "%22web%22:%20%22expo%20start%20--web%22",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "7ff8b0",
+        "hash": "74977a35",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "7ff8b0",
+        "hash": "e4b921c6",
         "encoded": "%7D",
         "prevChunkIds": []
       }
-    }
+    },
+    "_prevLineCount": 30
   }
 }

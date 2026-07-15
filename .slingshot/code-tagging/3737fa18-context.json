@@ -1,0 +1,31 @@
+{
+  "filename": "ComponentRegistry.tsx",
+  "path": "apps/mobile/src/design-system/config/ComponentRegistry.tsx",
+  "version": "1.1",
+  "files": {
+    "198cdbfd": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "index.ts",
+          "relativeFilePath": "packages/common/core/src/index.ts",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "f2ea9af0": {
+      "value": "we need to refactor the code so that all of the content of the design-system directory that is currently inside of the packages directory, is moved to be inside of src directory inside of apps/mobile. please do this carefully and ensure that the app still works afterward."
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

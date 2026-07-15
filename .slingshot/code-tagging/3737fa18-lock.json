@@ -1,0 +1,236 @@
+{
+  "apps/mobile/src/design-system/config/ComponentRegistry.tsx": {
+    "filename": "ComponentRegistry.tsx",
+    "path": "apps/mobile/src/design-system/config/ComponentRegistry.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "f5d5fe": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1784130792,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f2ea9af0",
+          "files": "198cdbfd"
+        },
+        "hash": "9e111508",
+        "messageId": "system_84150110-8064-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/15/2026, 11:53:12 AM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "b3219b": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1784130792,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f2ea9af0",
+          "files": "198cdbfd"
+        },
+        "hash": "57631416",
+        "messageId": "system_84150110-8064-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/15/2026, 11:53:12 AM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "b3219b",
+        "hash": "98ac06df",
+        "encoded": "import%20React%20from%20'react';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "b3219b",
+        "hash": "4dde7c5b",
+        "encoded": "import%20%7B%20Box%20%7D%20from%20'../atoms/Box';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "b3219b",
+        "hash": "bd0a14fc",
+        "encoded": "import%20%7B%20Text%20%7D%20from%20'../atoms/Text';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "b3219b",
+        "hash": "fe8b4937",
+        "encoded": "import%20%7B%20Button%20%7D%20from%20'../atoms/Button';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "b3219b",
+        "hash": "3153c3f4",
+        "encoded": "import%20%7B%20Card%20%7D%20from%20'../atoms/Card';",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "b3219b",
+        "hash": "885905ee",
+        "encoded": "import%20%7B%20Input%20%7D%20from%20'../atoms/Input';",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "b3219b",
+        "hash": "3fb5c79e",
+        "encoded": "import%20%7B%20Switch%20%7D%20from%20'../atoms/Switch';",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "b3219b",
+        "hash": "b5e9f64c",
+        "encoded": "import%20%7B%20Badge%20%7D%20from%20'../atoms/Badge';",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "b3219b",
+        "hash": "a94d207f",
+        "encoded": "import%20%7B%20Avatar%20%7D%20from%20'../atoms/Avatar';",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "b3219b",
+        "hash": "3b2b987a",
+        "encoded": "import%20%7B%20Divider%20%7D%20from%20'../atoms/Divider';",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "b3219b",
+        "hash": "1ff9ef1c",
+        "encoded": "import%20%7B%20SearchBar%20%7D%20from%20'../atoms/SearchBar';",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "b3219b",
+        "hash": "6cfd7e55",
+        "encoded": "import%20%7B%20TopMenuBar%20%7D%20from%20'../molecules/TopMenuBar';",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "b3219b",
+        "hash": "fc6eee8f",
+        "encoded": "import%20%7B%20ProductTile%20%7D%20from%20'../molecules/ProductTile';",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "b3219b",
+        "hash": "b50d8f66",
+        "encoded": "import%20componentConfig%20from%20'./config.json';",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "f5d5fe",
+        "hash": "5987bfad",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "f5d5fe",
+        "hash": "bf40befa",
+        "encoded": "*%20Component%20registry%20mapping%20component%20names%20to%20their%20implementations",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "f5d5fe",
+        "hash": "1c9b97a2",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "f5d5fe",
+        "hash": "50b24fb4",
+        "encoded": "export%20const%20componentRegistry%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "f5d5fe",
+        "hash": "8729024c",
+        "encoded": "Box,",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "f5d5fe",
+        "hash": "cfe3b190",
+        "encoded": "Text,",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "f5d5fe",
+        "hash": "a4ef96dc",
+        "encoded": "Button,",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "f5d5fe",
+        "hash": "8b4d9b35",
+        "encoded": "Card,",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "f5d5fe",
+        "hash": "56692626",
+        "encoded": "Input,",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "f5d5fe",
+        "hash": "2470087b",
+        "encoded": "Switch,",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "f5d5fe",
+        "hash": "c794987c",
+        "encoded": "Badge,",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "f5d5fe",
+        "hash": "e8827821",
+        "encoded": "Avatar,",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "f5d5fe",
+        "hash": "de4d5656",
+        "encoded": "Divider,",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "f5d5fe",
+        "hash": "a91e59fb",
+        "encoded": "SearchBar,",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "f5d5fe",
+        "hash": "8f9abf89",
+        "encoded": "TopMenuBar,",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "f5d5fe",
+        "hash": "ce6137cf",
+        "encoded": "ProductTile,",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "f5d5fe",
+        "hash": "9bbb12ce",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

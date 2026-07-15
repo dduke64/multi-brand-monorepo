@@ -8,6 +8,9 @@ import { Switch } from '../atoms/Switch';
 import { Badge } from '../atoms/Badge';
 import { Avatar } from '../atoms/Avatar';
 import { Divider } from '../atoms/Divider';
+import { SearchBar } from '../atoms/SearchBar';
+import { TopMenuBar } from '../molecules/TopMenuBar';
+import { ProductTile } from '../molecules/ProductTile';
 import componentConfig from './config.json';
 
 export type ComponentName = keyof typeof componentConfig.components;
@@ -52,6 +55,9 @@ export const componentRegistry = {
   Badge,
   Avatar,
   Divider,
+  SearchBar,
+  TopMenuBar,
+  ProductTile,
 };
 
 /**

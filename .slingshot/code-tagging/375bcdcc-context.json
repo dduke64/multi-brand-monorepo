@@ -32,6 +32,21 @@
           ]
         }
       ]
+    },
+    "198cdbfd": {
+      "value": [
+        {
+          "programming_language": "TypeScript",
+          "fileName": "index.ts",
+          "relativeFilePath": "packages/common/core/src/index.ts",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            5
+          ]
+        }
+      ]
     }
   },
   "promptMessage": {
@@ -40,6 +55,9 @@
     },
     "01dc5d62": {
       "value": "can you build out 1-2 more pages to showcase various common components in a mobile app. Follow the mono-repo design and set it up so each brand can opt into/out of each component individually, and use its brand theming across all components automatically"
+    },
+    "f2ea9af0": {
+      "value": "we need to refactor the code so that all of the content of the design-system directory that is currently inside of the packages directory, is moved to be inside of src directory inside of apps/mobile. please do this carefully and ensure that the app still works afterward."
     }
   },
   "localPrompts": {},

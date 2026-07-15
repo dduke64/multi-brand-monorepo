@@ -1,0 +1,133 @@
+{
+  "apps/mobile/src/design-system/atoms/Text.tsx": {
+    "filename": "Text.tsx",
+    "path": "apps/mobile/src/design-system/atoms/Text.tsx",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "4b85a5": {
+        "user": "Daniel Duke",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1784130714,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.6.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f2ea9af0",
+          "files": "198cdbfd"
+        },
+        "hash": "750e2696",
+        "messageId": "system_84150110-8064-11f1-ab82-f5c8a2a2ec00",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Daniel Duke\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 7/15/2026, 11:51:54 AM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "17": {
+        "chunkId": "4b85a5",
+        "hash": "27716889",
+        "encoded": "const%20variantStyles%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "4b85a5",
+        "hash": "cec1f1bd",
+        "encoded": "heading:%20%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "4b85a5",
+        "hash": "14a23cb8",
+        "encoded": "fontSize:%20theme.typography.fontSize.heading,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "4b85a5",
+        "hash": "6822ee0c",
+        "encoded": "fontWeight:%20theme.typography.fontWeight.bold%20as%20any,",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "4b85a5",
+        "hash": "7c15247d",
+        "encoded": "color:%20theme.colors.text,",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "4b85a5",
+        "hash": "6d666e52",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "4b85a5",
+        "hash": "a07c08bb",
+        "encoded": "body:%20%7B",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "4b85a5",
+        "hash": "a0b51af6",
+        "encoded": "fontSize:%20theme.typography.fontSize.body,",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "4b85a5",
+        "hash": "9b5b2f0a",
+        "encoded": "fontWeight:%20theme.typography.fontWeight.regular%20as%20any,",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "4b85a5",
+        "hash": "188b69fb",
+        "encoded": "color:%20theme.colors.text,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "4b85a5",
+        "hash": "3b955d05",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "4b85a5",
+        "hash": "f57ae571",
+        "encoded": "caption:%20%7B",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "4b85a5",
+        "hash": "4c1545e4",
+        "encoded": "fontSize:%20theme.typography.fontSize.caption,",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "4b85a5",
+        "hash": "8491147a",
+        "encoded": "fontWeight:%20theme.typography.fontWeight.regular%20as%20any,",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "4b85a5",
+        "hash": "b764421f",
+        "encoded": "color:%20theme.colors.textSecondary,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "4b85a5",
+        "hash": "82e603d7",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "4b85a5",
+        "hash": "ab7c01dc",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

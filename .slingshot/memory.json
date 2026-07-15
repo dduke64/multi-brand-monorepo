@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-07-08T17:20:10.107Z",
+  "lastUpdated": "2026-07-15T15:52:50.849Z",
   "user_memory": [],
   "slingshot_memory": [
     {
@@ -85,6 +85,27 @@
       "content": "New molecules folder created for composed components: TopMenuBar, ProductTile",
       "createdAt": "2026-07-08T17:20:10.107Z",
       "updatedAt": "2026-07-08T17:20:10.107Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1784130770845_fwok2j",
+      "content": "Design system moved from packages/design-system to apps/mobile/src/design-system; tsconfig path alias updated to ./src/design-system",
+      "createdAt": "2026-07-15T15:52:50.845Z",
+      "updatedAt": "2026-07-15T15:52:50.845Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1784130770848_unvfhi",
+      "content": "ComponentRegistry requires SearchBar, TopMenuBar, ProductTile imports and registry entries for all ecommerce components",
+      "createdAt": "2026-07-15T15:52:50.848Z",
+      "updatedAt": "2026-07-15T15:52:50.848Z",
+      "isEnabled": true
+    },
+    {
+      "id": "mem_1784130770849_gy61nx",
+      "content": "Text.tsx fontWeight uses 'as any' type assertion to avoid StyleProp<TextStyle> compatibility issues with theme typography",
+      "createdAt": "2026-07-15T15:52:50.849Z",
+      "updatedAt": "2026-07-15T15:52:50.849Z",
       "isEnabled": true
     }
   ]
